@@ -1,0 +1,43 @@
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+  /* width: 100%; */
+}
+
+.card {
+  border: 1px solid #ade3fb;
+  border-radius: 5px;
+  background-color: #fee8f0;
+  overflow: hidden;
+}
+
+.card img {
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+}
+
+.card-info {
+  padding: 0px 10px 10px;
+  text-align: left;
+}
+
+.title-link {
+  position: relative;
+}
+
+.title-link h2 {
+  font-size: 1rem;
+}
+
+.title-link p {
+  color: #b9b9b9;
+}
+
+.url-icon {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+}

@@ -1,0 +1,96 @@
+.home {
+  /* margin: 150px 50px 0; */
+  margin: 150px 0 0;
+  width: 100vw;
+}
+
+.hero-section,
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* text-align: center; */
+  margin: 10px 50px;
+}
+
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.highlights {
+  color: #e20c5a;
+}
+
+.tagline {
+  padding: 15px 0;
+}
+
+.tag-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag {
+  background: #b0aff8;
+  margin: 2px;
+  padding: 8px 3px;
+  width: 100px;
+}
+
+#selected {
+  background-color: #d2668e;
+  color: #fff;
+}
+
+.search-section {
+  position: relative;
+  margin: 10px 0;
+  /* width: 100%; */
+  width: 50%;
+}
+
+#search {
+  position: relative;
+  /* width: 60%; */
+}
+
+.search-icon {
+  position: absolute;
+  color: #bebebe;
+  cursor: pointer;
+  top: 18px;
+  right: 18px;
+}
+
+/* .dropdowns {
+  padding: 30px;
+} */
+
+.dropdowns .sub-tagline {
+  font-style: italic;
+  padding-top: 8px;
+  padding-right: 20px;
+}
+
+.dropdowns select {
+  margin-right: 20px;
+}
+
+.featured {
+  background-color: #f6c8d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 0;
+  margin: 30px 0;
+  width: 100vw;
+}
+
+.featured img {
+  padding: 0 10px;
+  width: 150px;
+}

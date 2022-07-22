@@ -1,0 +1,134 @@
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #222;
+  top: 0;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  transition: all 0.4s ease-in;
+  z-index: 99;
+}
+
+.nav-height {
+  background-color: #f4f2e3;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.192);
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.logo-image {
+  width: 20px;
+}
+
+.logo-name {
+  color: blue;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 4px;
+}
+
+.hamburger-icon {
+  display: none;
+  position: absolute;
+  color: #222;
+  cursor: pointer;
+  right: 50px;
+  top: 10px;
+  font-size: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.nav-links li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding: 10px 20px;
+}
+
+.nav-links li a {
+  position: relative;
+  color: #000033;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 30px;
+  padding-bottom: 16px;
+  z-index: 3;
+}
+
+.nav-links a:hover {
+  border-bottom: 3px solid blue;
+  color: blue;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+#tweet-btn {
+  background-color: #fff;
+  border: 1px solid rgb(64, 64, 248);
+  padding: 5px 10px;
+}
+
+#tweet-btn:hover {
+  border: none;
+  background-color: rgb(70, 8, 157);
+  color: #fff;
+}
+
+@media (max-width: 650px) {
+  .nav {
+    position: fixed;
+    display: flex;
+  }
+
+  .hamburger-icon {
+    display: block;
+    z-index: 4;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-nav {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    max-width: 20rem;
+    top: 0;
+    right: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s ease-in-out;
+  }
+  .nav-links a:hover {
+    border-bottom: none;
+    background-color: #ccc;
+    border-radius: 2px;
+    padding: 5px 8px;
+  }
+  #tweet-btn {
+    width: 100px;
+  }
+}
