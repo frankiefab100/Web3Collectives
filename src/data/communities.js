@@ -1,4 +1,4 @@
-export const books = [
+export const communities = [
   {
     id: 1,
     coverImage:

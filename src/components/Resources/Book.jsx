@@ -1,17 +1,17 @@
 import React from "react";
 import Card from "../Card/Card";
-import { websites } from "../../data/websites";
+import { books } from "../../data/books";
 import categories from "../../data/categories.json";
 
-const Website = () => {
+const Book = () => {
   return (
     <div className="category">
       <h2 className="category-title">
-        {categories.map((category) => category.websites)}
+        {categories.map((category) => category.books)}
       </h2>
 
       <div className="card-section">
-        {websites.map((resource, index) => {
+        {books.map((resource, index) => {
           return (
             <Card
               key={index}
@@ -27,4 +27,4 @@ const Website = () => {
   );
 };
 
-export default Website;
+export default Book;

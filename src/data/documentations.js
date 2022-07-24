@@ -1,4 +1,4 @@
-export const books = [
+export const documentations = [
   {
     id: 1,
     coverImage:

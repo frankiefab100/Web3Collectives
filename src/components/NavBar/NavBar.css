@@ -30,8 +30,10 @@
 
 .logo-name {
   color: blue;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-family: "Clash Display", sans-serif;
+  font-size: 1.4rem;
+  /* change font to logo font */
+  font-weight: 600;
   padding-left: 4px;
 }
 
@@ -80,16 +82,106 @@
   display: none;
 }
 
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.theme-switch {
+  display: inline-block;
+  position: relative;
+  height: 25px;
+  width: 50px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.theme-switch .moon {
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  z-index: 1;
+}
+
+.theme-switch .sun {
+  position: absolute;
+  right: 30px;
+  top: 4px;
+  z-index: 1;
+}
+
+.slider {
+  background-color: #ffc993;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  height: 20px;
+  width: 20px;
+  transition: 0.4s;
+  background-color: #e9e9e9;
+  z-index: 2;
+}
+
+input:checked + .slider {
+  background-color: #8cf68c;
+}
+
+input:checked + .slider:before {
+  transform: translateX(22px);
+}
+
+.slider.circle {
+  border-radius: 25px;
+}
+
+.slider.circle:before {
+  border-radius: 50%;
+}
+
+#support-btn,
 #tweet-btn {
-  background-color: #fff;
-  border: 1px solid rgb(64, 64, 248);
   padding: 5px 10px;
+}
+
+#support-btn {
+  background-color: rgb(64, 64, 248);
+  color: #fff;
+  margin: 0 15px 0 50px;
+}
+
+#tweet-btn {
+  background-color: #f1f1f1;
+  border: 1px solid #010124;
 }
 
 #tweet-btn:hover {
   border: none;
   background-color: rgb(70, 8, 157);
   color: #fff;
+}
+
+@media (max-width: 755px) {
+  .nav-links li {
+    padding: 0 10px !important;
+  }
+
+  #support-btn {
+    margin: 0 8px 0 10px !important;
+  }
 }
 
 @media (max-width: 650px) {
@@ -128,7 +220,12 @@
     border-radius: 2px;
     padding: 5px 8px;
   }
+  .theme-switch-wrapper {
+    margin-top: 20px;
+  }
+
   #tweet-btn {
+    margin: 50px 0 0;
     width: 100px;
   }
 }

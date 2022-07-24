@@ -1,4 +1,4 @@
-export const books = [
+export const blogs = [
   {
     id: 1,
     coverImage:

@@ -1,14 +1,17 @@
 import React from "react";
 import Card from "../Card/Card";
-import { youtubeChannels } from "../../data/youtubeChannel";
-import { categories } from "../../data/categories";
+import { youtubeChannels } from "../../data/youtubeChannels";
+import categories from "../../data/categories.json";
+import { Link } from "react-router-dom";
 
 const YoutubeChannel = () => {
   return (
     <div className="category">
-      <h1 className="category-title">
-        {categories.map((category) => category.youtube)}
-      </h1>
+      <h2 className="category-title">
+        <Link to="/youtube">
+          {categories.map((category) => category.youtube)}
+        </Link>
+      </h2>
 
       <div className="card-section">
         {youtubeChannels.map((resource, index) => {
@@ -21,17 +24,6 @@ const YoutubeChannel = () => {
               url={resource.url}
             />
           );
-          // {youtubeChannels.map((resource, index) => {
-          //   return (
-          //     // <Card />
-
-          //     <div key={index}>
-          //       <img src={resource.coverImage} alt="resource cover photo" />
-          //       <h2>{resource.title} </h2>
-          //       <p className="description">{resource.description} </p>
-          //       <a href={resource.url}></a>
-          //     </div>
-          //   );
         })}
       </div>
     </div>

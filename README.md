@@ -1,5 +1,7 @@
 # Web3Collectives (W3C)
 
+ [![Donate](https://brianmacdonald.github.io/Ethonate/svg/eth-donate-blue.svg)](https://brianmacdonald.github.io/Ethonate/address#0xB8195AF23faf6A80EbFB3Cf56bd01BC9Cb25B1Fc)
+
 ## **Project Overview** ✨
 
 An online library of FREE Resources on Blockchain technology, Web3 and Smart contract development.

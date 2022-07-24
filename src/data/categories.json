@@ -1,11 +1,38 @@
 [
   {
-    "website": "Website"
+    "websites": "Websites"
   },
   {
     "youtube": "Youtube Channels"
   },
   {
-    "repo": "Github Repositories"
+    "repos": "Github Repositories"
+  },
+  {
+    "games": "Interactive Tutorials"
+  },
+  {
+    "docs": "Documentations"
+  },
+  {
+    "courses": "Online Courses"
+  },
+  {
+    "devtools": "Development Tools"
+  },
+  {
+    "templates": "Project Starter Templates"
+  },
+  {
+    "rpcs": "Node Providers"
+  },
+  {
+    "books": "Books"
+  },
+  {
+    "communities": "Learning Communities"
+  },
+  {
+    "blogs": "Blogs"
   }
 ]

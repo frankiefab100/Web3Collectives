@@ -1,4 +1,4 @@
-export const books = [
+export const courses = [
   {
     id: 1,
     coverImage:

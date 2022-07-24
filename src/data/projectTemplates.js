@@ -1,4 +1,4 @@
-export const books = [
+export const projectTemplates = [
   {
     id: 1,
     coverImage:

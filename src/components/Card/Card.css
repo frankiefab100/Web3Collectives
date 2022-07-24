@@ -1,8 +1,8 @@
 .card-section {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 10px;
+  gap: 12px;
   /* width: 100%; */
 }
 
@@ -25,11 +25,14 @@
 }
 
 .title-link {
+  display: flex;
+  justify-content: space-between;
   position: relative;
 }
 
 .title-link h2 {
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .title-link p {

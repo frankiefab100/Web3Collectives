@@ -3,9 +3,19 @@ import { FaSearch } from "react-icons/fa";
 import DevDaoLogo from "../../assets/images/DeveloperDAO.png";
 import ImmunefiLogo from "../../assets/images/Immunefi.png";
 import CadenaLogo from "../../assets/images/Cadena.png";
-import YoutubeChannel from "../../components/Resources/YoutubeChannel";
-import "./Home.css";
 import Website from "../../components/Resources/Website";
+import YoutubeChannel from "../../components/Resources/YoutubeChannel";
+import DevTool from "../../components/Resources/DevTool";
+import Course from "../../components/Resources/Course";
+import Game from "../../components/Resources/Game";
+import Documentation from "../../components/Resources/Documentation";
+import GithubRepo from "../../components/Resources/GithubRepo";
+import ProjectTemplate from "../../components/Resources/ProjectTemplate";
+import NodeProvider from "../../components/Resources/NodeProvider";
+import Blog from "../../components/Resources/Blog";
+import Book from "../../components/Resources/Book";
+import Community from "../../components/Resources/Community";
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -40,6 +50,16 @@ const Home = () => {
         </div>
 
         <div className="search-section">
+          <div className="dropdown">
+            <select name="categories" id="categories">
+              <option value="Categories">Categories</option>
+              <option value="">a</option>
+              <option value="">b</option>
+              <option value="">c</option>
+              <option value="">d</option>
+            </select>
+          </div>
+
           <input
             type="search"
             name="search"
@@ -47,25 +67,6 @@ const Home = () => {
             placeholder="Search for a keyword"
           />
           <FaSearch className="search-icon" />
-        </div>
-
-        <div className="dropdowns">
-          <span className="sub-tagline">
-            Browse our library of Free Web3 lessons
-          </span>
-          <select name="categories" id="categories">
-            <option value="Categories">Categories</option>
-            <option value="">b</option>
-            <option value="">c</option>
-            <option value="">d</option>
-          </select>
-
-          <select name="level" id="level">
-            <option value="">Experience Level</option>
-            <option value="">b</option>
-            <option value="">c</option>
-            <option value="">d</option>
-          </select>
         </div>
 
         <div className="featured">
@@ -77,8 +78,18 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <YoutubeChannel />
       <Website />
+      <YoutubeChannel />
+      <DevTool />
+      <Course />
+      <Game />
+      <Documentation />
+      <GithubRepo />
+      <ProjectTemplate />
+      <NodeProvider />
+      <Blog />
+      <Book />
+      <Community />
     </div>
   );
 };

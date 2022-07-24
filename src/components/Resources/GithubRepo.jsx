@@ -1,17 +1,17 @@
 import React from "react";
 import Card from "../Card/Card";
-import { websites } from "../../data/websites";
+import { githubRepos } from "../../data/githubRepos";
 import categories from "../../data/categories.json";
 
-const Website = () => {
+const GithubRepo = () => {
   return (
     <div className="category">
       <h2 className="category-title">
-        {categories.map((category) => category.websites)}
+        {categories.map((category) => category.githubRepos)}
       </h2>
 
       <div className="card-section">
-        {websites.map((resource, index) => {
+        {githubRepos.map((resource, index) => {
           return (
             <Card
               key={index}
@@ -27,4 +27,4 @@ const Website = () => {
   );
 };
 
-export default Website;
+export default GithubRepo;
