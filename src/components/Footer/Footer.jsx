@@ -85,17 +85,6 @@ const Footer = () => {
               </a>
             </div>
           </div>
-
-          <div className="donate">
-            <ul>
-              <li>
-                <a href="#b"> Buy Me a Coffee</a>
-              </li>
-              <li>
-                <a href="#e"> ETH/BTC/USDC (ERC-20)</a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="footer-list">

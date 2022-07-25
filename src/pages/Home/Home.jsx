@@ -33,22 +33,6 @@ const Home = () => {
       </div>
 
       <div className="filter-section">
-        <div className="tag-buttons">
-          <button id="selected" className="tag ">
-            All
-          </button>
-          <button className="tag">Solidity</button>
-          <button className="tag">Web3Js</button>
-          <button className="tag">Rust</button>
-          <button className="tag">EtherJs</button>
-          <button className="tag">Hardhat</button>
-          <button className="tag">Vyper</button>
-          <button className="tag">Truffle</button>
-          <button className="tag">Ethereum</button>
-          <button className="tag">Cryptography</button>
-          <button className="tag">Polygon</button>
-        </div>
-
         <div className="search-section">
           <div className="dropdown">
             <select name="categories" id="categories">
@@ -71,11 +55,27 @@ const Home = () => {
 
         <div className="featured">
           <div className="brands">
-            <h2>As See In</h2>
+            <h2>Repository As Seen In</h2>
             <img src={DevDaoLogo} alt="developerdao logo" />
             <img src={ImmunefiLogo} alt="immunefi logo" />
             <img src={CadenaLogo} alt="immunefi logo" />
           </div>
+        </div>
+
+        <div className="tag-buttons">
+          <button id="selected" className="tag ">
+            All
+          </button>
+          <button className="tag">Solidity</button>
+          <button className="tag">Web3Js</button>
+          <button className="tag">Rust</button>
+          <button className="tag">EtherJs</button>
+          <button className="tag">Hardhat</button>
+          <button className="tag">Vyper</button>
+          <button className="tag">Truffle</button>
+          <button className="tag">Ethereum</button>
+          <button className="tag">Cryptography</button>
+          <button className="tag">Polygon</button>
         </div>
       </div>
       <Website />

@@ -7,7 +7,7 @@ const Documentation = () => {
   return (
     <div className="category">
       <h2 className="category-title">
-        {categories.map((category) => category.documentations)}
+        {categories.map((category) => category.docs)}
       </h2>
 
       <div className="card-section">

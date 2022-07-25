@@ -5,9 +5,29 @@ import { CgMenuRightAlt, CgClose } from "react-icons/cg";
 import { FaMoon, FaSun } from "react-icons/fa";
 import "./NavBar.css";
 
-const NavBar = ({ toggleTheme }) => {
+export const NavBar = ({ toggleTheme }) => {
   const [showMenu, setShowMenu] = useState(false);
   const [showNav, setShowNav] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
+
+  useEffect(() => {
+    const updateScroll = () => {
+      const scrollProgress = window.scrollY;
+      const scrollHeight = document.body.scrollHeight - window.innerHeight;
+
+      if (scrollHeight) {
+        setScrollProgress(
+          Number((scrollProgress / scrollHeight).toFixed(2)) * 100
+        );
+      }
+    };
+
+    window.addEventListener("scroll", updateScroll);
+
+    return () => {
+      window.removeEventListener("scroll", updateScroll);
+    };
+  }, []);
 
   const handleMenu = () => {
     setShowMenu(!showMenu);
@@ -61,9 +81,13 @@ const NavBar = ({ toggleTheme }) => {
           </label>
         </div>
 
-        <button id="support-btn">Support</button>
         <button id="tweet-btn">Tweet</button>
       </ul>
+
+      <span
+        style={{ transform: `translateX(${scrollProgress - 100}%)` }}
+        className="scroll-indicator"
+      ></span>
     </nav>
   );
 };

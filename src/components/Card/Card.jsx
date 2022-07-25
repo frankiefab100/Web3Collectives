@@ -5,7 +5,11 @@ import "./Card.css";
 const Card = ({ title, coverImage, description, url, index }) => {
   return (
     <div key={index} className="card">
-      <img src={coverImage} alt="resource image" />
+      <div className="card-img">
+        <a href={url}>
+          <img src={coverImage} alt="resource image" />
+        </a>
+      </div>
 
       <div className="card-info">
         <div className="title-link">

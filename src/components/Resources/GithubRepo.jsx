@@ -7,7 +7,7 @@ const GithubRepo = () => {
   return (
     <div className="category">
       <h2 className="category-title">
-        {categories.map((category) => category.githubRepos)}
+        {categories.map((category) => category.repos)}
       </h2>
 
       <div className="card-section">

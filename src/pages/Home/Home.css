@@ -15,8 +15,9 @@
 }
 
 .title {
-  background: linear-gradient(80deg, #42ff6b, #a011e2);
+  background: linear-gradient(80deg, #285cd8, #e40cd7);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -37,12 +38,20 @@
 
 .tag {
   background: #b0aff8;
+  cursor: pointer;
   margin: 2px;
   padding: 8px 3px;
   width: 100px;
 }
 
+.tag:hover {
+  border: none;
+  background-color: #d2668e;
+  color: #fff;
+}
+
 #selected {
+  border: none;
   background-color: #d2668e;
   color: #fff;
 }
@@ -88,12 +97,13 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 30px 0;
+  padding: 10px 0;
   margin: 30px 0;
   width: 100vw;
 }
 
 .featured h2 {
+  font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
 }
