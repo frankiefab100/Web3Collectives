@@ -16,23 +16,25 @@ const About = () => {
         We noticed that existing learning resources about blockchain development
         are all over the different platforms and the internet. To make it much
         easier for Web3 enthusiasts to browse and access information,
-        Web3collectives was birthed. What started as a github repository to
-        curate a list of free learning resources into a single README file, is
-        now a web page The project started as a
+        Web3collectives was birthed.
+      </p>
+      <p>
+        This project started as a
         <a
           href="https://github.com/frankiefab100/Blockchain-Development-Resources"
           target="_blank"
           rel="noopener noreferrer"
         >
-          README file
+          github repository
         </a>
-        in a github repository. All the contents on this website belong to the
-        respective authors. You can also become a contributor to
-        Web3Collectives. This project is open source on GitHub. Do you find a
-        new resource(s) or have any suggestion or general feedback! Open an
-        issue or submit a pull request! Don't forget to see our contributing
-        guides. We appreciate every contribution. If you would like to
-        collaborate or partner email us at
+        - a collection of free learning resources.
+        <br />
+        PS: All the contents on this website belong to the respective authors.
+        You can also become a contributor to Web3Collectives. This project is
+        open source on GitHub. Do you find a new resource(s) or have any
+        suggestion or general feedback! Open an issue or submit a pull request!
+        Don't forget to see our contributing guides. We appreciate every
+        contribution. If you would like to collaborate or partner email us at
         <a
           href="mailto:web3collectives@gmail.com"
           target="_blank"
@@ -40,8 +42,10 @@ const About = () => {
         >
           web3collectives@gmail.com
         </a>
-        . Follow us on Twitter, Instagram, LinkedIn and Join our growing
-        community to learn, and colaborate with fellow like-minds.
+      </p>
+      <p>
+        Follow us on Twitter, Instagram, LinkedIn and Join our growing community
+        to learn, and colaborate with fellow like-minds.
       </p>
     </div>
   );

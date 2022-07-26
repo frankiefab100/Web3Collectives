@@ -34,6 +34,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  font-size: 0.75rem;
   margin: 20px 0;
 }
 
@@ -42,7 +43,7 @@
   cursor: pointer;
   margin: 2px;
   padding: 8px 3px;
-  width: 100px;
+  width: 80px;
 }
 
 .tag:hover {

@@ -190,6 +190,11 @@ input:checked + .slider:before {
     display: flex;
   }
 
+  .nav .logo,
+  .hamburger-icon {
+    margin-top: 10px;
+  }
+
   .hamburger-icon {
     display: block;
     z-index: 4;

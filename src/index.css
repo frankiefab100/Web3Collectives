@@ -94,26 +94,10 @@ body,
   font-display: swap;
 }
 
-.darkmode .card {
-  background: rgba(87, 95, 171, 0.2);
-  border: 1.5px solid rgba(255, 255, 255, 0.3);
-  border-radius: 15px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-}
-
-.darkmode .tags {
-  background-color: rgba(4, 4, 16, 0.596);
-}
-
-.darkmode .tags:hover {
-  background-color: rgba(13, 13, 38, 0.596);
-}
-
 .darkmode .text-color {
   background-color: #00060f;
   background-color: #080e18;
 }
-
 /* darkmode ends */
 
 html {
@@ -131,7 +115,7 @@ body {
 
 h1,
 h2 {
-  font-family: "Clash Display", sans-serif;
+  font-family: "ClashDisplay", sans-serif;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
@@ -171,8 +155,6 @@ button {
   border-radius: 3px;
   color: #222;
   outline: none;
-  font-size: 0.9rem;
-  /* width: 100%; */
   padding: 1rem;
   transition: border 0.3s ease-in-out;
 }
@@ -213,11 +195,31 @@ button {
   .footer-attribution {
     margin: 15px 25px;
   }
+
+  .about-section {
+    margin: 140px 25px 30px;
+  }
 }
 
 @media screen and (max-width: 560px) {
+  .home {
+    margin: 140px 0 0;
+  }
+
+  .home h1 {
+    font-size: 2.4rem;
+  }
+
   .card-section {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .newsletter-title {
+    font-size: 1.4rem;
+  }
+
+  .newsletter-subtitle {
+    font-size: 0.85rem;
   }
 }
 
