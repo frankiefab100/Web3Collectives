@@ -3,10 +3,53 @@
 
 #root,
 html,
-body {
+body,
+::after,
+::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* :root {
+  --bg-color-primary: linear-gradient(
+    to right bottom,
+    #fac3b4,
+    #f9c6cc,
+    #eecde0,
+    #e1d5ea,
+    #d8dcec,
+    #d5deed,
+    #d2e0ed,
+    #d0e2ec,
+    #c8e2f0,
+    #c0e2f4,
+    #b7e3f7,
+    #ade3fb
+  );
+  --bg-color-secondary: rgba(235, 235, 235, 0.5);
+  --text-primary: #111;
+  --text-secondary: #333;
+  --color-white: #f2f2f2;
+  --cta-primary: #0ab635;
+  --box-color: #e4e4e4;
+  --highlight: #47b147;
+  --box-shadow: 2px 2px 2px rgba(34, 34, 34, 0.3),
+    2px 2px 2px rgba(34, 34, 34, 0.3);
+} */
+
+/* [data-theme-color="dark"] */
+:root {
+  --bg-color-primary: linear-gradient(rgb(22, 22, 61), rgb(20, 20, 45));
+  --bg-color-secondary: #333366;
+  --text-primary: #f6f6f6;
+  --color-white: #f6f6f6;
+  --text-secondary: #f6f6f6;
+  --cta-primary: linear-gradient(45deg, #285cd8, #e40cd7);
+  --box-color: #0a0a1f;
+  --highlight: #9966cc;
+  --box-shadow: 2px 2px 2px rgba(98, 98, 98, 0.3),
+    2px 2px 2px rgba(98, 98, 98, 0.3);
 }
 
 /* --cloud-burst: #223351;
@@ -51,11 +94,6 @@ body {
   font-display: swap;
 }
 
-#dark {
-  background: linear-gradient(rgb(22, 22, 61), rgb(20, 20, 45));
-  color: #fff;
-}
-
 .darkmode .card {
   background: rgba(87, 95, 171, 0.2);
   border: 1.5px solid rgba(255, 255, 255, 0.3);
@@ -82,6 +120,15 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg-color-primary);
+  color: var(--text-primary);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
 h1,
 h2 {
   font-family: "Clash Display", sans-serif;
@@ -99,33 +146,10 @@ h2 {
   font-weight: 600;
 }
 
-/* p,
+p,
 li {
   font-family: "Inter", sans-serif;
-} */
-
-body {
-  font-family: "Inter", sans-serif;
-  background-image: linear-gradient(
-    to right bottom,
-    #fac3b4,
-    #f9c6cc,
-    #eecde0,
-    #e1d5ea,
-    #d8dcec,
-    #d5deed,
-    #d2e0ed,
-    #d0e2ec,
-    #c8e2f0,
-    #c0e2f4,
-    #b7e3f7,
-    #ade3fb
-  );
-
-  color: #000;
-  width: 100vw;
-  height: 100vh;
-  overflow-x: hidden;
+  line-height: 1.5;
 }
 
 ul {
@@ -137,12 +161,11 @@ a:link,
 a:hover,
 a:active,
 a:visited {
-  color: #222;
+  color: var(--cta-primary);
   text-decoration: none;
 }
 
 input,
-textarea,
 button {
   display: block;
   border: 1px solid #285cd8;
@@ -150,7 +173,7 @@ button {
   color: #222;
   outline: none;
   font-size: 0.9rem;
-  width: 100%;
+  /* width: 100%; */
   padding: 1rem;
   transition: border 0.3s ease-in-out;
 }

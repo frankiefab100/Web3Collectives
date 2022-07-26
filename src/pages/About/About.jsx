@@ -4,26 +4,44 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about-section">
-      <h2>About Us</h2>
+      <h2>Introduction</h2>
       <p>
-        Sketch App Sources is the largest collection of free and premium design
-        resources for Sketch. Our mission is to help you design, collaborate,
-        prototype, learn, and ideate faster with Sketch. We’ve curated thousands
-        of Sketch files as well as plugins, tutorials, and articles created by
-        Sketch users from around the world. Many of the Sketch UI kits,
-        wireframe kits, templates, and icon sets contain hundreds of individual
-        UI elements to help boost your design workflow. Our community thrives
-        thanks to people like you who want to learn, teach, collaborate, and
-        share their work and passion for design. One of the best ways to learn
-        new techniques and design principles is to study and analyze the work of
-        others. We would be really grateful if you share your work or another
-        resources with our community. You will gain valuable feedback, exposure
-        and make a positive impact in the work of fellow designers and
-        developers! If you would like to collaborate, partner, provide feedback,
-        or just 👋 email us at contact@sketchappsources.com. Follow us on
-        Twitter, Facebook, Instagram, Pinterest, LinkedIn and subscribe to our
-        weekly newsletter. Join our growing community and share your passion for
-        design!
+        If you ended up here, you’re probably interested in learning about
+        blockchain technology and the decentralized internet (Otherwise known as
+        Web3).
+      </p>
+
+      <h4>How It Started</h4>
+      <p>
+        We noticed that existing learning resources about blockchain development
+        are all over the different platforms and the internet. To make it much
+        easier for Web3 enthusiasts to browse and access information,
+        Web3collectives was birthed. What started as a github repository to
+        curate a list of free learning resources into a single README file, is
+        now a web page The project started as a
+        <a
+          href="https://github.com/frankiefab100/Blockchain-Development-Resources"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          README file
+        </a>
+        in a github repository. All the contents on this website belong to the
+        respective authors. You can also become a contributor to
+        Web3Collectives. This project is open source on GitHub. Do you find a
+        new resource(s) or have any suggestion or general feedback! Open an
+        issue or submit a pull request! Don't forget to see our contributing
+        guides. We appreciate every contribution. If you would like to
+        collaborate or partner email us at
+        <a
+          href="mailto:web3collectives@gmail.com"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+        >
+          web3collectives@gmail.com
+        </a>
+        . Follow us on Twitter, Instagram, LinkedIn and Join our growing
+        community to learn, and colaborate with fellow like-minds.
       </p>
     </div>
   );

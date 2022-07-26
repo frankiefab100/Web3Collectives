@@ -14,7 +14,6 @@ import ProjectTemplate from "../../components/Resources/ProjectTemplate";
 import NodeProvider from "../../components/Resources/NodeProvider";
 import Blog from "../../components/Resources/Blog";
 import Book from "../../components/Resources/Book";
-import Community from "../../components/Resources/Community";
 import "./Home.css";
 
 const Home = () => {
@@ -89,7 +88,6 @@ const Home = () => {
       <NodeProvider />
       <Blog />
       <Book />
-      <Community />
     </div>
   );
 };

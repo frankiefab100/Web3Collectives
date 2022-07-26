@@ -12,7 +12,7 @@
 }
 
 .nav-height {
-  background-color: #f4f2e3;
+  background-color: var(--bg-color-secondary);
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.192);
   height: 60px;
 }
@@ -29,7 +29,7 @@
 }
 
 .logo-name {
-  color: blue;
+  color: var(--text-primary);
   font-family: "Clash Display", sans-serif;
   font-size: 1.4rem;
   /* change font to logo font */
@@ -40,7 +40,7 @@
 .hamburger-icon {
   display: none;
   position: absolute;
-  color: #222;
+  color: var(--text-primary);
   cursor: pointer;
   right: 50px;
   top: 10px;
@@ -63,7 +63,7 @@
 
 .nav-links li a {
   position: relative;
-  color: #000033;
+  color: var(--text-primary);
   font-size: 0.8rem;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -74,8 +74,8 @@
 }
 
 .nav-links a:hover {
-  border-bottom: 3px solid blue;
-  color: blue;
+  border-bottom: 3px solid var(--text-primary);
+  color: var(--text-primary);
 }
 
 .hamburger-icon {
@@ -114,7 +114,7 @@
 }
 
 .slider {
-  background-color: #ffc993;
+  background-color: var(--box-color);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -137,7 +137,7 @@
 }
 
 input:checked + .slider {
-  background-color: #8cf68c;
+  background-color: #f96bef;
 }
 
 input:checked + .slider:before {
@@ -200,7 +200,7 @@ input:checked + .slider:before {
   }
 
   .mobile-nav {
-    background-color: #f2f2f2;
+    background-color: var(--bg-color-secondary);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,7 +216,7 @@ input:checked + .slider:before {
   }
   .nav-links a:hover {
     border-bottom: none;
-    background-color: #ccc;
+    background-color: #576cd8;
     border-radius: 2px;
     padding: 5px 8px;
   }

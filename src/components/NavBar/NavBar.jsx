@@ -81,7 +81,29 @@ export const NavBar = ({ toggleTheme }) => {
           </label>
         </div>
 
-        <button id="tweet-btn">Tweet</button>
+        {/* <button id="tweet-btn">Tweet</button> */}
+        <a
+          class="twitter-share-button"
+          href="https://twitter.com/intent/tweet?text=Hello%20Check out @web3collectives - a FREE library of over 200+ Blockchain Development Resources"
+          data-size="small"
+        >
+          Tweet
+        </a>
+
+        {/* <div className="container">
+        twttr.widgets.createShareButton(
+  '/',
+  document.getElementById('container'),
+  {
+    text: 'Hello World'
+  }
+);
+
+twttr.widgets.createShareButton(...)
+.then( function( el ) {
+  console.log('Tweet button added.');
+});
+        </div> */}
       </ul>
 
       <span

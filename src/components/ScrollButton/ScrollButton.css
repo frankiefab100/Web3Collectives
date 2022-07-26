@@ -1,8 +1,10 @@
 .scrollTopBtn {
-  background-color: blue;
+  /* background-color: var(--bg-color-secondary); */
+  background: linear-gradient(45deg, #285cd8, #e40cd7);
+  border: none;
   border-radius: 10px;
   cursor: pointer;
-  color: #fff;
+  color: var(--color-white);
   font-size: 1.8rem;
   position: fixed;
   display: flex;

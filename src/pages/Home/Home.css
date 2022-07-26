@@ -15,7 +15,7 @@
 }
 
 .title {
-  background: linear-gradient(80deg, #285cd8, #e40cd7);
+  background: var(--cta-primary);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,6 +34,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 20px 0;
 }
 
 .tag {
@@ -46,14 +47,14 @@
 
 .tag:hover {
   border: none;
-  background-color: #d2668e;
+  background-color: #e40cd7;
   color: #fff;
 }
 
 #selected {
   border: none;
-  background-color: #d2668e;
-  color: #fff;
+  background-color: #e40cd7;
+  color: var(--color-white);
 }
 
 .search-section {
@@ -76,7 +77,7 @@
 
 #search {
   position: relative;
-  /* width: 60%; */
+  width: 100%;
 }
 
 .search-icon {
@@ -92,7 +93,7 @@
 } */
 
 .featured {
-  background-color: #f6c8d9;
+  background: var(--cta-primary);
   display: flex;
   justify-content: center;
   align-items: center;

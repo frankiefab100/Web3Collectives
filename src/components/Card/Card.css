@@ -8,16 +8,20 @@
 }
 
 .card {
-  border: 1px solid #30a1d4;
+  border: 1px solid #aba5ee;
   border-radius: 5px;
-  background-color: #d7d4f9;
+  background-color: var(--box-color);
+  /* box-shadow: 0px 1px 6px #7deef3; */
   overflow: hidden;
 }
 
 .card img {
   cursor: pointer;
-  width: 100%;
+  object-fit: contain;
+  width: 90%;
   min-width: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .card-info {

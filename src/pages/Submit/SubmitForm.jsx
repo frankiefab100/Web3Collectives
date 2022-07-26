@@ -8,12 +8,11 @@ const SubmitForm = () => {
         <h2 className="title">Submit a new resource</h2>
         <h4 className="subtitle">Thank you as you contribute!</h4>
         <p>
-          Fill the form to submit a resource <br />
-          Your submission should meet our requirements - It must be FREE and not
-          already listed in this website.
+          Fill the form to submit a resource. Your submission should meet our
+          requirements - It must be FREE and not already listed in this website.
         </p>
       </div>
-      <form id="contact-form" action="" method="POST">
+      <form action="" method="POST">
         <label htmlFor="name">Resource Name</label>
         <input type="text" name="name" id="name" required />
 
@@ -31,14 +30,7 @@ const SubmitForm = () => {
           placeholder="A brief detail about this free resource"
         />
 
-        <label htmlFor="message">Message</label>
-        <textarea
-          name="message"
-          id="message"
-          placeholder="Type your message here..."
-          rows="8"
-        ></textarea>
-        <button className="contact-btn">SEND MESSAGE</button>
+        <button className="contact-btn">Submit</button>
       </form>
     </div>
   );

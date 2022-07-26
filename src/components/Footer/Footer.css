@@ -33,7 +33,7 @@
 }
 
 .subscribe-btn {
-  background: #00cc66;
+  background: linear-gradient(45deg, #285cd8, #e40cd7);
   border: none;
   color: #fff;
   cursor: pointer;
@@ -79,7 +79,7 @@
   transition: 0.2s ease-in-out;
 }
 
-.socials a :hover {
+.socials a:hover {
   background: #111;
   color: #ddd;
 }

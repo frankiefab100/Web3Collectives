@@ -1,0 +1,20 @@
+.form-container {
+  margin: 200px 50px 30px;
+}
+
+.form-text p {
+  width: 60%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid var(--highlight);
+  padding: 20px;
+  width: 300px;
+}
+
+form input {
+  margin: 5px 0 10px;
+}
