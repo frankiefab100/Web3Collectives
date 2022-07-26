@@ -1,3 +1,7 @@
 .about-section {
   margin: 200px 50px 30px;
 }
+
+.about-section p {
+  line-height: 1.5;
+}

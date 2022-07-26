@@ -2,9 +2,10 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 12px;
+  gap: 15px;
   /* width: 100%; */
   /* height: 260px; */
+  text-align: center;
 }
 
 .card {
@@ -15,12 +16,15 @@
   overflow: hidden;
 }
 
+.card:hover {
+  transform: scale(1.05);
+}
+
 .card img {
   cursor: pointer;
   object-fit: contain;
   width: 90%;
   min-width: 150px;
-  padding-left: 10px;
   padding-top: 10px;
 }
 
@@ -52,6 +56,10 @@
   top: 12px;
   right: 5px;
   margin-left: 15px;
+}
+
+.description {
+  font-size: 0.85rem;
 }
 
 @media screen and (max-width: 895px) {

@@ -149,7 +149,6 @@ h2 {
 p,
 li {
   font-family: "Inter", sans-serif;
-  line-height: 1.5;
 }
 
 ul {
@@ -186,8 +185,33 @@ button {
 
 /* --Media queries-- */
 @media screen and (max-width: 790px) {
+  .logo {
+    margin-left: 25px;
+  }
+
+  .hamburger-icon {
+    right: 25px;
+  }
+
+  .hero-section,
+  .filter-section {
+    margin: 8px 25px !important;
+  }
+
+  .category {
+    margin: 2px 25px !important;
+  }
+
   .card-section {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .footer-nav {
+    margin: 0 25px;
+  }
+
+  .footer-attribution {
+    margin: 15px 25px;
   }
 }
 
@@ -198,6 +222,10 @@ button {
 }
 
 @media screen and (max-width: 440px) {
+  .footer-nav p {
+    width: 100%;
+  }
+
   .card-section {
     grid-template-columns: repeat(2, 1fr);
   }

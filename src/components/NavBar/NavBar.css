@@ -43,7 +43,7 @@
   color: var(--text-primary);
   cursor: pointer;
   right: 50px;
-  top: 10px;
+  /* top: 10px; */
   font-size: 2rem;
 }
 

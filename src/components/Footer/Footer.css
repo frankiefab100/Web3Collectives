@@ -107,9 +107,17 @@
 .footer-attribution {
   display: flex;
   justify-content: space-between;
+  font-size: 0.85rem;
   margin: 20px 50px;
 }
 
 .footer-attribution a {
   margin-left: 5px;
+}
+
+@media screen and (max-width: 450px) {
+  .footer-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
