@@ -12,13 +12,15 @@ const Blog = () => {
 
       <div className="card-section">
         {blogs.map((resource, index) => {
+          const { coverImage, title, description, url } = resource;
+
           return (
             <Card
               key={index}
-              coverImage={resource.coverImage}
-              title={resource.title}
-              description={resource.description}
-              url={resource.url}
+              coverImage={coverImage}
+              title={title}
+              description={description}
+              url={url}
             />
           );
         })}

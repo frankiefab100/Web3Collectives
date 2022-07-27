@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.newsletter-title {
+  letter-spacing: normal;
+}
+
 .newsletter-subtitle {
   margin: 5px 0 20px;
 }

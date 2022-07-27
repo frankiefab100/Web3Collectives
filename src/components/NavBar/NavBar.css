@@ -30,7 +30,7 @@
 
 .logo-name {
   color: var(--text-primary);
-  font-family: "Clash Display", sans-serif;
+  font-family: "ClashDisplay", sans-serif;
   font-size: 1.4rem;
   /* change font to logo font */
   font-weight: 600;
@@ -43,7 +43,6 @@
   color: var(--text-primary);
   cursor: pointer;
   right: 50px;
-  /* top: 10px; */
   font-size: 2rem;
 }
 
@@ -69,7 +68,7 @@
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 24px;
   z-index: 3;
 }
 
@@ -114,7 +113,7 @@
 }
 
 .slider {
-  background-color: var(--box-color);
+  background-color: #576cd8;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -166,12 +165,19 @@ input:checked + .slider:before {
 }
 
 .scroll-indicator {
-  background-color: rgb(70, 8, 157);
+  background-color: #f96bef;
   position: absolute;
   width: 100%;
-  /* z-index: 4; */
-  height: 3px;
+  height: 2px;
   bottom: 0;
+}
+
+.moon {
+  color: #f96bef;
+}
+
+.sun {
+  color: #576cd8;
 }
 
 @media (max-width: 755px) {
@@ -180,7 +186,7 @@ input:checked + .slider:before {
   } */
 
   #tweet-btn {
-    margin: 0 8px 0 10px !important;
+    margin: 0 8px 0 10px;
   }
 }
 
@@ -211,11 +217,11 @@ input:checked + .slider:before {
     justify-content: center;
     align-items: center;
     position: fixed;
-    max-width: 20rem;
     top: 0;
     right: 0;
     margin: 0;
     height: 100vh;
+    max-width: 60%;
     width: 100vw;
     transition: all 0.5s ease-in-out;
   }

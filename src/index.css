@@ -88,10 +88,10 @@ body,
 
 @font-face {
   font-family: "Mecha";
-  src: url("./assets/fonts/mecha_bold.ttf") format("truetype");
-  font-weight: 700;
+  src: local("./assets/fonts/mecha_bold.ttf"),
+    url("./assets/fonts/mecha_bold.ttf") format("truetype");
   font-style: normal;
-  font-display: swap;
+  font-weight: normal;
 }
 
 .darkmode .text-color {
@@ -116,6 +116,7 @@ body {
 h1,
 h2 {
   font-family: "ClashDisplay", sans-serif;
+  font-family: "Mecha", sans-serif;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
@@ -177,11 +178,11 @@ button {
 
   .hero-section,
   .filter-section {
-    margin: 8px 25px !important;
+    margin: 8px 25px;
   }
 
   .category {
-    margin: 2px 25px !important;
+    margin: 2px 25px;
   }
 
   .card-section {

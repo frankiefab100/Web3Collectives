@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import DevDaoLogo from "../../assets/images/DeveloperDAO.png";
 import ImmunefiLogo from "../../assets/images/Immunefi.png";
@@ -14,9 +14,43 @@ import ProjectTemplate from "../../components/Resources/ProjectTemplate";
 import NodeProvider from "../../components/Resources/NodeProvider";
 import Blog from "../../components/Resources/Blog";
 import Book from "../../components/Resources/Book";
+import Categories from "../../data/categories.json";
 import "./Home.css";
 
 const Home = () => {
+  // const [search, setSearch] = useState("");
+
+  const [resources, setResources] = useState({
+    allResource: Categories,
+    selectedResources: [],
+  });
+
+  const filterButtons = [
+    "All",
+    "Solidity",
+    "Web3Js",
+    "Rust",
+    "EtherJs",
+    " Hardhat",
+    "Vyper",
+    "Truffle",
+    "Ethereum",
+    "Cryptography",
+    "Polygon",
+  ];
+
+  const handleFilter = (e) => {
+    let selectedResources;
+
+    if (e.target.value === "All") {
+      selectedResources = resources.selectedResources;
+    } else {
+      selectedResources = resources.allResource.filter(
+        (item) => item.keywords === e.target.value
+      );
+    }
+  };
+
   return (
     <div className="home">
       <div className="hero-section">
@@ -62,19 +96,19 @@ const Home = () => {
         </div>
 
         <div className="tag-buttons">
-          <button id="selected" className="tag ">
-            All
-          </button>
-          <button className="tag">Solidity</button>
-          <button className="tag">Web3Js</button>
-          <button className="tag">Rust</button>
-          <button className="tag">EtherJs</button>
-          <button className="tag">Hardhat</button>
-          <button className="tag">Vyper</button>
-          <button className="tag">Truffle</button>
-          <button className="tag">Ethereum</button>
-          <button className="tag">Cryptography</button>
-          <button className="tag">Polygon</button>
+          {filterButtons.map((btn, index) => {
+            return (
+              <button
+                key={index}
+                onClick={handleFilter}
+                value={btn}
+                // id={filterButtons.value == "All" ? "selected" : ""}
+                className="tag"
+              >
+                {btn}
+              </button>
+            );
+          })}
         </div>
       </div>
       <Website />
