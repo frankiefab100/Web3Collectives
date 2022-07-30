@@ -1,4 +1,3 @@
-@import url("http://fonts.cdnfonts.com/css/clash-display");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
 #root,
@@ -14,37 +13,29 @@ body,
 /* :root {
   --bg-color-primary: linear-gradient(
     to right bottom,
-    #fac3b4,
-    #f9c6cc,
     #eecde0,
     #e1d5ea,
     #d8dcec,
-    #d5deed,
-    #d2e0ed,
-    #d0e2ec,
-    #c8e2f0,
-    #c0e2f4,
-    #b7e3f7,
-    #ade3fb
+    #d5deed
   );
-  --bg-color-secondary: rgba(235, 235, 235, 0.5);
-  --text-primary: #111;
-  --text-secondary: #333;
+  --bg-color-secondary: rgba(243, 243, 243, 0.5);
+  --text-primary: #00060f;
+  --text-secondary: #080e18;
   --color-white: #f2f2f2;
-  --cta-primary: #0ab635;
-  --box-color: #e4e4e4;
-  --highlight: #47b147;
+  --cta-primary: #3f86df;
+  --box-color: #223351;
+  --highlight: #5d7191;
   --box-shadow: 2px 2px 2px rgba(34, 34, 34, 0.3),
     2px 2px 2px rgba(34, 34, 34, 0.3);
 } */
 
 /* [data-theme-color="dark"] */
 :root {
-  --bg-color-primary: linear-gradient(rgb(22, 22, 61), rgb(20, 20, 45));
+  --bg-color-primary: linear-gradient(#16163d, #14142d);
   --bg-color-secondary: #333366;
   --text-primary: #f6f6f6;
   --color-white: #f6f6f6;
-  --text-secondary: #f6f6f6;
+  --text-secondary: #000000;
   --cta-primary: linear-gradient(45deg, #285cd8, #e40cd7);
   --box-color: #0a0a1f;
   --highlight: #9966cc;
@@ -52,53 +43,13 @@ body,
     2px 2px 2px rgba(98, 98, 98, 0.3);
 }
 
-/* --cloud-burst: #223351;
---geyser: #cfdae3;
---royal-blue: #3f86df;
---waikawa-gray: #5d7191;
---nepal: #84a1ba;
---nevada: #636f78;
---salt-box: #615b6a;
---fiord: #47596e;
---ebony: #0e1722; */
-
-/* ["223351","cfdae3","3f86df","5d7191","84a1ba","636f78","615b6a","47596e","0e1722"] */
-
-/* --black-pearl: #060e26;
---chatelle: #b2a9c5;
---indigo: #484ebc;
---astronaut: #23316d;
---ocean-green: #459f84;
---bunting: #15204a;
---bossanova: #461e47;
---cannon-pink: #904784;
---nandor: #4a514c; */
-
-/* --cerise: #d0248a;
---affair: #663b88;
---violet: #190835;
---whisper: #ede5f0;
---jacarta: #3e2966;
---bali-hai: #7ea0b4;
---eggplant: #70486d;
---lavender-purple: #8378b3;
---scarpa-flow: #535162; */
-
-/* darkmode */
-
 @font-face {
-  font-family: "Mecha";
-  src: local("./assets/fonts/mecha_bold.ttf"),
-    url("./assets/fonts/mecha_bold.ttf") format("truetype");
+  font-family: "ClashDisplay";
+  src: local("./assets/fonts/ClashDisplay-Variable.ttf"),
+    url("./assets/fonts/ClashDisplay-Variable.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
-
-.darkmode .text-color {
-  background-color: #00060f;
-  background-color: #080e18;
-}
-/* darkmode ends */
 
 html {
   scroll-behavior: smooth;
@@ -116,7 +67,6 @@ body {
 h1,
 h2 {
   font-family: "ClashDisplay", sans-serif;
-  font-family: "Mecha", sans-serif;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }

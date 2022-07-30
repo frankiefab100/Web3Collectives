@@ -1,7 +1,8 @@
 export const websites = [
   {
     id: 1,
-    coverImage: "",
+    coverImage:
+      "http://coursera-university-assets.s3.amazonaws.com/be/8d0fd0717811e8a81211a9d9c57bc6/ConsenSysAcademy-Logo-Stacked-onWhite-Square.png",
     title: "Consensys Academy",
     description: "......",
     url: "https://consensys.net/academy/",
