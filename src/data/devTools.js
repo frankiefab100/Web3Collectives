@@ -190,7 +190,8 @@ export const devTools = [
   },
   {
     id: 16,
-    coverImage: "",
+    coverImage:
+      "https://www.nicepng.com/png/detail/152-1526494_go-ethereum.png",
     title: "Go Ethereum",
     description: "Golang implementation of Ethereum protocol",
     url: "https://geth.ethereum.org/docs/",
@@ -205,7 +206,7 @@ export const devTools = [
   },
   {
     id: 17,
-    coverImage: "",
+    coverImage: "https://www.sfunc.io/img/rust.jpg",
     title: "Rust",
     description:
       "Programming language for writing smart contracts on Solana Blockchain",
@@ -215,7 +216,8 @@ export const devTools = [
   },
   {
     id: 18,
-    coverImage: "",
+    coverImage:
+      "data:image/jpeg;base64,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",
     title: "Solang",
     description: "Solidity Compiler for Solana",
     url: "https://solang.readthedocs.io/",
@@ -224,7 +226,8 @@ export const devTools = [
   },
   {
     id: 19,
-    coverImage: "",
+    coverImage:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDz4m0k1MGQjYP9TejwfpiZRF1J0n3w2sKcOkNfpqc6vGpym8Avq7KSihZIv_67IJIO9o&usqp=CAU",
     title: "Moralis",
     description:
       "Moralis provides a single workflow for building high performance dapps",
@@ -234,7 +237,8 @@ export const devTools = [
   },
   {
     id: 20,
-    coverImage: "",
+    coverImage:
+      "data:image/png;base64,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",
     title: "Thirdweb",
     description:
       "Powerful SDK and intuitive tools for developers to implement web3 features",
