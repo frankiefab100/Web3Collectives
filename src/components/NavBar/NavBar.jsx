@@ -70,20 +70,14 @@ export const NavBar = ({ toggleTheme }) => {
 
         <div className="theme-switch-wrapper">
           <label className="theme-switch" htmlFor="checkbox">
-            {/* {toggleTheme ? (
-              <FaMoon className="moon" />
-            ) : (
-              <FaSun className="sun" />
-            )} */}
             <input onChange={toggleTheme} type="checkbox" id="checkbox" />
 
             <div className="slider circle"></div>
           </label>
         </div>
 
-        {/* <button id="tweet-btn">Tweet</button> */}
         <a
-          className="twitter-share-button"
+          className="tweet-btn"
           href="https://twitter.com/intent/tweet?text=Hello%20Check out @web3collectives - a FREE library of over 200+ Blockchain Development Resources"
           data-size="small"
         >

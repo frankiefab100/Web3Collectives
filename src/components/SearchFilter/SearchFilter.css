@@ -1,3 +1,11 @@
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px 50px;
+}
+
 #selected {
   border: none;
   background-color: #e40cd7;
@@ -18,7 +26,7 @@
 
 .search-icon {
   position: absolute;
-  color: #bebebe;
+  color: var(--text-secondary);
   cursor: pointer;
   top: 18px;
   right: 18px;
@@ -34,7 +42,8 @@
 }
 
 .tag {
-  background: #b0aff8;
+  background-color: #c3ccf6;
+  color: #051b8a;
   cursor: pointer;
   margin: 2px;
   padding: 8px 3px;

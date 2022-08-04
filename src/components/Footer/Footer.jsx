@@ -15,59 +15,64 @@ const Footer = () => {
     <React.Fragment>
       <div className="footer">
         <div className="footer-nav">
-          <div className="logo">
-            <img className="logo-image" src={Logo} alt="web3collectives logo" />
-            <span className="logo-name">Web3Collectives</span>
-
-            <p>
-              A growing archive of web3 and smart contract development resources
-              to help kickstart your career in the blockchain ecosystem.
-            </p>
-
-            <div className="socials">
-              <a
-                href="https://www.twitter.com/web3collectives"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaTwitter />
-              </a>
-
-              <a
-                href="https://www.github.com/frankiefab100/Web3Colectives"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub />
-              </a>
-
-              <a
-                href="https://discord.com/web3collectives"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaDiscord />
-              </a>
-
-              <a
-                href="https://www.linkedin.com/in/web3collectives"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedin />
-              </a>
-
-              <a
-                href="https://www.instagram.com/web3collectives"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaInstagram />
-              </a>
-            </div>
-          </div>
-
           <div className="footer-list">
+            <div className="logo">
+              <img
+                className="logo-image"
+                src={Logo}
+                alt="web3collectives logo"
+              />
+              <span className="logo-name">Web3Collectives</span>
+
+              <p>
+                A growing archive of web3 and smart contract development
+                resources to help kickstart your career in the blockchain
+                ecosystem.
+              </p>
+
+              <div className="socials">
+                <a
+                  href="https://www.twitter.com/web3collectives"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaTwitter />
+                </a>
+
+                <a
+                  href="https://www.github.com/frankiefab100/Web3Colectives"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub />
+                </a>
+
+                <a
+                  href="https://discord.com/web3collectives"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaDiscord />
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/web3collectives"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin />
+                </a>
+
+                <a
+                  href="https://www.instagram.com/web3collectives"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram />
+                </a>
+              </div>
+            </div>
+
             <div className="footer-links">
               <ul>
                 <h3>INSTITUTE</h3>

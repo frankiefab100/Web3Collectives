@@ -29,7 +29,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/* <ThemeContext.Provider value={{ theme, toggleTheme }}> */}
         <NavBar toggleTheme={toggleTheme} />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -39,7 +38,6 @@ function App() {
         <Newsletter />
         <Footer />
         <ScrollButton />
-        {/* </ThemeContext.Provider> */}
       </Router>
     </div>
   );

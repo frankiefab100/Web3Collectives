@@ -1,32 +1,20 @@
 .home {
-  /* margin: 150px 50px 0; */
   margin: 200px 0 0;
   width: 100vw;
 }
 
-.hero-section,
-.filter-section {
+.hero-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* text-align: center; */
   margin: 10px 50px;
 }
 
-.title {
-  background: var(--cta-primary);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.highlights {
-  color: #e20c5a;
-}
-
 .tagline {
-  font-size: 1.3rem;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
   padding: 10px 0;
   margin: 0 50px;
+  line-height: 1.5;
 }

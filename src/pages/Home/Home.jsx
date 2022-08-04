@@ -18,7 +18,7 @@ const Home = () => {
     <div className="home">
       <div className="hero-section">
         <h1 className="title">
-          Learn.<span className="highlights">Buidl. </span>
+          Learn.<span id="highlights">Buidl. </span>
           Earn.
         </h1>
 
