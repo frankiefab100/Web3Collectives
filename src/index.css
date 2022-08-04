@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 #root,
 html,
@@ -10,41 +10,38 @@ body,
   padding: 0;
 }
 
-/* :root {
-  --bg-color-primary: linear-gradient(
-    to right bottom,
-    #eecde0,
-    #e1d5ea,
-    #d8dcec,
-    #d5deed
-  );
-  --bg-color-secondary: rgba(243, 243, 243, 0.5);
+:root {
+  --bg-color-primary: #fff;
+  --bg-color-secondary: #efeef8;
   --text-primary: #00060f;
-  --text-secondary: #080e18;
-  --color-white: #f2f2f2;
-  --cta-primary: #3f86df;
-  --box-color: #223351;
-  --highlight: #5d7191;
+  --text-secondary: rgba(0, 0, 0, 0.5);
+  --cta-primary: #4262ff;
+  --cta-secondary: #3f86df;
+  --input-color: #f4f4f4;
+  --border-color: #00044d67;
+  --black: #000;
+  --neutral: #fff;
   --box-shadow: 2px 2px 2px rgba(34, 34, 34, 0.3),
     2px 2px 2px rgba(34, 34, 34, 0.3);
-} */
+}
 
-/* [data-theme-color="dark"] */
-:root {
-  --bg-color-primary: linear-gradient(#16163d, #14142d);
-  --bg-color-secondary: #333366;
+[data-theme-color="dark"] {
+  --bg-color-primary: #0c0b0f;
+  --bg-color-secondary: #18151e;
   --text-primary: #f6f6f6;
-  --color-white: #f6f6f6;
-  --text-secondary: #000000;
-  --cta-primary: linear-gradient(45deg, #285cd8, #e40cd7);
-  --box-color: #0a0a1f;
-  --highlight: #9966cc;
-  --box-shadow: 2px 2px 2px rgba(98, 98, 98, 0.3),
-    2px 2px 2px rgba(98, 98, 98, 0.3);
+  --text-secondary: #b3b3b3;
+  --cta-primary: #4262ff;
+  --cta-secondary: #3f86df;
+  --input-color: #f4f4f4;
+  --border-color: #dedededb;
+  --black: #100e15;
+  --neutral: #fff;
+  --box-shadow: 2px 2px 2px rgba(34, 34, 34, 0.3),
+    2px 2px 2px rgba(34, 34, 34, 0.3);
 }
 
 @font-face {
-  font-family: "ClashDisplay";
+  font-family: "Clash Display Variable";
   src: local("./assets/fonts/ClashDisplay-Variable.ttf"),
     url("./assets/fonts/ClashDisplay-Variable.ttf") format("truetype");
   font-style: normal;
@@ -66,14 +63,18 @@ body {
 
 h1,
 h2 {
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display Variable", sans-serif;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
 
 h1 {
-  font-size: 3rem;
-  font-weight: 700;
+  background: linear-gradient(#dd00ff, #4e00ec);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5rem;
+  font-weight: 800;
 }
 
 h2 {
@@ -86,6 +87,14 @@ li {
   font-family: "Inter", sans-serif;
 }
 
+.subheading {
+  font-size: 0.875rem;
+}
+
+.detail-text {
+  font-size: 0.7rem;
+}
+
 ul {
   list-style: none;
 }
@@ -95,19 +104,38 @@ a:link,
 a:hover,
 a:active,
 a:visited {
-  color: var(--cta-primary);
+  color: var(--cta-secondary);
   text-decoration: none;
 }
 
 input,
 button {
   display: block;
-  border: 1px solid #285cd8;
   border-radius: 3px;
-  color: #222;
+  border: none;
   outline: none;
   padding: 1rem;
-  transition: border 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input {
+  background-color: var(--input-color);
+  color: var(--text-secondary);
+}
+
+input:hover {
+  border: 1px solid var(--border-color);
+}
+
+button {
+  background-color: var(--cta-primary);
+  border-radius: 4px;
+  color: var(--neutral);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--cta-secondary);
 }
 
 /* Resource Card */
@@ -149,6 +177,12 @@ button {
 
   .about-section {
     margin: 140px 25px 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .category {
+    margin: 25px 30px;
   }
 }
 

@@ -1,5 +1,4 @@
 import React from "react";
-// import { BiLinkExternal } from "react-icons/bi";
 import "./Card.css";
 
 const Card = ({ title, coverImage, description, url, index }) => {
@@ -12,8 +11,8 @@ const Card = ({ title, coverImage, description, url, index }) => {
       </div>
 
       <div className="card-info">
-        <h2 id="title">{title} </h2>
-        <p className="description">{description}</p>
+        <h2 id="resource-title">{title}</h2>
+        <p className="description detail-text">{description}</p>
       </div>
     </div>
   );

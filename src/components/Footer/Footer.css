@@ -1,57 +1,6 @@
-.newsletter-section {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 50px;
-  padding: 30px;
-  text-align: center;
-}
-
-.newsletter-title {
-  letter-spacing: normal;
-}
-
-.newsletter-subtitle {
-  margin: 5px 0 20px;
-}
-
-.newsletter-subscribe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.newsletter-subscribe > form {
-  border-radius: 4px;
-  border: 1px solid #e1ecff;
-  position: relative;
-  background: #fff;
-  padding: 4px 10px;
-  width: 400px;
-}
-
-.newsletter-subscribe form input[type="email"] {
-  border: 0;
-  padding: 8px;
-  width: calc(100% - 140px);
-  /* width: 100%; */
-}
-
-.subscribe-btn {
-  background: linear-gradient(45deg, #285cd8, #e40cd7);
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 4px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  font-size: 16px;
-  margin: 2px;
-  padding: 0 5px;
-  width: 105px;
-  transition: all 0.3s ease-in-out;
+.footer {
+  background-color: var(--black);
+  color: var(--neutral);
 }
 
 .footer-nav {
@@ -59,13 +8,13 @@
 }
 
 .footer-nav .logo {
+  color: var(--neutral);
   display: block;
   margin-left: 0px;
 }
 
 .footer-nav p {
   padding: 10px 0 15px;
-  width: 50%;
   line-height: 1.3;
 }
 
@@ -112,11 +61,15 @@
   display: flex;
   justify-content: space-between;
   font-size: 0.85rem;
-  margin: 0px 50px 50px;
+  margin: 20px 50px;
 }
 
 .footer-attribution a {
   margin-left: 5px;
+}
+
+.vercel-logo {
+  width: 50px;
 }
 
 @media screen and (max-width: 450px) {

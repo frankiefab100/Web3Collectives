@@ -1,0 +1,20 @@
+.featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+  margin: 30px 0;
+  width: 100vw;
+}
+
+.featured h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.featured img {
+  padding: 0 10px;
+  width: 150px;
+}

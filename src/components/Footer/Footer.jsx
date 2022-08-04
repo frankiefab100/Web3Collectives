@@ -1,39 +1,20 @@
 import React from "react";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo-32.png";
+import Vercel from "../../assets/images/vercel-logo.svg";
 import {
   FaTwitter,
   FaGithub,
   FaDiscord,
   FaLinkedin,
   FaInstagram,
-  FaEnvelope,
 } from "react-icons/fa";
 import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="newsletter-section">
-        <div className="newsletter-text">
-          <h2 className="newsletter-title">Stay up to date as you learn</h2>
-          <p className="newsletter-subtitle">
-            Sign up to our newsletter for biweekly Web3 resources, freebies and
-            insights.
-          </p>
-        </div>
-        <div className="newsletter-subscribe">
-          <form action="">
-            <input type="email" name="email" placeholder="Enter your email" />
-
-            <button className="subscribe-btn">
-              <FaEnvelope style={{ "margin-right": "5px" }} /> Subscribe
-            </button>
-          </form>
-        </div>
-      </div>
-
-      <div className="footer-nav">
-        <div className="footer-about">
+    <React.Fragment>
+      <div className="footer">
+        <div className="footer-nav">
           <div className="logo">
             <img className="logo-image" src={Logo} alt="web3collectives logo" />
             <span className="logo-name">Web3Collectives</span>
@@ -50,14 +31,6 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <FaTwitter />
-              </a>
-
-              <a
-                href="https://www.instagram.com/web3collectives"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaInstagram />
               </a>
 
               <a
@@ -83,42 +56,65 @@ const Footer = () => {
               >
                 <FaLinkedin />
               </a>
+
+              <a
+                href="https://www.instagram.com/web3collectives"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
+            </div>
+          </div>
+
+          <div className="footer-list">
+            <div className="footer-links">
+              <ul>
+                <h3>INSTITUTE</h3>
+                <li>About</li>
+                <li>Contributing</li>
+                <li>Support</li>
+                <li>Join Discord</li>
+              </ul>
+            </div>
+
+            <div className="footer-links">
+              <ul>
+                <h3>RESOURCES</h3>
+                <li>Websites</li>
+                <li>Youtube Videos</li>
+                <li>Online Courses</li>
+                <li>Interactive Games</li>
+                <li>Documentations</li>
+              </ul>
+            </div>
+
+            <div className="footer-links">
+              <ul>
+                <h3>EXTRAS</h3>
+                <li>Project Templates</li>
+                <li>Github Repositories</li>
+                <li>Node Providers</li>
+                <li>Blogs</li>
+                <li>Books</li>
+              </ul>
+            </div>
+
+            <div className="footer-links">
+              <ul>
+                <h3>TECHNOLOGIES</h3>
+                <li>Ethereum</li>
+                <li>Solana</li>
+                <li>Polygon</li>
+                <li>Celo</li>
+                <li>NEAR</li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <div className="footer-list">
-          <div className="footer-links">
-            <ul>
-              <li>Youtube Channels</li>
-              <li>Websites</li>
-              <li>Github Repo</li>
-              <li>Development Tools</li>
-            </ul>
-          </div>
-
-          <div className="footer-links">
-            <ul>
-              <li>Documentations</li>
-              <li>Interactive Tutorials</li>
-              <li>Project Starter Template</li>
-              <li>Books</li>
-            </ul>
-          </div>
-
-          <div className="footer-links">
-            <ul>
-              <li>Free Courses</li>
-              <li>Documentations</li>
-              <li>Learning Communities</li>
-              <li>Node Providers</li>
-            </ul>
-          </div>
-        </div>
+        <hr style={{ color: "#ccc" }} />
       </div>
-
-      <hr style={{ color: "#ccc" }} />
-
       <div className="footer-attribution">
         <div className="curator">
           Curated by
@@ -126,11 +122,11 @@ const Footer = () => {
         </div>
 
         <div className="host">
-          <span>Built on Vercel</span>
+          <div className="copyright">&copy; 2022 Web3Collectives.</div>
         </div>
-        <div className="copyright">&copy; 2022 Web3Collectives.</div>
+        <img className="vercel-logo" src={Vercel} alt="vercel logo" />
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 

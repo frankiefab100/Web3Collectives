@@ -1,11 +1,9 @@
 .scrollTopBtn {
-  /* background-color: var(--bg-color-secondary); */
-  background: linear-gradient(45deg, #285cd8, #e40cd7);
+  background-color: var(--cta-primary);
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  color: var(--color-white);
-  font-size: 1.8rem;
+  color: var(--neutral);
   position: fixed;
   display: flex;
   justify-content: center;
@@ -15,6 +13,10 @@
   bottom: 20px;
   right: 20px;
   transition: opacity 100ms cubic-bezier(0.5, 0, 0.15, 1.1);
+}
+
+.scrollTopBtn:hover {
+  background-color: var(--cta-secondary);
 }
 
 .show {

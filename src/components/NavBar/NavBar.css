@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #222;
   top: 0;
   padding: 0.5rem 0rem;
   width: 100%;
@@ -13,8 +12,8 @@
 
 .nav-height {
   background-color: var(--bg-color-secondary);
-  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.192);
-  height: 60px;
+  box-shadow: var(--box-shadow);
+  height: 55px;
 }
 
 .logo {
@@ -25,16 +24,15 @@
 }
 
 .logo-image {
-  width: 20px;
+  width: 25px;
 }
 
 .logo-name {
   color: var(--text-primary);
-  font-family: "ClashDisplay", sans-serif;
-  font-size: 1.4rem;
-  /* change font to logo font */
+  font-family: "Clash Display Variable", sans-serif;
+  font-size: 1.2rem;
   font-weight: 600;
-  padding-left: 4px;
+  padding-left: 5px;
 }
 
 .hamburger-icon {
@@ -62,7 +60,7 @@
 
 .nav-links li a {
   position: relative;
-  color: var(--text-primary);
+  color: var(--text-secondary);
   font-size: 0.8rem;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -73,8 +71,8 @@
 }
 
 .nav-links a:hover {
-  border-bottom: 3px solid var(--text-primary);
-  color: var(--text-primary);
+  border-bottom: 3px solid var(--cta-secondary);
+  color: var(--cta-secondary);
 }
 
 .hamburger-icon {
@@ -113,7 +111,7 @@
 }
 
 .slider {
-  background-color: #576cd8;
+  background-color: var(--cta-secondary);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -136,7 +134,8 @@
 }
 
 input:checked + .slider {
-  background-color: #f96bef;
+  background-color: var(--neutral);
+  border: 1px solid var(--text-secondary);
 }
 
 input:checked + .slider:before {
@@ -152,39 +151,38 @@ input:checked + .slider:before {
 }
 
 #tweet-btn {
-  padding: 5px 10px;
-  background-color: #f1f1f1;
-  border: 1px solid #010124;
+  background-color: var(--cta-primary);
   margin: 0 15px 0 50px;
+  padding: 5px 10px;
 }
 
 #tweet-btn:hover {
   border: none;
-  background-color: rgb(70, 8, 157);
-  color: #fff;
+  background-color: var(--cta-secondary);
+  color: var(--neutral);
 }
 
 .scroll-indicator {
-  background-color: #f96bef;
+  background-color: var(--cta-primary);
   position: absolute;
   width: 100%;
   height: 2px;
   bottom: 0;
 }
 
+.scroll-indicator:hover {
+  background-color: var(--cta-secondary);
+}
+
 .moon {
-  color: #f96bef;
+  color: #1c011a;
 }
 
 .sun {
-  color: #576cd8;
+  color: #041777;
 }
 
 @media (max-width: 755px) {
-  /* .nav-links li {
-    padding: 0 10px !important;
-  } */
-
   #tweet-btn {
     margin: 0 8px 0 10px;
   }
@@ -227,7 +225,6 @@ input:checked + .slider:before {
   }
   .nav-links a:hover {
     border-bottom: none;
-    background-color: #576cd8;
     border-radius: 2px;
     padding: 5px 8px;
   }

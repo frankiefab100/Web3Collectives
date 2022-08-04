@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo-32.png";
 import { CgMenuRightAlt, CgClose } from "react-icons/cg";
 import { FaMoon, FaSun } from "react-icons/fa";
 import "./NavBar.css";
@@ -70,11 +70,11 @@ export const NavBar = ({ toggleTheme }) => {
 
         <div className="theme-switch-wrapper">
           <label className="theme-switch" htmlFor="checkbox">
-            {toggleTheme ? (
+            {/* {toggleTheme ? (
               <FaMoon className="moon" />
             ) : (
               <FaSun className="sun" />
-            )}
+            )} */}
             <input onChange={toggleTheme} type="checkbox" id="checkbox" />
 
             <div className="slider circle"></div>
