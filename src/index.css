@@ -21,7 +21,7 @@ body,
   --border-color: #000113e2;
   --black: #000;
   --neutral: #fff;
-  --box-shadow: 2px 2px 26px -10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.3);
 }
 
 [data-theme-color="dark"] {
@@ -35,7 +35,7 @@ body,
   --border-color: #eaeaeaf0;
   --black: #100e15;
   --neutral: #fff;
-  --box-shadow: 2px 2px 26px -10px rgba(255, 255, 255, 0.3);
+  --box-shadow: 2px 2px 26px -10px rgba(107, 107, 107, 0.199);
 }
 
 @font-face {
