@@ -109,8 +109,6 @@ Make sure you have [Node.js](https://nodejs.org/) and [NPM](https://www.npmjs.co
 
 ### **Setup** 👨‍💻
 
-> Usage: How to run thos web app locally
-
 1. Install dependencies
    `npm install`
 
