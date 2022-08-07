@@ -88,6 +88,7 @@ Having noticed majority might not be familiar with github especially begineers o
 ├── .prettierrc.json
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
+├── LICENSE
 ├── index.html
 ├── package-lock.json
 ├── package.json
@@ -124,7 +125,7 @@ Did you find bug(s) or want to request new feture(s)? Please visit the [Contribu
 
 ## **License** 🔐
 
-This project is built under the [MIT License](./MIT-License).
+This project is built under the [MIT License](./License).
 
 ## **Sponsor** ❤
 
