@@ -152,8 +152,4 @@ Ensure your pull request adheres to the following guidelines:
 
 Your submissions are understood to be under the same [MIT License](https://opensource.org/licenses/MIT) that covers the project.
 
-<p align="center">
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/unnati914/Care4ther-)
-</p>
-
 **[Back](/README.md/)**
