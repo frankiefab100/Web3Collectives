@@ -43,7 +43,7 @@ Preview Link: <https://Web3Collectives.vercel.app/>
 
 ## Why I started this project 😇
 
-This project started after I came across a design resources website. Before then, I curated a list of Blockchain development resources on a Github repository.
+This project started after I came across a design resources website. Before then, I curated a list of [Blockchain development resources](https://github.com/frankiefab100/Blockchain-Development-Resources) in a Github repository.
 Having noticed majority might not be familiar with github especially begineers or non-developers, I decide to build this project to make **Web3 Education accessible for all FREELY**.
 
 ## Categories
@@ -51,15 +51,19 @@ Having noticed majority might not be familiar with github especially begineers o
 - Websites
 - Youtube Channels
 - Development Tools
+- Online Courses
+- Interactive Tutorials
+- Documentations
+- Github Repositories
 - Project Starter Template
+- Node Providers
 - Blogs
 - Books
 - Others
   - Learning Communities
   - Cheatsheets
-  - Bounty Hunting
-  - Grants
-  - Hackathons
+  - Bounty Hunting Websites
+  - Hackathons & Grants
 
 ## Experience Levels
 
