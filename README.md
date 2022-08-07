@@ -2,7 +2,7 @@
  <img width="100px" src="https://user-images.githubusercontent.com/46662771/183313844-91c27035-6ac0-4576-afa1-ecb731494da2.png" alt="W3C logo" />
  
  <h1>Web3Collectives</h1>
- <p>A free library of resources for Blockchain developers and Web3 enthusiasts</p>
+ <p>A free resources library for Blockchain developers and Web3 enthusiasts</p>
 </div>
 
 <div align="center">
@@ -22,7 +22,7 @@
 </p>
   
 <p align="center">Feel free to submit your contributions to this project. </br>
-Read our <a href="https://github.com/frankiefab100/">Contributors Guidelines</a>. You can also <a href= "https://www.buymeacoffee.com/frankiefab100">support</a> by making donations to help it improve.</p>
+Read our <a href="https://github.com/frankiefab100/Web3Collectives/blob/main/CONTRIBUTING.md">Contributors Guidelines</a>. You can also <a href= "https://www.buymeacoffee.com/frankiefab100">support</a> by making donations to help it improve.</p>
  
 
 ## **Project Overview** ✨
@@ -44,7 +44,7 @@ Preview Link: <https://Web3Collectives.vercel.app/>
 ## Why I started this project 😇
 
 This project started after I came across a design resources website. Before then, I curated a list of Blockchain development resources on a Github repository.
-Having noticed majority might not be familiar with github especially begineers or non-developers, I decide to build this project to make **Web3 Education accessible for all FREELY**
+Having noticed majority might not be familiar with github especially begineers or non-developers, I decide to build this project to make **Web3 Education accessible for all FREELY**.
 
 ## Categories
 
