@@ -8,27 +8,6 @@ An online library of FREE Resources on Blockchain technology, Web3 and Smart con
 
 Preview Link: <https://Web3Collectives.vercel.app/>
 
-
-## Categories
-
-- Roadmap
-- Cheatsheets
-- Development Tools
-- Project Starter Template
-- Learning Communities
-- Bounty Hunting
-- Grants
-- Hackathons
-- Blogs
-- Podcast
-- Books
-
-## Experience Levels
-
-- Beginner
-- Intermediate
-- Advanced
-
 ### **Technologies Used** 🛠
 
 - React (Framework)
@@ -41,13 +20,35 @@ Preview Link: <https://Web3Collectives.vercel.app/>
 
 ## Why I started this project 😇
 
-- This project started while I came across a design resources website. Before then, I curated a list of Blockchain development resources on a Github repository.
+This project started after I came across a design resources website. Before then, I curated a list of Blockchain development resources on a Github repository.
 Having noticed majority might not be familiar with github especially begineers or non-developers, I decide to build this project to make **Web3 Education accessible for all FREELY**
+
+## Categories
+
+- Websites
+- Youtube Channels
+- Development Tools
+- Project Starter Template
+- Blogs
+- Books
+- Others
+  - Learning Communities
+  - Cheatsheets
+  - Bounty Hunting
+  - Grants
+  - Hackathons
+
+## Experience Levels
+
+- Beginner
+- Intermediate
+- Advanced
 
 
 ## **Folder Structure** 📁
 
 ```bash
+├── .github
 ├── src
 │   ├── assets
 │   ├── components
@@ -57,6 +58,9 @@ Having noticed majority might not be familiar with github especially begineers o
 │   ├── index.css
 │   ├── main.jsx
 ├── .gitignore
+├── .prettierrc.json
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
 ├── index.html
 ├── package-lock.json
 ├── package.json
