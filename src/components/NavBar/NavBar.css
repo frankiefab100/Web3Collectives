@@ -53,15 +53,15 @@
 .nav-links li {
   list-style: none;
   font-size: 1rem;
-  letter-spacing: 1.5px;
+  /* letter-spacing: 1.5px; */
   padding: 10px 20px;
 }
 
 .nav-links li a {
   position: relative;
-  color: var(--text-primary);
+  color: var(--text-secondary);
   opacity: 0.8;
-  font-size: 0.85rem;
+  font-size: 1rem;
   padding-bottom: 24px;
   z-index: 3;
 }
