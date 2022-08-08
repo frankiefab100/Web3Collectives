@@ -119,7 +119,7 @@ Make sure you have [Node.js](https://nodejs.org/) and [NPM](https://www.npmjs.co
 
 ## **Contributing** 🤝🏾
 
-Did you find bug(s) or want to request new feture(s)? Please visit the [Contributors guidelines](./CONTRIBUTING.md) to learn how to submit an issue or pull request.
+Did you find bug(s) or want to request new feature(s)? Please visit the [Contributors guidelines](./CONTRIBUTING.md) to learn how to submit an issue or pull request.
 
 ## **License** 🔐
 
