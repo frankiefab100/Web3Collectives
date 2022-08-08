@@ -73,6 +73,12 @@
   width: 50px;
 }
 
+@media (max-width: 768px) {
+  .footer-attribution {
+    font-size: 0.7rem;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .footer-list {
     display: grid;

@@ -11,12 +11,18 @@ const Newsletter = () => {
           Sign up to our newsletter for biweekly Web3 resources and insights.
         </p>
       </div>
-      <div className="newsletter-subscribe">
-        <input type="email" name="email" placeholder="Enter your email" />
-
-        <button className="subscribe-btn">
-          Subscribe <FaEnvelope className="icon" />
-        </button>
+      <div className="subscribe-section">
+        <div className="newsletter-subscribe">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <button className="subscribe-btn">
+            Subscribe <FaEnvelope />
+          </button>
+        </div>
       </div>
     </div>
   );

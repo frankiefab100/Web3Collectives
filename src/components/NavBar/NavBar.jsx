@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/logo-32.png";
 import { CgMenuRightAlt, CgClose } from "react-icons/cg";
-import { FaMoon, FaSun } from "react-icons/fa";
 import "./NavBar.css";
 
 export const NavBar = ({ toggleTheme }) => {
@@ -17,7 +16,7 @@ export const NavBar = ({ toggleTheme }) => {
 
       if (scrollHeight) {
         setScrollProgress(
-          Number((scrollProgress / scrollHeight).toFixed(2)) * 100
+          Number((scrollProgress / scrollHeight).toFixed(2)) * 100,
         );
       }
     };
