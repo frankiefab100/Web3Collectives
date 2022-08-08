@@ -19,9 +19,11 @@ body,
   --cta-secondary: #3f86df;
   --input-color: #f4f4f4;
   --border-color: #777777;
+  --border-color-secondary: rgba(0, 0, 0, 0.09);
   --black: #000;
   --neutral: #fff;
   --box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.3);
+  --box-shadowTwo: 0 10px 40px -10px rgba(0, 0, 0, 0.1);
 }
 
 [data-theme-color="dark"] {
@@ -33,9 +35,11 @@ body,
   --cta-secondary: #3f86df;
   --input-color: #f4f4f4;
   --border-color: #eaeaeaf0;
+  --border-color-secondary: rgba(255, 255, 255, 0.09);
   --black: #100e15;
   --neutral: #fff;
   --box-shadow: 2px 2px 26px -10px rgba(107, 107, 107, 0.199);
+  --box-shadowTwo: 0 10px 40px -10px rgba(128, 128, 128, 0.651);
 }
 
 @font-face {
@@ -94,6 +98,7 @@ h2 {
   font-family: "Clash Display Variable", sans-serif;
   font-size: 2rem;
   font-weight: 600;
+  letter-spacing: -1px;
 }
 
 p,
@@ -178,9 +183,9 @@ button:hover {
     margin: 2px 25px;
   }
 
-  .card-section {
+  /* .card-section {
     grid-template-columns: repeat(4, 1fr);
-  }
+  } */
 
   .footer-nav {
     margin: 0 25px;
@@ -210,9 +215,9 @@ button:hover {
     font-size: 2.4rem;
   }
 
-  .card-section {
+  /* .card-section {
     grid-template-columns: repeat(3, 1fr);
-  }
+  } */
 
   .newsletter-title {
     font-size: 1.4rem;
@@ -228,7 +233,7 @@ button:hover {
     width: 100%;
   }
 
-  .card-section {
+  /* .card-section {
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
 }

@@ -11,7 +11,7 @@ const Card = ({ title, coverImage, description, url, index }) => {
       </div>
 
       <div className="card-info">
-        <h2 id="resource-title">{title}</h2>
+        <h3 id="resource-title">{title}</h3>
         <p className="description detail-text">{description}</p>
       </div>
     </div>
