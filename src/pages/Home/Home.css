@@ -1,5 +1,5 @@
 .home {
-  margin: 200px 0 0;
+  margin: 180px 0 60px;
   width: 100vw;
 }
 
@@ -14,7 +14,15 @@
 .tagline {
   color: var(--text-secondary);
   font-size: 1.1rem;
+  max-width: 800px;
   padding: 10px 0;
-  margin: 0 50px;
+  margin: 0 auto;
   line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .tagline {
+    font-size: 0.96rem;
+    line-height: 1.5;
+  }
 }

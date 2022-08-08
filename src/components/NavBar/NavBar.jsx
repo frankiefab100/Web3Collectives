@@ -67,6 +67,9 @@ export const NavBar = ({ toggleTheme }) => {
         <li onClick={handleMenu}>
           <Link to="submit">Contribute</Link>
         </li>
+        <li onClick={handleMenu}>
+          <Link to="submit">Support</Link>
+        </li>
 
         <div className="theme-switch-wrapper">
           <label className="theme-switch" htmlFor="checkbox">
