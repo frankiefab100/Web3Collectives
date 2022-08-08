@@ -18,7 +18,7 @@ body,
   --cta-primary: #4262ff;
   --cta-secondary: #3f86df;
   --input-color: #f4f4f4;
-  --border-color: #000113e2;
+  --border-color: #777777;
   --black: #000;
   --neutral: #fff;
   --box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.3);
@@ -130,14 +130,16 @@ button {
   outline: none;
   padding: 1rem;
   transition: all 0.3s ease-in-out;
+  font-family: "Inter", sans-serif;
 }
 
 input {
   background-color: var(--input-color);
   color: var(--text-secondary);
+  border: 1px solid transparent;
 }
 
-input:hover {
+input:focus {
   border: 1px solid var(--border-color);
 }
 

@@ -32,10 +32,13 @@ const SearchFilter = () => {
           id="search"
           placeholder="Search for a keyword"
         />
-        <FaSearch className="search-icon" />
+        <div className="search-icon">
+          <span>Search</span>
+          <FaSearch />
+        </div>
       </div>
 
-      <div className="tag-buttons">
+      {/* <div className="tag-buttons">
         {filterButtons.map((btn, index) => {
           return (
             <button
@@ -48,7 +51,7 @@ const SearchFilter = () => {
             </button>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };
