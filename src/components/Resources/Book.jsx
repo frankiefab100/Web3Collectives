@@ -5,7 +5,7 @@ import categories from "../../data/categories.json";
 
 const Book = () => {
   return (
-    <div className="category">
+    <div id="book" className="category">
       <h2 className="category-title">
         {categories.map((category) => category.books)}
       </h2>

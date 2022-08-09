@@ -5,7 +5,7 @@ import categories from "../../data/categories.json";
 
 const Documentation = () => {
   return (
-    <div className="category">
+    <div id="doc" className="category">
       <h2 className="category-title">
         {categories.map((category) => category.docs)}
       </h2>

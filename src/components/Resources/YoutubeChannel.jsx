@@ -2,15 +2,12 @@ import React from "react";
 import Card from "../Card/Card";
 import { youtubeChannels } from "../../data/youtubeChannels";
 import categories from "../../data/categories.json";
-import { Link } from "react-router-dom";
 
 const YoutubeChannel = () => {
   return (
-    <div className="category">
+    <div id="youtube" className="category">
       <h2 className="category-title">
-        <Link to="/youtube">
-          {categories.map((category) => category.youtube)}
-        </Link>
+        {categories.map((category) => category.youtube)}
       </h2>
 
       <div className="card-section">

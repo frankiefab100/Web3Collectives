@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -74,46 +75,76 @@ const Footer = () => {
             </div>
 
             <div className="footer-links">
-              <ul>
-                <h3>INSTITUTE</h3>
-                <li>About</li>
-                <li>Contributing</li>
-                <li>Support</li>
-                <li>Join Discord</li>
-              </ul>
+              <h3>INSTITUTE</h3>
+              <li>
+                <Link to="about">About </Link>
+              </li>
+              <li>
+                <Link to="contribute">Contributing </Link>
+              </li>
+              <li>
+                <Link to="support">Support</Link>
+              </li>
+              <li>
+                <a href="https://dscord.com/">Join Discord</a>
+              </li>
             </div>
 
             <div className="footer-links">
-              <ul>
-                <h3>RESOURCES</h3>
-                <li>Websites</li>
-                <li>Youtube Videos</li>
-                <li>Online Courses</li>
-                <li>Interactive Games</li>
-                <li>Documentations</li>
-              </ul>
+              <h3>RESOURCES</h3>
+              <li>
+                <a href="#website">Websites</a>
+              </li>
+              <li>
+                <a href="#youtube">Youtube Videos</a>
+              </li>
+              <li>
+                <a href="#course">Online Courses</a>
+              </li>
+              <li>
+                <a href="#game">Interactive Games</a>
+              </li>
+              <li>
+                <a href="#doc">Documentations</a>
+              </li>
             </div>
 
             <div className="footer-links">
-              <ul>
-                <h3>EXTRAS</h3>
-                <li>Project Templates</li>
-                <li>Github Repositories</li>
-                <li>Node Providers</li>
-                <li>Blogs</li>
-                <li>Books</li>
-              </ul>
+              <h3>EXTRAS</h3>
+              <li>
+                <a href="#template">Project Templates</a>
+              </li>
+              <li>
+                <a href="#repo">Github Repositories</a>
+              </li>
+              <li>
+                <a href="#rpc">Node Providers</a>
+              </li>
+              <li>
+                <a href="#blog">Blogs</a>
+              </li>
+              <li>
+                <a href="#book">Books</a>
+              </li>
             </div>
 
             <div className="footer-links">
-              <ul>
-                <h3>TECHNOLOGIES</h3>
-                <li>Ethereum</li>
-                <li>Solana</li>
-                <li>Polygon</li>
-                <li>Celo</li>
-                <li>NEAR</li>
-              </ul>
+              <h3>TECHNOLOGIES</h3>
+              <li>
+                <a href="https://">Ethereum</a>
+              </li>
+              <li>
+                <a href="https://">Solana</a>
+              </li>
+              <li>
+                <a href="https://">Polygon</a>
+              </li>
+              <li>
+                <a href="https://">Celo</a>
+              </li>
+              <li>
+                <a href="https://">NEAR</a>
+              </li>
             </div>
           </div>
         </div>

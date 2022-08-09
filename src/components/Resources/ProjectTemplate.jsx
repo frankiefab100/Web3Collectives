@@ -5,7 +5,7 @@ import categories from "../../data/categories.json";
 
 const ProjectTemplate = () => {
   return (
-    <div className="category">
+    <div id="template" className="category">
       <h2 className="category-title">
         {categories.map((category) => category.templates)}
       </h2>

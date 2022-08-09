@@ -5,7 +5,7 @@ import categories from "../../data/categories.json";
 
 const GithubRepo = () => {
   return (
-    <div className="category">
+    <div id="repo" className="category">
       <h2 className="category-title">
         {categories.map((category) => category.repos)}
       </h2>

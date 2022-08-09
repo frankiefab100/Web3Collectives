@@ -174,10 +174,17 @@ button:hover {
     right: 25px;
   }
 
-  .hero-section,
+  .title {
+    font-size: 3.3rem;
+  }
+
+  .tagline {
+    font-size: 0.85rem;
+  }
+  /* .hero-section,
   .filter-section {
     margin: 8px 25px;
-  }
+  } */
 
   .category {
     margin: 2px 25px;

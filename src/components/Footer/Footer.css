@@ -11,12 +11,16 @@
   color: var(--neutral);
   display: block;
   margin-left: 0px;
-  margin-right: 25px;
+  /* margin-right: 25px; */
+}
+
+.footer-nav .logo-name {
+  color: var(--neutral);
 }
 
 .footer-nav p {
-  padding: 10px 0 15px;
-  line-height: 1.3;
+  font-size: 0.85rem;
+  line-height: 1.5;
 }
 
 .footer-about {
@@ -27,9 +31,9 @@
 .socials > a {
   border-radius: 4px;
   border: #666;
-  font-size: 1.5rem;
-  margin: 0.2rem 0;
-  padding: 0.5rem 0.3rem;
+  font-size: 1.25rem;
+  /* margin: 0.2rem 0; */
+  padding: 0 0.2rem;
   transition: 0.2s ease-in-out;
 }
 
@@ -42,20 +46,34 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 12px;
-  margin: 25px 0;
+  /* margin: 25px 0; */
+  padding: 20px 0;
 }
 
-.footer-links ul:first-child {
-  padding-left: 0;
+.footer-links:nth-child(2) {
+  margin-left: 50px;
 }
 
-.footer-links ul:last-child {
-  padding-right: 0;
+.footer-links h3 {
+  font-size: 1rem;
 }
 
-.footer-list li {
+.footer-links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  color: var(--neutral);
   cursor: pointer;
-  padding-bottom: 10px;
+  opacity: 0.7;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+
+.footer-links li a:hover {
+  opacity: 1;
 }
 
 .footer-attribution {
@@ -73,7 +91,13 @@
   width: 50px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 880px) {
+  .footer-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
   .footer-attribution {
     font-size: 0.7rem;
   }

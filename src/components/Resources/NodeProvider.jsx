@@ -5,7 +5,7 @@ import categories from "../../data/categories.json";
 
 const NodeProvider = () => {
   return (
-    <div className="category">
+    <div id="rpc" className="category">
       <h2 className="category-title">
         {categories.map((category) => category.rpcs)}
       </h2>
