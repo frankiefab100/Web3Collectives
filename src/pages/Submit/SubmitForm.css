@@ -7,14 +7,22 @@
 }
 
 form {
+  border: 0.5px solid var(--border-color);
+  color: var(--text-primary);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid var(--highlight);
   padding: 20px;
-  width: 300px;
+  margin-top: 20px;
+  /* width: 300px; */
+  width: 400px;
 }
 
 form input {
+  background-color: var(--bg-color-secondary);
   margin: 5px 0 10px;
+}
+
+.contact-btn {
+  margin-top: 20px;
 }

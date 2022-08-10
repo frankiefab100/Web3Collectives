@@ -24,15 +24,18 @@
 }
 
 .logo-image {
-  width: 25px;
+  padding-right: 10px;
+  /* width: 25px; */
 }
 
 .logo-name {
+  display: flex;
   color: var(--text-primary);
   font-family: "Clash Display Variable", sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  padding-left: 5px;
+
+  /* padding-left: 5px; */
 }
 
 .hamburger-icon {
@@ -178,6 +181,10 @@ input:checked + .slider:before {
     display: none;
   }
 
+  .nav-links li {
+    padding: 15px 20px;
+  }
+
   .mobile-nav {
     /* background-color: var(--bg-color-secondary); */
     background-color: var(--bg-color-primary);
@@ -195,7 +202,7 @@ input:checked + .slider:before {
     height: 350px;
     transition: all 0.5s ease-in-out;
   }
-  .nav-links a:hover {
+  .nav-links li a:hover {
     border-bottom: none;
     /* border-radius: 2px;
     padding: 5px 8px; */

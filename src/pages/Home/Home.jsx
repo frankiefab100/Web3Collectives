@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Website from "../../components/Resources/Website";
 import YoutubeChannel from "../../components/Resources/YoutubeChannel";
 import DevTool from "../../components/Resources/DevTool";
@@ -10,10 +10,11 @@ import ProjectTemplate from "../../components/Resources/ProjectTemplate";
 import NodeProvider from "../../components/Resources/NodeProvider";
 import Book from "../../components/Resources/Book";
 import SearchFilter from "../../components/SearchFilter/SearchFilter";
-import Featured from "../../components/Featured/Featured";
 import "./Home.css";
 
 const Home = () => {
+  const [loading, setLoading] = useState(false);
+
   return (
     <div className="home">
       <div className="hero-section">
@@ -43,9 +44,6 @@ const Home = () => {
       <ProjectTemplate />
       <NodeProvider />
       <Book />
-
-      {/* -- Featured section -- */}
-      <Featured />
     </div>
   );
 };

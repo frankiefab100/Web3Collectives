@@ -18,17 +18,18 @@ const Footer = () => {
         <div className="footer-nav">
           <div className="footer-list">
             <div className="logo">
-              <img
-                className="logo-image"
-                src={Logo}
-                alt="web3collectives logo"
-              />
-              <span className="logo-name">Web3Collectives</span>
+              <span className="logo-name">
+                <img
+                  className="logo-image"
+                  src={Logo}
+                  alt="web3collectives logo"
+                />
+                Web3Collectives
+              </span>
 
               <p>
-                A growing archive of web3 and smart contract development
-                resources to help kickstart your career in the blockchain
-                ecosystem.
+                A growing archive of resources to kickstart your career in the
+                blockchain ecosystem.
               </p>
 
               <div className="socials">
@@ -158,7 +159,7 @@ const Footer = () => {
         </div>
 
         <div className="host">
-          <div className="copyright">&copy; 2022 Web3Collectives.</div>
+          <div className="copyright">&copy; 2022 Web3Collectives</div>
         </div>
         <img className="vercel-logo" src={Vercel} alt="vercel logo" />
       </div>

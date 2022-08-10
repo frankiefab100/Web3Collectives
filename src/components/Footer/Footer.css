@@ -20,6 +20,7 @@
 
 .footer-nav p {
   font-size: 0.85rem;
+  font-weight: lighter;
   line-height: 1.5;
 }
 
@@ -67,7 +68,8 @@
   color: var(--neutral);
   cursor: pointer;
   opacity: 0.7;
-  font-weight: 400;
+  /* font-weight: 400; */
+  font-weight: lighter;
   text-decoration: none;
   transition: all 0.3s ease-in;
 }

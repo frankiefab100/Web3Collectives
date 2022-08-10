@@ -7,6 +7,16 @@ import SubmitForm from "./pages/Submit/SubmitForm";
 import Footer from "./components/Footer/Footer";
 import ScrollButton from "./components/ScrollButton/ScrollButton";
 import Newsletter from "./components/Newsletter/Newsletter";
+import Featured from "./components/Featured/Featured";
+
+// import DevDaoLogo from "./assets/images/DeveloperDAO.png";
+// import ImmunefiLogo from "./assets/images/Immunefi.png";
+// import CadenaLogo from "./assets/images/Cadena.png";
+
+// import DevDaoLogoLight from "./assets/images/DeveloperDAO-white.png";
+// import ImmunefiLogoLight from "./assets/images/Immunefi-white.png";
+// import CadenaLogoLight from "./assets/images/Cadena-white.png";
+
 import useLocalStorage from "use-local-storage";
 
 function App() {
@@ -35,6 +45,8 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="submit" element={<SubmitForm />} />
         </Routes>
+
+        <Featured />
         <Newsletter />
         <Footer />
         <ScrollButton />

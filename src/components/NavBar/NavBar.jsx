@@ -50,8 +50,10 @@ export const NavBar = ({ toggleTheme }) => {
     <nav className={`nav ${showNav && "nav-height"}`}>
       <Link to="/">
         <div className="logo">
-          <img className="logo-image" src={Logo} alt="web3collectives logo" />
-          <span className="logo-name">Web3Collectives</span>
+          <span className="logo-name">
+            <img className="logo-image" src={Logo} alt="web3collectives logo" />
+            Web3Collectives
+          </span>
         </div>
       </Link>
 

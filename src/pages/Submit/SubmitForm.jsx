@@ -5,8 +5,10 @@ const SubmitForm = () => {
   return (
     <div className="form-container">
       <div className="form-text">
-        <h2 className="title">Submit a new resource</h2>
-        <h4 className="subtitle">Thank you as you contribute!</h4>
+        <h2 id="heading" className="title">
+          Submit a new resource
+        </h2>
+        <h3 className="subtitle">Thank you as you contribute!</h3>
         <p>
           Fill the form to submit a resource. Your submission should meet our
           requirements - It must be FREE and not already listed in this website.
