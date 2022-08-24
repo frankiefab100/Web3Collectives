@@ -11,9 +11,41 @@ import NodeProvider from "../../components/Resources/NodeProvider";
 import Book from "../../components/Resources/Book";
 import SearchFilter from "../../components/SearchFilter/SearchFilter";
 import "./Home.css";
+import { websites as sites } from "../../data/websites";
 
 const Home = () => {
   const [loading, setLoading] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  //since they are imported direclty, there is no need to call useEffect
+  const [websites, setWebsites] = useState(sites);
+
+  //SEARCH KEY
+  const searchKey = searchTerm.trim();
+
+  //Search functionality for websites
+  // This search works while user types
+  const filteredWebsites = websites.filter(
+    (sites) =>
+      sites.title.toLowerCase().includes(searchKey.toLocaleLowerCase()) ||
+      sites.description.toLowerCase().includes(searchKey.toLocaleLowerCase()) ||
+      sites.keywords
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      sites.tag.map((elem) => elem.toLowerCase().trim()).includes(searchKey) ||
+      searchTerm === "",
+  );
+
+  const handleSearch = () => {
+    //TODO
+    //Handle the searching
+  };
+
+  const searchProps = {
+    searchTerm,
+    setSearchTerm,
+    handleSearch,
+  };
 
   return (
     <div className="home">
@@ -31,10 +63,10 @@ const Home = () => {
       </div>
 
       {/* -- Search Filter section -- */}
-      <SearchFilter />
+      <SearchFilter {...searchProps} />
 
       {/* -- Resources section -- */}
-      <Website />
+      <Website websites={filteredWebsites} />
       <YoutubeChannel />
       <DevTool />
       <Course />
