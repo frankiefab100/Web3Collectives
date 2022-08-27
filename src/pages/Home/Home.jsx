@@ -60,7 +60,158 @@ const Home = () => {
       searchTerm === "",
   );
 
-  // console.log(filterItems);
+  const filterYoutubes = resources.youtubeChannels.filter(
+    (resourceItem) =>
+      resourceItem.title
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.description
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.keywords
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      searchTerm === "",
+  );
+
+  const filterBooks = resources.books.filter(
+    (resourceItem) =>
+      resourceItem.title
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.description
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.keywords
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      searchTerm === "",
+  );
+
+  const filterRepos = resources.githubRepos.filter(
+    (resourceItem) =>
+      resourceItem.title
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.description
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.keywords
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      searchTerm === "",
+  );
+
+  const filterGames = resources.games.filter(
+    (resourceItem) =>
+      resourceItem.title
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.description
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.keywords
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      searchTerm === "",
+  );
+
+  const filterDevTools = resources.devTools.filter(
+    (resourceItem) =>
+      resourceItem.title
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.description
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.keywords
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      searchTerm === "",
+  );
+
+  const filterCourses = resources.courses.filter(
+    (resourceItem) =>
+      resourceItem.title
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.description
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.keywords
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      searchTerm === "",
+  );
+
+  const filterTemplates = resources.projectTemplates.filter(
+    (resourceItem) =>
+      resourceItem.title
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.description
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.keywords
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      searchTerm === "",
+  );
+
+  const filterDocs = resources.documentations.filter(
+    (resourceItem) =>
+      resourceItem.title
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.description
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.keywords
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      searchTerm === "",
+  );
+
+  const filterNodes = resources.rpcNodes.filter(
+    (resourceItem) =>
+      resourceItem.title
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.description
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.keywords
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
+      searchTerm === "",
+  );
 
   const handleSearch = (e) => {
     // // setSearchTerm(e.target.value);
@@ -91,15 +242,15 @@ const Home = () => {
 
       {/* -- Resources section -- */}
       <Website resources={filterWebsites} />
-      <YoutubeChannel />
-      <DevTool />
-      <Course />
-      <Game />
-      <Documentation />
-      <GithubRepo />
-      <ProjectTemplate />
-      <NodeProvider />
-      <Book />
+      <YoutubeChannel resources={filterYoutubes} />
+      <DevTool resources={filterDevTools} />
+      <Course resources={filterCourses} />
+      <Game resources={filterGames} />
+      <Documentation resources={filterDocs} />
+      <GithubRepo resources={filterRepos} />
+      <ProjectTemplate resources={filterTemplates} />
+      <NodeProvider resources={filterNodes} />
+      <Book resources={filterBooks} />
     </div>
   );
 };
