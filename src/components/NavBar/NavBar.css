@@ -167,9 +167,7 @@ input:checked + .slider:before {
 
 @media (max-width: 768px) {
   .nav {
-    position: fixed;
-    display: flex;
-    /* padding-top: 2rem; */
+    padding-top: 1rem;
   }
 
   .hamburger-icon {

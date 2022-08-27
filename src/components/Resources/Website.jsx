@@ -3,17 +3,17 @@ import Card from "../Card/Card";
 // import { websites } from "../../data/websites";
 import categories from "../../data/categories.json";
 
-const Website = ({ websites }) => {
+const Website = ({ resources, filterWebsites }) => {
   return (
     <>
-      {!!websites?.length && (
+      {!filterWebsites?.length && (
         <div id="website" className="category">
           <h2 className="category-title">
             {categories.map((category) => category.websites)}
           </h2>
 
           <div className="card-section">
-            {websites.map((resource, index) => {
+            {resources.map((resource, index) => {
               const { coverImage, title, description, url } = resource;
 
               return (

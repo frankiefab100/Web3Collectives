@@ -11,34 +11,69 @@ import NodeProvider from "../../components/Resources/NodeProvider";
 import Book from "../../components/Resources/Book";
 import SearchFilter from "../../components/SearchFilter/SearchFilter";
 import "./Home.css";
-import { websites as sites } from "../../data/websites";
+import { websites } from "../../data/websites";
+import { books } from "../../data/books";
+import { courses } from "../../data/courses";
+import { devTools } from "../../data/devTools";
+import { games } from "../../data/games";
+import { documentations } from "../../data/documentations";
+import { githubRepos } from "../../data/githubRepos";
+import { projectTemplates } from "../../data/projectTemplates";
+import { youtubeChannels } from "../../data/youtubeChannels";
+import { rpcNodes } from "../../data/rpcNodes";
+import Hero from "../../components/Hero/Hero";
 
 const Home = () => {
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
-  //since they are imported direclty, there is no need to call useEffect
-  const [websites, setWebsites] = useState(sites);
+  const [resources, setResources] = useState({
+    websites: websites,
+    youtubeChannels: youtubeChannels,
+    githubRepos: githubRepos,
+    games: games,
+    devTools: devTools,
+    courses: courses,
+    projectTemplates: projectTemplates,
+    documentations: documentations,
+    books: books,
+    rpcNodes: rpcNodes,
+  });
 
   //SEARCH KEY
   const searchKey = searchTerm.trim();
 
-  //Search functionality for websites
-  // This search works while user types
-  const filteredWebsites = websites.filter(
-    (sites) =>
-      sites.title.toLowerCase().includes(searchKey.toLocaleLowerCase()) ||
-      sites.description.toLowerCase().includes(searchKey.toLocaleLowerCase()) ||
-      sites.keywords
+  const filterWebsites = resources.websites.filter(
+    (resourceItem) =>
+      resourceItem.title
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.description
+        .toLowerCase()
+        .includes(searchKey.toLocaleLowerCase()) ||
+      resourceItem.keywords
         .map((elem) => elem.toLowerCase().trim())
         .includes(searchKey) ||
-      sites.tag.map((elem) => elem.toLowerCase().trim()).includes(searchKey) ||
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey) ||
       searchTerm === "",
   );
 
-  const handleSearch = () => {
-    //TODO
-    //Handle the searching
+  // console.log(filterItems);
+
+  const handleSearch = (e) => {
+    // // setSearchTerm(e.target.value);
+    // const newWord = resources.filter((item) =>
+    //   item.forEach((item) =>
+    //     item.title.toLowerCase().includes(searchTerm.toLowerCase()),
+    //   ),
+    // );
+    // if (e.target.value === "") {
+    //   setResources([]);
+    // } else {
+    //   setResources(newWord);
+    // }
   };
 
   const searchProps = {
@@ -49,24 +84,13 @@ const Home = () => {
 
   return (
     <div className="home">
-      <div className="hero-section">
-        <h1 className="title">
-          Learn.<span id="highlights">Buidl.</span>
-          Earn.
-        </h1>
-
-        <p className="tagline">
-          Web3Collectives is a free library of over 200 web3 resources on
-          varying topics like Smart contract deployment, building decentralized
-          applications, cryptography fundementals and lots more...
-        </p>
-      </div>
+      <Hero />
 
       {/* -- Search Filter section -- */}
       <SearchFilter {...searchProps} />
 
       {/* -- Resources section -- */}
-      <Website websites={filteredWebsites} />
+      <Website resources={filterWebsites} />
       <YoutubeChannel />
       <DevTool />
       <Course />
