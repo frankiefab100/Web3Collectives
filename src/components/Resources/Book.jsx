@@ -1,31 +1,35 @@
 import React from "react";
 import Card from "../Card/Card";
-import { books } from "../../data/books";
+// import { books } from "../../data/books";
 import categories from "../../data/categories.json";
 
-const Book = () => {
+const Book = ({ resources, filterBooks }) => {
   return (
-    <div id="book" className="category">
-      <h2 className="category-title">
-        {categories.map((category) => category.books)}
-      </h2>
+    <>
+      {!filterBooks?.length && (
+        <div id="book" className="category">
+          <h2 className="category-title">
+            {categories.map((category) => category.books)}
+          </h2>
 
-      <div className="card-section">
-        {books.map((resource, index) => {
-          const { coverImage, title, description, url } = resource;
+          <div className="card-section">
+            {resources.map((resource, index) => {
+              const { coverImage, title, description, url } = resource;
 
-          return (
-            <Card
-              key={index}
-              coverImage={coverImage}
-              title={title}
-              description={description}
-              url={url}
-            />
-          );
-        })}
-      </div>
-    </div>
+              return (
+                <Card
+                  key={index}
+                  coverImage={coverImage}
+                  title={title}
+                  description={description}
+                  url={url}
+                />
+              );
+            })}
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

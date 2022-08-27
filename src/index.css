@@ -193,6 +193,7 @@ button:hover {
 
   .footer-nav {
     margin: 0 25px;
+    overflow-x: hidden;
   }
 
   .footer-attribution {

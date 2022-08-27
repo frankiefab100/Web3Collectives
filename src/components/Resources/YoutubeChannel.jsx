@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "../Card/Card";
-import { youtubeChannels } from "../../data/youtubeChannels";
+// import { youtubeChannels } from "../../data/youtubeChannels";
 import categories from "../../data/categories.json";
 
 const YoutubeChannel = ({ resources, filterYoutubes }) => {
   return (
     <>
-      {filterYoutubes?.length && (
+      {!filterYoutubes?.length && (
         <div id="youtube" className="category">
           <h2 className="category-title">
             {categories.map((category) => category.youtube)}
