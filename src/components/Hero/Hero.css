@@ -1,4 +1,7 @@
 .hero-section {
+  background-image: url("../../assets//images/floating-icons.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,5 +22,8 @@
   .tagline {
     font-size: 0.96rem;
     line-height: 1.5;
+  }
+  .hero-section {
+    background-position: 10% 50%;
   }
 }

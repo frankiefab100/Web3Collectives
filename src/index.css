@@ -145,11 +145,13 @@ input {
   border: 1px solid transparent;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: var(--text-secondary);
 }
 
-input:focus {
+input:focus,
+textarea:focus {
   border: 1px solid var(--cta-secondary);
 }
 

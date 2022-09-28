@@ -7,12 +7,9 @@
 }
 
 .form-text {
+  margin: 120px 50px 30px;
   text-align: center;
 }
-
-/* .form-text p {
-  width: 60%;
-} */
 
 form {
   border: 0.5px solid #201f1ff0;
@@ -21,9 +18,8 @@ form {
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  margin: 20px 0px;
-  /* width: 300px; */
-  width: 400px;
+  margin: 20px 30px;
+  width: 450px;
 }
 
 form input {
@@ -35,4 +31,10 @@ form input {
   font-size: 1rem;
   text-transform: uppercase;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 440px) {
+  form {
+    width: 300px;
+  }
 }

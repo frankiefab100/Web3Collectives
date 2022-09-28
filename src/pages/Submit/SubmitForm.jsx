@@ -7,18 +7,18 @@ import "./SubmitForm.css";
 const SubmitForm = () => {
   return (
     <>
+      <div className="form-text">
+        <h2 id="heading" className="title">
+          Submit a new resource
+        </h2>
+        <p>
+          Your submission should meet our requirements - It must be FREE and not
+          already listed in this website.
+        </p>
+      </div>
       <div className="form-container">
-        <div className="form-text">
-          <h2 id="heading" className="title">
-            Submit a new resource
-          </h2>
-          <h3 className="subtitle">Thank you as you contribute!</h3>
-          <p className="form-text">
-            Fill the form to submit a resource. Your submission should meet our
-            requirements - It must be FREE and not already listed in this
-            website.
-          </p>
-        </div>
+        <h3 className="subtitle">Thank you as you contribute!</h3>
+
         <form action="" method="POST">
           <label htmlFor="name">Resource Name</label>
           <input type="text" name="name" id="name" required />
@@ -39,9 +39,7 @@ const SubmitForm = () => {
 
           <button className="submit-btn">Submit</button>
         </form>
-        You can also find our codebase on Github and make your contributions
       </div>
-
       <Featured />
       <Newsletter />
       <Footer />
