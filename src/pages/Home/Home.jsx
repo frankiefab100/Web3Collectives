@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Hero from "../../components/Hero/Hero";
 import Website from "../../components/Resources/Website";
 import YoutubeChannel from "../../components/Resources/YoutubeChannel";
 import DevTool from "../../components/Resources/DevTool";
@@ -9,8 +10,9 @@ import GithubRepo from "../../components/Resources/GithubRepo";
 import ProjectTemplate from "../../components/Resources/ProjectTemplate";
 import NodeProvider from "../../components/Resources/NodeProvider";
 import Book from "../../components/Resources/Book";
-import SearchFilter from "../../components/SearchFilter/SearchFilter";
-import "./Home.css";
+import Search from "../../components/Search/Search";
+import Filter from "../../components/Filter/Filter";
+import Sort from "../../components/Sort/Sort";
 import { websites } from "../../data/websites";
 import { books } from "../../data/books";
 import { courses } from "../../data/courses";
@@ -21,7 +23,10 @@ import { githubRepos } from "../../data/githubRepos";
 import { projectTemplates } from "../../data/projectTemplates";
 import { youtubeChannels } from "../../data/youtubeChannels";
 import { rpcNodes } from "../../data/rpcNodes";
-import Hero from "../../components/Hero/Hero";
+import "./Home.css";
+import Featured from "../../components/Featured/Featured";
+import Newsletter from "../../components/Newsletter/Newsletter";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   const [loading, setLoading] = useState(false);
@@ -237,8 +242,13 @@ const Home = () => {
     <div className="home">
       <Hero />
 
-      {/* -- Search Filter section -- */}
-      <SearchFilter {...searchProps} />
+      {/* -- Search section -- */}
+      <Search {...searchProps} />
+
+      <div className="filter-sort">
+        <Filter />
+        <Sort />
+      </div>
 
       {/* -- Resources section -- */}
       <Website resources={filterWebsites} />
@@ -251,6 +261,10 @@ const Home = () => {
       <ProjectTemplate resources={filterTemplates} />
       <NodeProvider resources={filterNodes} />
       <Book resources={filterBooks} />
+
+      <Featured />
+      <Newsletter />
+      <Footer />
     </div>
   );
 };

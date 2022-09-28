@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
+import { TbArrowUpRight } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
@@ -75,77 +76,94 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="footer-links">
-              <h3>INSTITUTE</h3>
-              <li>
-                <Link to="about">About </Link>
-              </li>
-              <li>
-                <Link to="contribute">Contributing </Link>
-              </li>
-              <li>
-                <Link to="support">Support</Link>
-              </li>
-              <li>
-                <a href="https://dscord.com/">Join Discord</a>
-              </li>
-            </div>
+            <div className="footer-menu">
+              <div className="footer-links">
+                <h3>INSTITUTE</h3>
+                <li>
+                  <Link to="about">About </Link>
+                </li>
+                <li>
+                  <Link to="contribute">Contributing </Link>
+                </li>
+                <li>
+                  <Link to="support">Support</Link>
+                </li>
+                <li>
+                  <a href="https://dscord.com/">Join Discord</a>
+                </li>
+              </div>
 
-            <div className="footer-links">
-              <h3>RESOURCES</h3>
-              <li>
-                <a href="#website">Websites</a>
-              </li>
-              <li>
-                <a href="#youtube">Youtube Videos</a>
-              </li>
-              <li>
-                <a href="#course">Online Courses</a>
-              </li>
-              <li>
-                <a href="#game">Interactive Games</a>
-              </li>
-              <li>
-                <a href="#doc">Documentations</a>
-              </li>
-            </div>
+              <div className="footer-links">
+                <h3>RESOURCES</h3>
+                <li>
+                  <a href="#website">Websites</a>
+                </li>
+                <li>
+                  <a href="#youtube">Youtube Videos</a>
+                </li>
+                <li>
+                  <a href="#course">Online Courses</a>
+                </li>
+                <li>
+                  <a href="#game">Interactive Games</a>
+                </li>
+                <li>
+                  <a href="#doc">Documentations</a>
+                </li>
+              </div>
 
-            <div className="footer-links">
-              <h3>EXTRAS</h3>
-              <li>
-                <a href="#template">Project Templates</a>
-              </li>
-              <li>
-                <a href="#repo">Github Repositories</a>
-              </li>
-              <li>
-                <a href="#rpc">Node Providers</a>
-              </li>
-              <li>
-                <a href="#blog">Blogs</a>
-              </li>
-              <li>
-                <a href="#book">Books</a>
-              </li>
-            </div>
+              <div className="footer-links">
+                <h3>EXTRAS</h3>
+                <li>
+                  <a href="#template">Project Templates</a>
+                </li>
+                <li>
+                  <a href="#repo">Github Repositories</a>
+                </li>
+                <li>
+                  <a href="#rpc">Node Providers</a>
+                </li>
+                <li>
+                  <a href="#blog">Blogs</a>
+                </li>
+                <li>
+                  <a href="#book">Books</a>
+                </li>
+              </div>
 
-            <div className="footer-links">
-              <h3>TECHNOLOGIES</h3>
-              <li>
-                <a href="https://">Ethereum</a>
-              </li>
-              <li>
-                <a href="https://">Solana</a>
-              </li>
-              <li>
-                <a href="https://">Polygon</a>
-              </li>
-              <li>
-                <a href="https://">Celo</a>
-              </li>
-              <li>
-                <a href="https://">NEAR</a>
-              </li>
+              <div className="footer-links">
+                <h3>TECHNOLOGIES</h3>
+                <li>
+                  <a href="https://ethereum.org">
+                    Ethereum
+                    <TbArrowUpRight className="arrow-icon" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://solana.com">
+                    Solana
+                    <TbArrowUpRight className="arrow-icon" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://polygon.technology">
+                    Polygon
+                    <TbArrowUpRight className="arrow-icon" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://celo.org">
+                    Celo
+                    <TbArrowUpRight className="arrow-icon" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://near.org">
+                    NEAR
+                    <TbArrowUpRight className="arrow-icon" />
+                  </a>
+                </li>
+              </div>
             </div>
           </div>
         </div>

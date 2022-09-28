@@ -164,6 +164,17 @@ button:hover {
   background-color: var(--cta-secondary);
 }
 
+select {
+  background: var(--bg-color-secondary);
+  border: none;
+  border-radius: 5px;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  padding: 6px;
+  /* min-width: 80px; */
+}
+
 .category {
   position: relative;
   margin: 25px 50px;
@@ -209,6 +220,9 @@ button:hover {
   .category {
     margin: 25px 30px;
   }
+  .filter-sort {
+    padding: 0 30px;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -218,6 +232,19 @@ button:hover {
 
   .home h1 {
     font-size: 2.4rem;
+  }
+
+  .card-img {
+    width: 480px !important;
+    height: auto !important;
+  }
+
+  .card-img img {
+    /* width: 100%;
+    height: 250px; */
+
+    width: 490px !important;
+    height: 220px !important;
   }
 
   .newsletter-title {
@@ -232,5 +259,8 @@ button:hover {
 @media screen and (max-width: 440px) {
   .footer-nav p {
     width: 100%;
+  }
+  .footer-list {
+    min-width: 260px;
   }
 }

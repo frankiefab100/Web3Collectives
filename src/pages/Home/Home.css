@@ -2,3 +2,9 @@
   margin: 180px 0 60px;
   width: 100vw;
 }
+
+.filter-sort {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}

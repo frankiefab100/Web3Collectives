@@ -1,5 +1,6 @@
 .featured {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -14,7 +15,12 @@
   text-transform: uppercase;
 }
 
+.brands {
+  background-color: #efeef8;
+}
+
 .featured img {
+  /* filter: blur(20%), brightness(10%), grayscale(60%); */
   padding: 0 10px;
   width: 150px;
 }

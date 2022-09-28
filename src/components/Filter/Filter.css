@@ -1,0 +1,5 @@
+.filter-resources {
+  background-color: var(--bg-color-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--bg-color-secondary);
+}

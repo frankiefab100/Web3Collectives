@@ -1,19 +1,27 @@
 .form-container {
-  margin: 200px 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 50px 30px;
 }
 
-.form-text p {
-  width: 60%;
+.form-text {
+  text-align: center;
 }
+
+/* .form-text p {
+  width: 60%;
+} */
 
 form {
-  border: 0.5px solid var(--border-color);
+  border: 0.5px solid #201f1ff0;
   color: var(--text-primary);
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px 0px;
   /* width: 300px; */
   width: 400px;
 }
@@ -23,6 +31,8 @@ form input {
   margin: 5px 0 10px;
 }
 
-.contact-btn {
+.submit-btn {
+  font-size: 1rem;
+  text-transform: uppercase;
   margin-top: 20px;
 }

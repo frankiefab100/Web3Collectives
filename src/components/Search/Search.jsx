@@ -1,8 +1,8 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
-import "./SearchFilter.css";
+import "./Search.css";
 
-const SearchFilter = ({ searchTerm, setSearchTerm, handleSearch }) => {
+const Search = ({ searchTerm, setSearchTerm, handleSearch }) => {
   return (
     <div className="filter-section">
       <div className="search-section">
@@ -23,4 +23,4 @@ const SearchFilter = ({ searchTerm, setSearchTerm, handleSearch }) => {
   );
 };
 
-export default SearchFilter;
+export default Search;

@@ -74,11 +74,24 @@
   color: var(--cta-secondary);
 }
 
-.tweet-btn {
-  background: #111;
-  padding: 0.5rem 1.4rem;
+#tweet-btn {
+  background: #054acf;
   border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0.4rem 0.8rem;
   transition: 0.1s ease-in-out;
+
+  /* position: relative;
+  height: 20px;
+  box-sizing: border-box;
+  padding: 1px 12px 1px 12px;
+  background-color: #1d9bf0;
+  color: #fff;
+  border-radius: 9999px;
+  font-weight: 500;
+  cursor: pointer; */
 }
 
 .tweet-btn:visited {
@@ -114,7 +127,8 @@
 }
 
 .slider {
-  background-color: var(--bg-color-secondary);
+  /* background-color: var(--bg-color-secondary); */
+  background-color: gray;
   position: absolute;
   bottom: 0;
   left: 0;

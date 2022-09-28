@@ -1,11 +1,17 @@
 .about-section {
-  margin: 200px 50px 30px;
+  margin: 120px 50px 30px;
+}
+
+.about-section #heading-img {
+  width: 100%;
 }
 
 .about-section p {
-  font-size: 1.2rem;
+  color: #fbfafa;
+  font-weight: 200;
+  font-size: 1.1rem;
   margin-bottom: 10px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .about-section a {

@@ -66,12 +66,11 @@ export const NavBar = ({ toggleTheme }) => {
           <Link to="about">About </Link>
         </li>
         <li onClick={handleMenu}>
-          <Link to="submit">Contribute</Link>
+          <Link to="contact">Contact</Link>
         </li>
         <li onClick={handleMenu}>
-          <Link to="submit">Support</Link>
+          <Link to="submit">Contribute</Link>
         </li>
-
         <div className="theme-switch-wrapper">
           <label className="theme-switch" htmlFor="checkbox">
             <input onChange={toggleTheme} type="checkbox" id="checkbox" />
@@ -79,13 +78,13 @@ export const NavBar = ({ toggleTheme }) => {
             <div className="slider circle"></div>
           </label>
         </div>
-
         <a
-          className="tweet-btn"
+          id="tweet-btn"
           href="https://twitter.com/intent/tweet?text=Hello%20Check out @web3collectives - a FREE library of over 200+ Blockchain Development Resources"
           data-size="small"
+          data-show-count="false"
         >
-          Tweet
+          Share on Twitter
         </a>
       </ul>
 
