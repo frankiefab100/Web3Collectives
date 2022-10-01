@@ -1,16 +1,17 @@
 import React from "react";
 import Card from "../Card/Card";
-// import { games } from "../../data/games";
 import categories from "../../data/categories.json";
 
-const Game = ({ resources, filterGames }) => {
+const Game = ({ resources }) => {
   return (
     <>
-      {!filterGames?.length && (
+      {!!resources?.length && (
         <div id="game" className="category">
-          <h2 className="category-title">
-            {categories.map((category) => category.games)}
-          </h2>
+          {categories.map((category, index) => (
+            <h2 key={index} className="category-title">
+              {category.books}
+            </h2>
+          ))}
 
           <div className="card-section">
             {resources.map((resource, index) => {

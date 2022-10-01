@@ -1,16 +1,17 @@
 import React from "react";
 import Card from "../Card/Card";
-// import { githubRepos } from "../../data/githubRepos";
 import categories from "../../data/categories.json";
 
-const GithubRepo = ({ resources, filterRepos }) => {
+const GithubRepo = ({ resources }) => {
   return (
     <>
-      {!filterRepos?.length && (
+      {!!resources?.length && (
         <div id="repo" className="category">
-          <h2 className="category-title">
-            {categories.map((category) => category.repos)}
-          </h2>
+          {categories.map((category, index) => (
+            <h2 key={index} className="category-title">
+              {category.books}
+            </h2>
+          ))}
 
           <div className="card-section">
             {resources.map((resource, index) => {

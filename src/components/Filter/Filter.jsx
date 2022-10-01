@@ -1,27 +1,32 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { BsFilter } from "react-icons/bs";
 import "./Filter.css";
 
-const Filter = () => {
-  const [filterParam, setFilterParam] = useState("All");
-  const [resources, setResources] = useState([]);
-  const [filteredResources, setFilteredResources] = useState([]);
+const Filter = ({ resources, setResources }) => {
+  const allResources = resources;
 
-  useEffect(() => {
-    setResources();
-    setFilteredResources();
-  }, [filterParam]);
+  const handleFilter = (target) => {
+    const searchKey = target.trim().toLowerCase();
+
+    if (searchKey === "all") {
+      return setResources(allResources);
+    }
+
+    const filterWebsites = resources.websites.filter(
+      (resourceItem) =>
+        resourceItem.tag
+          .map((elem) => elem.toLowerCase().trim())
+          .includes(searchKey) || filterParam === "",
+    );
+
+    setResources({ ...resources, websites: filterWebsites });
+  };
 
   return (
     <div className="filter-resources">
       <select
-        /*
-    // here we create a basic select input
-    // we set the value to the selected value
-    // and update the setFilterParam() state every time onChange is called
-    */
         onChange={(e) => {
-          setFilterParam(e.target.value);
+          handleFilter(e.target.value);
         }}
         className="custom-select"
         aria-label="Filter Resources"

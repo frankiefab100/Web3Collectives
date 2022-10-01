@@ -29,7 +29,7 @@ import Footer from "../../components/Footer/Footer";
 import "./Home.css";
 
 const Home = () => {
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
   const [resources, setResources] = useState({
@@ -219,23 +219,17 @@ const Home = () => {
   );
 
   const handleSearch = (e) => {
-    // // setSearchTerm(e.target.value);
-    // const newWord = resources.filter((item) =>
-    //   item.forEach((item) =>
-    //     item.title.toLowerCase().includes(searchTerm.toLowerCase()),
-    //   ),
-    // );
-    // if (e.target.value === "") {
-    //   setResources([]);
-    // } else {
-    //   setResources(newWord);
-    // }
-  };
-
-  const searchProps = {
-    searchTerm,
-    setSearchTerm,
-    handleSearch,
+    // setSearchTerm(e.target.value);
+    const newWord = resources.filter((item) =>
+      item.forEach((item) =>
+        item.title.toLowerCase().includes(searchTerm.toLowerCase()),
+      ),
+    );
+    if (e.target.value === "") {
+      setResources([]);
+    } else {
+      setResources(newWord);
+    }
   };
 
   return (
@@ -243,10 +237,14 @@ const Home = () => {
       <Hero />
 
       {/* -- Search section -- */}
-      <Search {...searchProps} />
+      <Search
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        handleSearch={handleSearch}
+      />
 
       <div className="filter-sort">
-        <Filter />
+        <Filter resources={resources} setResources={setResources} />
         <Sort />
       </div>
 

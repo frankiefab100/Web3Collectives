@@ -1,16 +1,17 @@
 import React from "react";
 import Card from "../Card/Card";
-// import { devTools } from "../../data/devTools";
 import categories from "../../data/categories.json";
 
-const DevTool = ({ resources, filterDevTools }) => {
+const DevTool = ({ resources }) => {
   return (
     <>
-      {!filterDevTools?.length && (
+      {!!resources?.length && (
         <div id="devtool" className="category">
-          <h2 className="category-title">
-            {categories.map((category) => category.devtools)}
-          </h2>
+          {categories.map((category, index) => (
+            <h2 key={index} className="category-title">
+              {category.books}
+            </h2>
+          ))}
 
           <div className="card-section">
             {resources.map((resource, index) => {

@@ -1,16 +1,17 @@
 import React from "react";
 import Card from "../Card/Card";
-// import { youtubeChannels } from "../../data/youtubeChannels";
 import categories from "../../data/categories.json";
 
-const YoutubeChannel = ({ resources, filterYoutubes }) => {
+const YoutubeChannel = ({ resources }) => {
   return (
     <>
-      {!filterYoutubes?.length && (
+      {!!resources?.length && (
         <div id="youtube" className="category">
-          <h2 className="category-title">
-            {categories.map((category) => category.youtube)}
-          </h2>
+          {categories.map((category, index) => (
+            <h2 key={index} className="category-title">
+              {category.books}
+            </h2>
+          ))}
 
           <div className="card-section">
             {resources.map((resource, index) => {

@@ -1,16 +1,17 @@
 import React from "react";
 import Card from "../Card/Card";
-// import { rpcNodes } from "../../data/rpcNodes";
 import categories from "../../data/categories.json";
 
-const NodeProvider = ({ resources, filterNodes }) => {
+const NodeProvider = ({ resources }) => {
   return (
     <>
-      {!filterNodes?.length && (
+      {!!resources?.length && (
         <div id="rpc" className="category">
-          <h2 className="category-title">
-            {categories.map((category) => category.rpcs)}
-          </h2>
+          {categories.map((category, index) => (
+            <h2 key={index} className="category-title">
+              {category.books}
+            </h2>
+          ))}
 
           <div className="card-section">
             {resources.map((resource, index) => {
