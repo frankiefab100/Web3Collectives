@@ -220,16 +220,16 @@ const Home = () => {
 
   const handleSearch = (e) => {
     // setSearchTerm(e.target.value);
-    const newWord = resources.filter((item) =>
-      item.forEach((item) =>
-        item.title.toLowerCase().includes(searchTerm.toLowerCase()),
-      ),
-    );
-    if (e.target.value === "") {
-      setResources([]);
-    } else {
-      setResources(newWord);
-    }
+    // const newWord = resources.filter((item) =>
+    //   item.forEach((item) =>
+    //     item.title.toLowerCase().includes(searchTerm.toLowerCase()),
+    //   ),
+    // );
+    // if (e.target.value === "") {
+    //   setResources([]);
+    // } else {
+    //   setResources(newWord);
+    // }
   };
 
   return (
