@@ -8,6 +8,11 @@ const Sort = () => {
       <select>
         {BsSortDownAlt}
         <option>Sort {BsSortDownAlt}</option>
+        <option value="oldest">Oldest</option>
+        <option value="newest">Newest</option>
+        <option value="date">Date</option>
+        <option value="ascending">Ascending</option>
+        <option value="descending">Descending</option>
       </select>
     </div>
   );

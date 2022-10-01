@@ -58,9 +58,7 @@ const Contact = () => {
             Buy me a coffee
           </a>{" "}
           or Donate via:
-          <li>BTC:</li>
-          <li>ETH: </li>
-          <li>MATIC: </li>
+          <li>MATIC: 0x370f92912744ecae29991b8668e1bf5730e6e6d8 </li>
         </p>
         <h2>Partner/Sponsor</h2>
         <p>
