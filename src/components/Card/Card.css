@@ -35,7 +35,6 @@
 .card-info {
   padding: 25px 10px 0px;
   text-align: left;
-  /* top: 30px; */
 }
 
 #resource-title {
@@ -65,20 +64,4 @@
   .card-info {
     padding-top: 10px;
   }
-
-  /* #resource-title {
-    padding-top: 0;
-  } */
-}
-
-@media screen and (max-width: 640px) {
-  /* .card-section {
-    grid-template-columns: repeat(3, 1fr);
-  } */
-}
-
-@media screen and (max-width: 530px) {
-  /* .card-section {
-    grid-template-columns: repeat(2, 1fr);
-  } */
 }
