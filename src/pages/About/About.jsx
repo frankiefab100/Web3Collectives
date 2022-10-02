@@ -10,9 +10,9 @@ const About = () => {
     <>
       <div className="about-section">
         <img id="heading-img" src={AboutImg} alt="collaboration team" />
-        <small className="tagline">
+        <div className="tagline">
           We are championing access free Web3 education.
-        </small>
+        </div>
         <h1 id="heading" className="title">
           Introduction
         </h1>
@@ -55,7 +55,7 @@ const About = () => {
             technology through free education and various initiatives. Knowing
             how complex blockchain technology is, our work focuses on Web3
             enthusiasts to onboard them to innovations like NFTs, DeFi, DEX,
-            DAOs, ReFi etc by sharing learning resoutces.
+            DAOs, ReFi etc by sharing learning resources.
           </p>
           <h2>Future Plans</h2>
 
@@ -66,7 +66,7 @@ const About = () => {
           </p>
           <p>
             We plan to organize blockchain events, talks and hackathons to share
-            ideas, learn and network
+            ideas, learn and network.
           </p>
         </div>
       </div>

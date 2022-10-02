@@ -266,3 +266,12 @@ select {
     min-width: 260px;
   }
 }
+
+@media screen and (max-width: 385px) {
+  .home h1 {
+    font-size: 1.8rem;
+  }
+  .tagline {
+    font-size: 0.75rem;
+  }
+}

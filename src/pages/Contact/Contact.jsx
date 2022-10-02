@@ -10,10 +10,10 @@ const Contact = () => {
     <>
       <div className="contact-section">
         <img id="heading-img" src={ContactImg} alt="contact us" />
-        <small className="tagline">
+        <div className="tagline">
           Help us make Web3 education accessible for all, we can't achieve our
           vision alone.
-        </small>
+        </div>
         <h1 id="heading" className="title">
           Contact Us
         </h1>
@@ -57,8 +57,8 @@ const Contact = () => {
           <a href="https://www.buymeacoffee.com/frankiefab100" target="_blank">
             Buy me a coffee
           </a>{" "}
-          or Donate via:
-          <li>MATIC: 0x370f92912744ecae29991b8668e1bf5730e6e6d8 </li>
+          or Donate via{" "}
+          <em>MATIC: 0x370f92912744ecae29991b8668e1bf5730e6e6d8 </em>
         </p>
         <h2>Partner/Sponsor</h2>
         <p>

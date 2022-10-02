@@ -9,7 +9,7 @@ const Game = ({ resources }) => {
         <div id="game" className="category">
           {categories.map((category, index) => (
             <h2 key={index} className="category-title">
-              {category.books}
+              {category.games}
             </h2>
           ))}
 

@@ -1,8 +1,6 @@
 .newsletter-section {
   display: flex;
   flex-direction: column;
-  margin: 0px 50px;
-  padding: 30px;
   text-align: center;
 }
 
@@ -25,7 +23,6 @@
 .newsletter-subscribe {
   position: relative;
   margin: 1rem 0 3rem;
-  /* width: 600px; */
 }
 
 #email {

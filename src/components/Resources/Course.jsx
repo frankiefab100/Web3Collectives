@@ -9,7 +9,7 @@ const Course = ({ resources }) => {
         <div id="course" className="category">
           {categories.map((category, index) => (
             <h2 key={index} className="category-title">
-              {category.books}
+              {category.courses}
             </h2>
           ))}
 

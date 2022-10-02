@@ -9,7 +9,7 @@ const GithubRepo = ({ resources }) => {
         <div id="repo" className="category">
           {categories.map((category, index) => (
             <h2 key={index} className="category-title">
-              {category.books}
+              {category.repos}
             </h2>
           ))}
 

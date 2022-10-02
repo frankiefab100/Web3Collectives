@@ -9,7 +9,7 @@ const ProjectTemplate = ({ resources }) => {
         <div id="template" className="category">
           {categories.map((category, index) => (
             <h2 key={index} className="category-title">
-              {category.books}
+              {category.templates}
             </h2>
           ))}
 

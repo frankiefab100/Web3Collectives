@@ -9,7 +9,7 @@ const YoutubeChannel = ({ resources }) => {
         <div id="youtube" className="category">
           {categories.map((category, index) => (
             <h2 key={index} className="category-title">
-              {category.books}
+              {category.youtube}
             </h2>
           ))}
 

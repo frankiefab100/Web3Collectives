@@ -101,7 +101,7 @@
   width: 50px;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 558px) {
   .footer-menu {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -109,7 +109,8 @@
 
 @media screen and (max-width: 768px) {
   .footer-attribution {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
+    line-height: 1.6;
   }
 }
 

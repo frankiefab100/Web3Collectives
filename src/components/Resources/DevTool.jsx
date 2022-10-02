@@ -9,7 +9,7 @@ const DevTool = ({ resources }) => {
         <div id="devtool" className="category">
           {categories.map((category, index) => (
             <h2 key={index} className="category-title">
-              {category.books}
+              {category.devtools}
             </h2>
           ))}
 

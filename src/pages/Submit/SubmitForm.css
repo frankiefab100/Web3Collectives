@@ -11,6 +11,12 @@
   text-align: center;
 }
 
+.form-text p {
+  font-weight: 200;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
 form {
   border: 0.5px solid #201f1ff0;
   color: var(--text-primary);

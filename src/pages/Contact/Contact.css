@@ -15,6 +15,7 @@
 }
 
 .contact-section a {
+  font-weight: bold;
   padding-left: 5px;
 }
 
@@ -29,6 +30,14 @@ label {
 textarea {
   background-color: var(--bg-color-secondary);
   border: none;
+  outline: none;
+  border-radius: 3px;
   resize: none;
   min-height: 100px;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 1.3rem;
+  text-align: center;
 }

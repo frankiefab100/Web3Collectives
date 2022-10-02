@@ -12,8 +12,7 @@ const SubmitForm = () => {
           Submit a new resource
         </h2>
         <p>
-          Your submission should meet our requirements - It must be FREE and not
-          already listed in this website.
+          Your submission should be FREE and not already listed in this website.
         </p>
       </div>
       <div className="form-container">
@@ -30,12 +29,7 @@ const SubmitForm = () => {
           <input type="text" name="link" id="link" required />
 
           <label htmlFor="description">Description</label>
-          <input
-            type="text"
-            name="description"
-            id="description"
-            placeholder="A brief detail about this free resource"
-          />
+          <input type="text" name="description" id="description" />
 
           <button className="submit-btn">Submit</button>
         </form>

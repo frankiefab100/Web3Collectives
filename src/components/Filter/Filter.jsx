@@ -8,7 +8,7 @@ const Filter = ({ resources, setResources }) => {
   const handleFilter = (target) => {
     const searchKey = target.trim().toLowerCase();
 
-    if (searchKey === "all") {
+    if (searchKey === "All") {
       return setResources(allResources);
     }
 
