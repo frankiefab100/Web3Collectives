@@ -245,7 +245,7 @@ const Home = () => {
 
       <div className="filter-sort">
         <Filter resources={resources} setResources={setResources} />
-        <Sort />
+        <Sort resources={resources} setResources={setResources} />
       </div>
 
       {/* -- Resources section -- */}

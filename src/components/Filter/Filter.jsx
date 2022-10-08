@@ -12,107 +12,78 @@ const Filter = ({ resources, setResources }) => {
       return setResources(allResources);
     }
 
-    const filterWebsites = resources.websites.filter(
-      (resourceItem) =>
-        resourceItem.tag
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) || filterParam === "",
+    const filterWebsitesTag = resources.websites.filter((resourceItem) =>
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey),
     );
 
-    const filterYoutubes = resources.youtubeChannels.filter(
-      (resourceItem) =>
-        resourceItem.tag
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) || filterParam === "",
+    const filterYoutubesTag = resources.youtubeChannels.filter((resourceItem) =>
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey),
     );
 
-    const filterBooks = resources.books.filter(
-      (resourceItem) =>
-        resourceItem.tag
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) || filterParam === "",
+    const filterBooksTag = resources.books.filter((resourceItem) =>
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey),
     );
 
-    const filterRepos = resources.githubRepos.filter(
-      (resourceItem) =>
-        resourceItem.tag
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) || filterParam === "",
+    const filterReposTag = resources.githubRepos.filter((resourceItem) =>
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey),
     );
 
-    const filterGames = resources.games.filter(
-      (resourceItem) =>
-        resourceItem.tag
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) || filterParam === "",
+    const filterGamesTag = resources.games.filter((resourceItem) =>
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey),
     );
 
-    const filterDevTools = resources.devTools.filter(
-      (resourceItem) =>
-        resourceItem.title
-          .toLowerCase()
-          .includes(searchKey.toLocaleLowerCase()) ||
-        resourceItem.description
-          .toLowerCase()
-          .includes(searchKey.toLocaleLowerCase()) ||
-        resourceItem.keywords
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) ||
-        resourceItem.tag
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) ||
-        searchTerm === "",
+    const filterDevToolsTag = resources.devTools.filter((resourceItem) =>
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey),
     );
 
-    const filterCourses = resources.courses.filter(
-      (resourceItem) =>
-        resourceItem.title
-          .toLowerCase()
-          .includes(searchKey.toLocaleLowerCase()) ||
-        resourceItem.description
-          .toLowerCase()
-          .includes(searchKey.toLocaleLowerCase()) ||
-        resourceItem.keywords
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) ||
-        resourceItem.tag
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) ||
-        searchTerm === "",
+    const filterCoursesTag = resources.courses.filter((resourceItem) =>
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey),
     );
 
-    const filterTemplates = resources.projectTemplates.filter(
+    const filterTemplatesTag = resources.projectTemplates.filter(
       (resourceItem) =>
         resourceItem.tag
           .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) || filterParam === "",
+          .includes(searchKey),
     );
 
-    const filterDocs = resources.documentations.filter(
-      (resourceItem) =>
-        resourceItem.tag
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) || filterParam === "",
+    const filterDocsTag = resources.documentations.filter((resourceItem) =>
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey),
     );
 
-    const filterNodes = resources.rpcNodes.filter(
-      (resourceItem) =>
-        resourceItem.tag
-          .map((elem) => elem.toLowerCase().trim())
-          .includes(searchKey) || filterParam === "",
+    const filterNodesTag = resources.rpcNodes.filter((resourceItem) =>
+      resourceItem.tag
+        .map((elem) => elem.toLowerCase().trim())
+        .includes(searchKey),
     );
 
     setResources(
-      { ...resources, websites: filterWebsites },
-      { ...resources, websites: filterYoutubes },
-      { ...resources, websites: filterRepos },
-      { ...resources, websites: filterGames },
-      { ...resources, websites: filterDevTools },
-      { ...resources, websites: filterCourses },
-      { ...resources, websites: filterTemplates },
-      { ...resources, websites: filterDocs },
-      { ...resources, websites: filterBooks },
-      { ...resources, websites: filterNodes },
+      { ...resources, websites: filterWebsitesTag },
+      { ...resources, youtube: filterYoutubesTag },
+      { ...resources, repos: filterReposTag },
+      { ...resources, games: filterGamesTag },
+      { ...resources, devtools: filterDevToolsTag },
+      { ...resources, courses: filterCoursesTag },
+      { ...resources, templates: filterTemplatesTag },
+      { ...resources, docs: filterDocsTag },
+      { ...resources, books: filterBooksTag },
+      { ...resources, rpcs: filterNodesTag },
     );
   };
 
