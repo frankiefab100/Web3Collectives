@@ -16,10 +16,7 @@ const Newsletter = ({ status, message, onValidated }) => {
     e.preventDefault();
 
     if (email && email.indexOf("@") > -1 && onValidated(MERGE0)) {
-      setEmail((prev) => ({
-        ...prev,
-        [e.target.name]: e.target.value,
-      }));
+      setEmail(e.target.value);
     }
   };
 
