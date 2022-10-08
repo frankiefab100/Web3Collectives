@@ -14,7 +14,13 @@ const Newsletter = ({ status, message, onValidated }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    email && email.indexOf("@") > -1 && onValidated(MERGE0);
+
+    if (email && email.indexOf("@") > -1 && onValidated(MERGE0)) {
+      setEmail((prev) => ({
+        ...prev,
+        [e.target.name]: e.target.value,
+      }));
+    }
   };
 
   return (
