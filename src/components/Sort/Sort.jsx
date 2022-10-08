@@ -3,7 +3,7 @@ import { BsSortDownAlt } from "react-icons/bs";
 import "./Sort.css";
 
 const Sort = ({ resources, setResources }) => {
-  const handleSort = () => {
+  const handleSort = (item) => {
     const sortOption = target.trim().toLowerCase();
 
     if (sortOption === "Ascending") {
@@ -51,7 +51,7 @@ const Sort = ({ resources, setResources }) => {
   return (
     <div className="sort-resources">
       <select
-        onChange={handleSort}
+        onChange={(e) => handleSort(e.target.value)}
         className="custom-select"
         aria-label="Sort Resources"
       >
