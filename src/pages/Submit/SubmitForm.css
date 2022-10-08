@@ -17,7 +17,7 @@
   line-height: 1.6;
 }
 
-form {
+#resources-form {
   border: 0.5px solid #201f1ff0;
   color: var(--text-primary);
   display: flex;

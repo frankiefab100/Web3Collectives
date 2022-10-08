@@ -85,7 +85,12 @@ const SubmitForm = () => {
       <div className="form-container">
         <h3 className="subtitle">Thank you as you contribute!</h3>
 
-        <form onSubmit={handleOnSubmit} action="" method="POST">
+        <form
+          id="resources-form"
+          onSubmit={handleOnSubmit}
+          action=""
+          method="POST"
+        >
           <label htmlFor="email">Email</label>
           <input
             type="email"

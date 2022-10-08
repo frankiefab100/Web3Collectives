@@ -12,6 +12,10 @@
   margin: 5px 0 20px;
 }
 
+#newsletter-form {
+  position: relative;
+}
+
 .subscribe-section {
   display: flex;
   flex-direction: column;
@@ -35,17 +39,21 @@
 
 .subscribe-btn {
   position: absolute;
+  background-color: var(--cta-primary);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
   display: flex;
   align-items: center;
   gap: 0.9rem;
-  background-color: var(--cta-primary);
-  color: white;
-  /* padding: 0.8rem 1rem; */
-  cursor: pointer;
-  border-radius: 3px;
   top: 5px;
   right: 5px;
   bottom: 5px;
+}
+
+.alert-success {
+  color: #12e965;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {
