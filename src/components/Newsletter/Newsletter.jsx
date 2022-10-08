@@ -43,7 +43,11 @@ const Newsletter = ({ status, message, onValidated }) => {
 
       <div className="subscribe-section">
         <div className="newsletter-subscribe">
-          <form id="newsletter-form" onSubmit={(e) => handleSubmit(e)}>
+          <form
+            action="https://app.us14.list-manage.com/subscribe/post"
+            id="newsletter-form"
+            onSubmit={(e) => handleSubmit(e)}
+          >
             <input
               type="email"
               id="email"
