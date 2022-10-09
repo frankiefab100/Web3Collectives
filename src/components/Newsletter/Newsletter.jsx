@@ -4,13 +4,13 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 import "./Newsletter.css";
 
 const Newsletter = ({ status, message, onValidated }) => {
-  const [email, setEmail] = useState(null);
+  const [email, setEmail] = useState("");
 
-  useEffect(() => {
-    if (status === "success") {
-      setEmail("");
-    }
-  }, [status]);
+  // useEffect(() => {
+  //   if (status === "success") {
+  //     setEmail("");
+  //   }
+  // }, [status]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,9 +43,9 @@ const Newsletter = ({ status, message, onValidated }) => {
       <div className="subscribe-section">
         <div className="newsletter-subscribe">
           <form
-            action="https://app.us14.list-manage.com/subscribe/post"
+            // action="https://app.us14.list-manage.com/subscribe/post"
             id="newsletter-form"
-            onSubmit={(e) => handleSubmit(e)}
+            // onSubmit={(e) => handleSubmit(e)}
           >
             <input
               type="email"
@@ -57,7 +57,7 @@ const Newsletter = ({ status, message, onValidated }) => {
               isRequired
             />
 
-            <button className="subscribe-btn">
+            <button onClick={handleSubmit} className="subscribe-btn">
               Subscribe <FaEnvelope />
             </button>
           </form>
@@ -68,7 +68,7 @@ const Newsletter = ({ status, message, onValidated }) => {
 };
 
 const MailchimpForm = () => {
-  const subscriptionUrl = `https://genhybridsystems.us1.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
+  const subscriptionUrl = `https://app.us14.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
 
   return (
     <div>
