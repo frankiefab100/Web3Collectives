@@ -4,7 +4,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 import "./Newsletter.css";
 
 const Newsletter = ({ status, message, onValidated }) => {
-  const [email, setEmail] = useState({});
+  const [email, setEmail] = useState(null);
 
   useEffect(() => {
     if (status === "success") {
@@ -15,9 +15,11 @@ const Newsletter = ({ status, message, onValidated }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (email && email.indexOf("@") > -1 && onValidated(MERGE0)) {
-      setEmail(e.target.value);
-    }
+    email &&
+      email.indexOf("@") > -1 &&
+      onValidated({
+        EMAIL: email,
+      });
   };
 
   return (
