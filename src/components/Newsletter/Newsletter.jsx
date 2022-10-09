@@ -4,7 +4,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 import "./Newsletter.css";
 
 const Newsletter = ({ status, message, onValidated }) => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState({});
 
   useEffect(() => {
     if (status === "success") {
