@@ -57,7 +57,7 @@ const Newsletter = ({ status, message, onValidated }) => {
               isRequired
             />
 
-            <button onClick={handleSubmit} className="subscribe-btn">
+            <button onClick={handleSubmit} className="input-cta subscribe-btn">
               Subscribe <FaEnvelope />
             </button>
           </form>
@@ -68,8 +68,8 @@ const Newsletter = ({ status, message, onValidated }) => {
 };
 
 const MailchimpForm = () => {
-  const subscriptionUrl = `https://app.us14.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
-
+  // const subscriptionUrl = `https://app.us14.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
+  const subscriptionUrl = "";
   return (
     <div>
       <MailchimpSubscribe

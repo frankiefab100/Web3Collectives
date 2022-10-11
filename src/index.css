@@ -181,6 +181,39 @@ select {
   margin: 25px 50px;
 }
 
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 50px 30px;
+}
+
+.form {
+  border: 0.5px solid #201f1ff0;
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px 30px;
+  width: 450px;
+}
+
+.input-cta {
+  position: absolute;
+  background-color: var(--cta-primary);
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+}
+
 /* --Media queries-- */
 @media screen and (max-width: 790px) {
   .logo {

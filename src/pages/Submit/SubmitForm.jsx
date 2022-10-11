@@ -86,7 +86,7 @@ const SubmitForm = () => {
         <h3 className="subtitle">Thank you as you contribute!</h3>
 
         <form
-          id="resources-form"
+          className="form resources-form"
           onSubmit={handleOnSubmit}
           action=""
           method="POST"

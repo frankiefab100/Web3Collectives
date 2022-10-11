@@ -14,7 +14,7 @@ const Search = ({ searchTerm, setSearchTerm, handleSearch }) => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <button className="search-btn" onClick={handleSearch}>
+        <button className="input-cta search-btn" onClick={handleSearch}>
           Search
           <FaSearch />
         </button>

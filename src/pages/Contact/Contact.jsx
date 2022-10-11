@@ -67,7 +67,7 @@ const Contact = () => {
         </p>
 
         <div className="form-container">
-          <form action="" method="POST">
+          <form className="form contact-form" action="" method="POST">
             <label htmlFor="email">Email</label>
             <input type="email" name="email" id="email-address" required />
 

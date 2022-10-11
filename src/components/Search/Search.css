@@ -9,7 +9,6 @@
 .search-section {
   position: relative;
   margin: 1rem 0 3rem;
-  /* width: 600px; */
 }
 
 #search {
@@ -18,21 +17,6 @@
   padding: 1.2rem;
   font-size: 1rem;
   background-color: var(--bg-color-secondary);
-}
-
-.search-btn {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  gap: 0.9rem;
-  background-color: var(--cta-primary);
-  color: white;
-  /* padding: 0.8rem 1rem; */
-  cursor: pointer;
-  border-radius: 3px;
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
 }
 
 @media (max-width: 768px) {
