@@ -54,7 +54,7 @@ const Newsletter = ({ status, message, onValidated }) => {
               placeholder="Enter your email"
               onChange={setEmail}
               value={email}
-              isRequired
+              required
             />
 
             <button onClick={handleSubmit} className="input-cta subscribe-btn">

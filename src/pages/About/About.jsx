@@ -1,8 +1,8 @@
 import React from "react";
 import AboutImg from "../../assets/images/about-img.jpg";
-import Featured from "../../components/Featured/Featured";
-import Footer from "../../components/Footer/Footer";
-import Newsletter from "../../components/Newsletter/Newsletter";
+// import Featured from "../../components/Featured/Featured";
+// import Footer from "../../components/Footer/Footer";
+// import Newsletter from "../../components/Newsletter/Newsletter";
 import "./About.css";
 
 const About = () => {
@@ -71,9 +71,9 @@ const About = () => {
         </div>
       </div>
 
-      <Featured />
+      {/* <Featured />
       <Newsletter />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

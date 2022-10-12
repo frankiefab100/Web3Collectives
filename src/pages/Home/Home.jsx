@@ -23,9 +23,9 @@ import { githubRepos } from "../../data/githubRepos";
 import { projectTemplates } from "../../data/projectTemplates";
 import { youtubeChannels } from "../../data/youtubeChannels";
 import { rpcNodes } from "../../data/rpcNodes";
-import Featured from "../../components/Featured/Featured";
-import Newsletter from "../../components/Newsletter/Newsletter";
-import Footer from "../../components/Footer/Footer";
+// import Featured from "../../components/Featured/Featured";
+// import Newsletter from "../../components/Newsletter/Newsletter";
+// import Footer from "../../components/Footer/Footer";
 import "./Home.css";
 
 const Home = () => {
@@ -260,9 +260,9 @@ const Home = () => {
       <NodeProvider resources={filterNodes} />
       <Book resources={filterBooks} />
 
-      <Featured />
+      {/* <Featured />
       <Newsletter />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

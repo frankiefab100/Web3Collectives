@@ -1,8 +1,8 @@
 import React from "react";
 import ContactImg from "../../assets/images/contact-img.jpeg";
-import Featured from "../../components/Featured/Featured";
-import Footer from "../../components/Footer/Footer";
-import Newsletter from "../../components/Newsletter/Newsletter";
+// import Featured from "../../components/Featured/Featured";
+// import Footer from "../../components/Footer/Footer";
+// import Newsletter from "../../components/Newsletter/Newsletter";
 import "./Contact.css";
 
 const Contact = () => {
@@ -81,9 +81,9 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <Featured />
+      {/* <Featured />
       <Newsletter />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

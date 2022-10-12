@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Featured from "../../components/Featured/Featured";
-import Footer from "../../components/Footer/Footer";
-import Newsletter from "../../components/Newsletter/Newsletter";
+// import Featured from "../../components/Featured/Featured";
+// import Footer from "../../components/Footer/Footer";
+// import Newsletter from "../../components/Newsletter/Newsletter";
 import "./SubmitForm.css";
 
 const SubmitForm = () => {
@@ -149,9 +149,9 @@ const SubmitForm = () => {
         )}
         {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
       </div>
-      <Featured />
+      {/* <Featured />
       <Newsletter />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
