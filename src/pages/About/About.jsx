@@ -11,7 +11,7 @@ const About = () => {
       <div className="about-section">
         <img id="heading-img" src={AboutImg} alt="collaboration team" />
         <div className="tagline">
-          We are championing access free Web3 education.
+          We are championing access to free Web3 education.
         </div>
         <h1 id="heading" className="title">
           Introduction

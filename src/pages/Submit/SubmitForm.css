@@ -9,7 +9,7 @@
   line-height: 1.6;
 }
 
-form input {
+.form input {
   background-color: var(--bg-color-secondary);
   margin: 5px 0 10px;
 }
@@ -21,7 +21,7 @@ form input {
 }
 
 @media screen and (max-width: 440px) {
-  form {
+  .form {
     width: 300px;
   }
 }

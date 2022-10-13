@@ -186,7 +186,7 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px 50px 30px;
+  margin: 20px 50px 30px;
 }
 
 .form {
@@ -277,6 +277,12 @@ select {
   }
 }
 
+@media screen and (max-width: 510px) {
+  .form {
+    width: 350px;
+  }
+}
+
 @media screen and (max-width: 440px) {
   .footer-nav p {
     width: 100%;
@@ -292,5 +298,8 @@ select {
   }
   .tagline {
     font-size: 0.75rem;
+  }
+  .form {
+    width: 280px;
   }
 }
