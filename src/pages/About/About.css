@@ -7,8 +7,7 @@
 }
 
 .about-section p {
-  color: #fbfafa;
-  font-weight: 200;
+  color: var(--text-secondary);
   font-size: 1.1rem;
   margin-bottom: 10px;
   line-height: 1.6;

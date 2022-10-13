@@ -1,5 +1,5 @@
 .contact-section {
-  margin: 120px 50px 30px;
+  margin: 120px 25px 30px;
 }
 
 .contact-section #heading-img {
@@ -7,8 +7,7 @@
 }
 
 .contact-section p {
-  color: #fbfafa;
-  font-weight: 200;
+  color: var(--text-secondary);
   font-size: 1.1rem;
   margin-bottom: 10px;
   line-height: 1.6;
