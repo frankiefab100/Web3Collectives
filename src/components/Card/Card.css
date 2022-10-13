@@ -71,3 +71,14 @@
     height: 200px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .card-section {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 12px;
+  }
+  .card-img img {
+    width: 220px;
+    height: 150px;
+  }
+}
