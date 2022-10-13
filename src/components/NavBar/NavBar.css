@@ -19,13 +19,13 @@
 
 .logo {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-left: 50px;
 }
 
 .logo-image {
   padding-right: 10px;
-  /* width: 25px; */
 }
 
 .logo-name {
@@ -56,7 +56,6 @@
 .nav-links li {
   list-style: none;
   font-size: 1rem;
-  /* letter-spacing: 1.5px; */
   padding: 10px 20px;
 }
 
@@ -82,16 +81,6 @@
   font-size: 0.75rem;
   padding: 0.4rem 0.8rem;
   transition: 0.1s ease-in-out;
-
-  /* position: relative;
-  height: 20px;
-  box-sizing: border-box;
-  padding: 1px 12px 1px 12px;
-  background-color: #1d9bf0;
-  color: #fff;
-  border-radius: 9999px;
-  font-weight: 500;
-  cursor: pointer; */
 }
 
 .tweet-btn:visited {
