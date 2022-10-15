@@ -10,9 +10,9 @@ const Hero = () => {
       </h1>
 
       <p className="tagline">
-        Web3Collectives is a free library of over 200 web3 resources on varying
+        Web3Collectives is a free library of over 200+ web3 resources on varying
         topics like Smart contract deployment, building decentralized
-        applications, cryptography fundementals and lots more...
+        applications, cryptography fundamentals, and lots more...
       </p>
     </div>
   );

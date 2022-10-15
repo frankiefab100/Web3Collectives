@@ -1,25 +1,42 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaEnvelope } from "react-icons/fa";
-import MailchimpSubscribe from "react-mailchimp-subscribe";
 import "./Newsletter.css";
 
 const Newsletter = ({ status, message, onValidated }) => {
-  const [email, setEmail] = useState("");
-
-  // useEffect(() => {
-  //   if (status === "success") {
-  //     setEmail("");
-  //   }
-  // }, [status]);
+  const [email, setEmail] = useState(null);
+  const [error, setError] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    email &&
-      email.indexOf("@") > -1 &&
-      onValidated({
-        EMAIL: email,
-      });
+    setError(null);
+
+    if (!email) {
+      setError("Please enter a valid email address");
+      return null;
+    }
+
+    const isValidated = onValidated({
+      EMAIL: email,
+    });
+
+    return email && email.indexOf("@") > -1 && isValidated;
+  };
+
+  // UX for Keyboard users
+  const handleKeyUp = (e) => {
+    setError(null);
+
+    if (e.keyCode === 13) {
+      e.preventDefault();
+      handleSubmit();
+    }
+  };
+
+  const getMessage = (message) => {
+    if (!message) {
+      return null;
+    }
   };
 
   return (
@@ -40,20 +57,23 @@ const Newsletter = ({ status, message, onValidated }) => {
         />
       )}
 
+      {status === "error" && !error && (
+        <div
+          className="alert-error"
+          dangerouslySetInnerHTML={{ __html: error || getMessage(message) }}
+        />
+      )}
+
       <div className="subscribe-section">
         <div className="newsletter-subscribe">
-          <form
-            // action="https://app.us14.list-manage.com/subscribe/post"
-            id="newsletter-form"
-            // onSubmit={(e) => handleSubmit(e)}
-          >
+          <form id="newsletter-form">
             <input
               type="email"
               id="email"
               name="email"
               placeholder="Enter your email"
-              onChange={setEmail}
-              value={email}
+              onChange={(e) => setEmail(e?.target?.value ?? "")}
+              onKeyUp={(e) => handleKeyUp(e.target.value)}
               required
             />
 
@@ -67,23 +87,4 @@ const Newsletter = ({ status, message, onValidated }) => {
   );
 };
 
-const MailchimpForm = () => {
-  // const subscriptionUrl = `https://app.us14.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
-  const subscriptionUrl = "";
-  return (
-    <div>
-      <MailchimpSubscribe
-        url={subscriptionUrl}
-        render={({ subscribe, status, message }) => (
-          <Newsletter
-            status={status}
-            message={message}
-            onValidated={(formData) => subscribe(formData)}
-          />
-        )}
-      />
-    </div>
-  );
-};
-
-export default MailchimpForm;
+export default Newsletter;

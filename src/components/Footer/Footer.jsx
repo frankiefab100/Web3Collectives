@@ -83,10 +83,10 @@ const Footer = () => {
                   <Link to="about">About </Link>
                 </li>
                 <li>
-                  <Link to="contribute">Contributing </Link>
+                  <Link to="contact">Contact </Link>
                 </li>
                 <li>
-                  <Link to="support">Support</Link>
+                  <Link to="submit">Submit</Link>
                 </li>
                 <li>
                   <a href="https://dscord.com/">Join Discord</a>
@@ -122,9 +122,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#rpc">Node Providers</a>
-                </li>
-                <li>
-                  <a href="#blog">Blogs</a>
                 </li>
                 <li>
                   <a href="#book">Books</a>

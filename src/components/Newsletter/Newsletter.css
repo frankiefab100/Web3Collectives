@@ -54,6 +54,13 @@
 .alert-success {
   color: #12e965;
   font-style: italic;
+  padding-top: 10px;
+}
+
+.alert-error {
+  color: #e91212;
+  font-style: italic;
+  padding-top: 10px;
 }
 
 @media (max-width: 768px) {

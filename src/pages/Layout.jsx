@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import useLocalStorage from "use-local-storage";
 import { Outlet } from "react-router-dom";
 import NavBar from "../components/NavBar/NavBar";
-import Newsletter from "../components/Newsletter/Newsletter";
+// import Newsletter from "../components/Newsletter/Newsletter";
+import NewsletterMailchimp from "../components/Newsletter/NewsletterMailchimp";
 import Featured from "../components/Featured/Featured";
 import Footer from "../components/Footer/Footer";
 
@@ -30,7 +31,7 @@ const Layout = () => {
       <Outlet />
 
       <Featured />
-      <Newsletter />
+      <NewsletterMailchimp />
 
       <Footer />
     </div>
