@@ -1,8 +1,5 @@
 import React from "react";
 import ContactImg from "../../assets/images/contact-img.jpeg";
-// import Featured from "../../components/Featured/Featured";
-// import Footer from "../../components/Footer/Footer";
-// import Newsletter from "../../components/Newsletter/Newsletter";
 import "./Contact.css";
 
 const Contact = () => {
@@ -55,10 +52,15 @@ const Contact = () => {
         <p>
           If you appreciate what we are doing at Web3Collectives, you can
           <a href="https://www.buymeacoffee.com/frankiefab100" target="_blank">
-            Buy me a coffee
+            Buy Me a Coffee
           </a>{" "}
           or Donate via{" "}
-          <em>MATIC: 0x370f92912744ecae29991b8668e1bf5730e6e6d8 </em>
+          <a
+            href="https://polygonscan.com/address/0x370f92912744ecae29991b8668e1bf5730e6e6d8"
+            target="_blank"
+          >
+            MATIC token
+          </a>
         </p>
         <h2>Partner/Sponsor</h2>
         <p>
@@ -81,9 +83,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      {/* <Featured />
-      <Newsletter />
-      <Footer /> */}
     </>
   );
 };
