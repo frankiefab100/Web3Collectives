@@ -86,7 +86,7 @@ const Contact = () => {
           </a>{" "}
           or reach out on
           <a
-            href="https://web3collectives"
+            href="https://twitter.com/web3collectives"
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
