@@ -31,6 +31,9 @@ textarea {
   border: none;
   outline: none;
   border-radius: 3px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  padding: 15px;
   resize: none;
   min-height: 100px;
 }

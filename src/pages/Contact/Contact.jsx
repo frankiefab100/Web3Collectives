@@ -1,8 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import ContactImg from "../../assets/images/contact-img.jpeg";
+import { database } from "../../firebase/firebaseConfig";
+import { addDoc, collection } from "firebase/firestore/lite";
 import "./Contact.css";
 
 const Contact = () => {
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleForm = async (e) => {
+    e.preventDefault();
+
+    try {
+      const ref = collection(database, "contact");
+      await addDoc(ref, {
+        email: email,
+        subject: subject,
+        message: message,
+      });
+    } catch (error) {
+      alert(error.message);
+    }
+
+    setEmail("");
+    setSubject("");
+    setMessage("");
+  };
+
   return (
     <>
       <div className="contact-section">
@@ -69,15 +94,37 @@ const Contact = () => {
         </p>
 
         <div className="form-container">
-          <form className="form contact-form" action="" method="POST">
+          <form
+            onSubmit={handleForm}
+            className="form contact-form"
+            action=""
+            method="POST"
+          >
             <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email-address" required />
+            <input
+              type="email"
+              name="email"
+              id="email-address"
+              required
+              onChange={(e) => setEmail(e.target.value)}
+            />
 
             <label htmlFor="subject">Subject</label>
-            <input type="text" name="subject" id="subject" />
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              onChange={(e) => setSubject(e.target.value)}
+            />
 
             <label htmlFor="message">Message</label>
-            <textarea name="message" cols="30" rows="10" required></textarea>
+            <textarea
+              name="message"
+              cols="30"
+              rows="10"
+              required
+              onChange={(e) => setMessage(e.target.value)}
+            ></textarea>
 
             <button className="submit-btn">Send</button>
           </form>
