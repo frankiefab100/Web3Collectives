@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import ContactImg from "../../assets/images/contact-img.jpeg";
 import { database } from "../../firebase/firebaseConfig";
-import { doc, setDoc } from "firebase/firestore";
+import { doc, set, collection } from "firebase/firestore";
+// import { doc, addDoc, collection } from "firebase/firestore";
 import "./Contact.css";
 
 const Contact = () => {
@@ -9,25 +10,44 @@ const Contact = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
+  // const handleForm = async () => {
+  //   if (email !== "" && subject !== "" && message !== "") {
+  //     try {
+
+  // await setDoc(doc(database, "contact", email), {
+  //   email,
+  //   subject,
+  //   message,
+  // });
+
+  // const dbRef = collection(db, "users");
+  // addDoc(dbRef, data).then(docRef => {
+  //   alert("added successfully")
+  // }).catch(error => { console.log(error)
+
+  //       const docRef = doc(database, "contact", user.id);
+  //       const colRef = collection(docRef, "contact_info");
+  //       await addDoc(colRef, {
+  //         email: email,
+  //         subject: subject,
+  //         message: message,
+  //       });
+
+  //       setEmail("");
+  //       setSubject("");
+  //       setMessage("");
+  //       alert("Form submitted successfully!");
+  //     } catch (error) {
+  //       alert(error.message);
+  //     }
+  //   } else alert("Fields can't be empty");
+  // };
+
   const handleForm = async () => {
-    // e.preventDefault();
-
-    if (email !== "" && subject !== "" && message !== "") {
-      try {
-        await setDoc(doc(database, "contact", email), {
-          email,
-          subject,
-          message,
-        });
-
-        setEmail("");
-        setSubject("");
-        setMessage("");
-        alert("Form submitted successfully!");
-      } catch (error) {
-        alert(error.message);
-      }
-    } else alert("Fields can't be empty");
+    await database
+      .collection("contact")
+      .doc("contact_info")
+      .set({ email: email, subject: subject, message: message });
   };
 
   return (
