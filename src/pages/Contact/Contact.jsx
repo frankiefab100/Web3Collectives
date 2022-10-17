@@ -14,7 +14,7 @@ const Contact = () => {
 
     if (email !== "" && subject !== "" && message !== "") {
       try {
-        await setDoc(doc(database, "contact"), {
+        await setDoc(doc(database, "contact", email), {
           email,
           subject,
           message,
