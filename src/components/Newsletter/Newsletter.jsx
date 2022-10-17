@@ -1,26 +1,31 @@
 import React, { useState } from "react";
 import { FaEnvelope } from "react-icons/fa";
+import { database } from "../../firebase/firebaseConfig";
+import { doc, setDoc } from "firebase/firestore";
 import "./Newsletter.css";
+import { async } from "@firebase/util";
 
-const Newsletter = ({ status, message, onValidated }) => {
-  const [email, setEmail] = useState(null);
+const Newsletter = () => {
+  const [email, setEmail] = useState("");
   const [error, setError] = useState(null);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     setError(null);
 
-    if (!email) {
-      setError("Please enter a valid email address");
-      return null;
-    }
+    if (email !== "") {
+      try {
+        await setDoc(doc(database, "newsletter", email), {
+          email,
+        });
 
-    const isValidated = onValidated({
-      EMAIL: email,
-    });
-
-    return email && email.indexOf("@") > -1 && isValidated;
+        setEmail("");
+        alert("Subscription successfully!");
+      } catch (error) {
+        alert(error.message);
+      }
+    } else alert("Please enter a valid email address");
   };
 
   // UX for Keyboard users
@@ -33,36 +38,14 @@ const Newsletter = ({ status, message, onValidated }) => {
     }
   };
 
-  const getMessage = (message) => {
-    if (!message) {
-      return null;
-    }
-  };
-
   return (
     <div className="newsletter-section">
       <div className="newsletter-text">
         <h2 className="newsletter-title">Stay up to date as you learn</h2>
         <p className="newsletter-subtitle">
-          {status === "success"
-            ? "SubscriptionSuccessful!"
-            : "Sign up to our newsletter for biweekly Web3 resources and insights."}
+          Sign up to our newsletter for biweekly Web3 resources and insights.
         </p>
       </div>
-
-      {status === "success" && (
-        <div
-          className="alert-success"
-          dangerouslySetInnerHTML={{ __html: message }}
-        />
-      )}
-
-      {status === "error" && !error && (
-        <div
-          className="alert-error"
-          dangerouslySetInnerHTML={{ __html: error || getMessage(message) }}
-        />
-      )}
 
       <div className="subscribe-section">
         <div className="newsletter-subscribe">
@@ -72,8 +55,9 @@ const Newsletter = ({ status, message, onValidated }) => {
               id="email"
               name="email"
               placeholder="Enter your email"
-              onChange={(e) => setEmail(e?.target?.value ?? "")}
+              onChange={(e) => setEmail(e.target.value)}
               onKeyUp={(e) => handleKeyUp(e.target.value)}
+              value={email}
               required
             />
 
