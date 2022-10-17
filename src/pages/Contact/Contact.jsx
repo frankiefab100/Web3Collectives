@@ -19,14 +19,15 @@ const Contact = () => {
           subject,
           message,
         });
+
+        setEmail("");
+        setSubject("");
+        setMessage("");
+        alert("Form submitted successfully!");
       } catch (error) {
         alert(error.message);
       }
     } else alert("Fields can't be empty");
-
-    setEmail("");
-    setSubject("");
-    setMessage("");
   };
 
   return (
