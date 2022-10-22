@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ContactImg from "../../assets/images/contact-img.jpeg";
-import { database } from "../../firebase/firebaseConfig";
-import { doc, set, collection } from "firebase/firestore";
-// import { doc, addDoc, collection } from "firebase/firestore";
+import { db } from "../../firebase/firebaseConfig";
+// import db from "../../firebase/firebaseConfig";
+import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import "./Contact.css";
 
 const Contact = () => {
@@ -44,10 +44,10 @@ const Contact = () => {
   // };
 
   const handleForm = async () => {
-    await database
-      .collection("contact")
-      .doc("contact_info")
-      .set({ email: email, subject: subject, message: message });
+    const collectionRef = collection(db, "contact_us");
+    const payload = { email, subject, message };
+
+    await addDoc(collectionRef, payload, serverTimestamp());
   };
 
   return (
@@ -116,12 +116,7 @@ const Contact = () => {
         </p>
 
         <div className="form-container">
-          <form
-            // onSubmit={handleForm}
-            className="form contact-form"
-            action=""
-            method="POST"
-          >
+          <form className="form contact-form" action="" method="POST">
             <label htmlFor="email">Email</label>
             <input
               type="email"

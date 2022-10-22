@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { FaEnvelope } from "react-icons/fa";
-import { database } from "../../firebase/firebaseConfig";
+import { db } from "../../firebase/firebaseConfig";
 import { doc, setDoc } from "firebase/firestore";
 import "./Newsletter.css";
-import { async } from "@firebase/util";
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
@@ -16,7 +15,7 @@ const Newsletter = () => {
 
     if (email !== "") {
       try {
-        await setDoc(doc(database, "newsletter", email), {
+        await setDoc(doc(db, "newsletter", email), {
           email,
         });
 
