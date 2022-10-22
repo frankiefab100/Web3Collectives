@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ContactImg from "../../assets/images/contact-img.jpeg";
-import { db } from "../../firebase/firebaseConfig";
-// import db from "../../firebase/firebaseConfig";
+// import { db } from "../../firebase/firebaseConfig";
+import db from "../../firebase/firebaseConfig";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import "./Contact.css";
 
