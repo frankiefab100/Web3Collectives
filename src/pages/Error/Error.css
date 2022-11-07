@@ -1,0 +1,30 @@
+.error-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 25px 30px;
+}
+
+.error-img {
+  max-width: 600px;
+  margin-bottom: -50px;
+}
+
+.error-section p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.error-section h3 {
+  margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .error-section p {
+    width: 50%;
+  }
+}
