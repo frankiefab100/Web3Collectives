@@ -6,7 +6,7 @@ export const courses = [
     title: "Solidity, Blockchain, and Smart Contract Course (FreeCodeCamp)",
     description: "Beginner to Expert Python Tutorial",
     url: "https://www.youtube.com/watch?v=M576WGiDBdQ",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Blockchain", "Ethereum", "Vyper"],
   },
   {
@@ -18,7 +18,7 @@ export const courses = [
     description:
       "In this awesome tutorial of 32 hours you will learn in details most of concepts of Ethereum, EVM, Smart contracts and how to code them",
     url: "https://youtu.be/gyMwXuJrbJQ",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
   },
   {
@@ -28,7 +28,7 @@ export const courses = [
     title: "Blockchain Theory 101",
     description: ".......",
     url: "https://www.udemy.com/share/101yjc2@PUdKbFpaTVMPcUBCO0hOfg==/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
   },
   {
@@ -39,7 +39,7 @@ export const courses = [
     description:
       "This free online blockchain course introduces you to Blockchain technology and all its applications, including cryptocurrencies. ",
     url: "https://alison.com/course/diploma-in-blockchain-technology-and-applications",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
   },
   {
@@ -48,7 +48,7 @@ export const courses = [
     title: "Smart Contracts",
     description: ".......",
     url: "https://www.coursera.org/learn/smarter-contracts",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
   },
   {
@@ -59,7 +59,7 @@ export const courses = [
     description:
       "This course provides a conceptual overview and technical summary of the two top job growth areas worldwide: blockchain technology and deep learning ...",
     url: "https://www.udemy.com/course/blockchain-and-deep-learning-future-of-ai/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
   },
   {
@@ -68,7 +68,7 @@ export const courses = [
     title: "Understanding Blockchain Technology",
     description: ".......",
     url: "https://www.udemy.com/course/understanding-blockchain-technology/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
   },
   {
@@ -79,7 +79,7 @@ export const courses = [
     description:
       "By the end of the tutorial, you will have all the skills required to design your own smart contracts in Solidity",
     url: "https://www.ludu.co/course/ethereum",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
   },
 
@@ -91,7 +91,7 @@ export const courses = [
     description:
       "Start free Blockchain Technology course online to learn the basic fundamentals of Blockchain Technology and get started with most in-demand technology in ...",
     url: "https://witscad.com/course/blockchain-technology-fundamentals",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
   },
   {
@@ -102,7 +102,7 @@ export const courses = [
     description:
       "101 Blockchains is a comprehensive platform that specializes in practical blockchain professional training and certification programs.",
     url: "https://academy.101blockchains.com/courses/enterprise-blockchains-fundamentals",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
   },
   {
@@ -113,7 +113,7 @@ export const courses = [
     description:
       "Web-based demonstration of hash, block, distributed ledger, token, public/private key pairs and signing",
     url: "https://andersbrownworth.com/blockchain/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
   },
 ];

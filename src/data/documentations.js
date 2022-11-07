@@ -6,7 +6,7 @@ export const documentations = [
     title: "Blockchain Development Tutorial",
     description: "Getting Started with Blockchain Development by CryptoDev Hub",
     url: "https://cryptodevhub.io/wiki/blockchain-development-tutorial",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Blockchain", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -26,7 +26,7 @@ export const documentations = [
     title: "Getting started with Blockchain",
     description: "Getting started with Blockchain by Kauri",
     url: "https://kauri.io/#collections/Getting%20Started/blockchain-explained/",
-    tag: ["Begineer", "Intermediate", "Advanced", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Advanced", "Documentation"],
     keywords: ["Blockchain", "Smart Contracts", "Solidity", "Ethereum"],
   },
   {
@@ -36,7 +36,7 @@ export const documentations = [
     title: "Public Good Blockchain Development Guide",
     description: "Blockchain Development Guide by Devpill",
     url: "https://www.devpill.me/docs",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: ["Smart Contracts", "Solidity", "Ethereum"],
   },
   {
@@ -46,7 +46,7 @@ export const documentations = [
     title: "Ethereum Blockchain Development",
     description: "Get started with blockchain development by Microsoft",
     url: "https://docs.microsoft.com/en-us/learn/paths/ethereum-blockchain-development",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: ["Smart Contracts", "Solidity", "Ethereum"],
   },
   {
@@ -56,7 +56,7 @@ export const documentations = [
     title: "Hello World Smart Contracts",
     description: "Smart Contract Tutorial by Alchemy",
     url: "https://docs.alchemy.com/alchemy/tutorials/hello-world-smart-contract",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: ["Smart Contracts", "Solidity", "Ethereum", "Alchemy"],
   },
   {
@@ -66,7 +66,7 @@ export const documentations = [
     title: "Learn Solidity in Y Minutes",
     description: "Solidity Tutorial by Learn-x-in-y-minutes",
     url: "https://learnxinyminutes.com/docs/solidity",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: ["Smart Contracts", "Solidity", "Ethereum", "Alchemy"],
   },
   {
@@ -75,7 +75,7 @@ export const documentations = [
     title: "Solidity Docs",
     description: "Solidity Tutorial",
     url: "https://solidity.readthedocs.io",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: ["Smart Contracts", "Solidity", "Ethereum", "Blockchain"],
   },
   {
@@ -85,7 +85,7 @@ export const documentations = [
     title: "OpenZeppelin Docs",
     description: "OpenZeppelin Tutorials by Ethernaut",
     url: "https://ethernaut.openzeppelin.com/",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: [
       "Smart Contracts",
       "Solidity",
@@ -100,7 +100,7 @@ export const documentations = [
     title: "Ethereum Docs",
     description: "Ethereum Tutorial",
     url: "https://studio.ethereum.org/",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: ["Smart Contracts", "Solidity", "Ethereum", "Blockchain"],
   },
   {
@@ -109,7 +109,7 @@ export const documentations = [
     title: "Polygon Docs",
     description: "Getting started with Polygon by Polygon Academy",
     url: "https://academy.polygon.technology/module-1-getting-started/join-the-polygon-academy",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: [
       "Smart Contracts",
       "Solidity",
@@ -125,7 +125,7 @@ export const documentations = [
     title: "Decentology Docs",
     description: "Ethspring by Decentology",
     url: "https://docs.decentology.com/",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: [
       "Smart Contracts",
       "Solidity",
@@ -141,7 +141,7 @@ export const documentations = [
     title: "Solana Docs",
     description: "Solana Documentation",
     url: "https://docs.solana.com/",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: ["Smart Contracts", "Solana", "Blockchain"],
   },
   {
@@ -151,25 +151,27 @@ export const documentations = [
     title: "NEAR Docs",
     description: "NEAR Documentation",
     url: "https://docs.near.org/docs/tutorials/overview",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: ["Smart Contracts", "NEAR", "Blockchain"],
   },
   {
     id: 15,
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWLXMw05q_HPXXS_H1pFWWHK7NzVr43gkcK1nX8fwDRdJrEQrkjwQdRvRhDDzx2hCgEQ&usqp=CAU",
+    coverImage:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWLXMw05q_HPXXS_H1pFWWHK7NzVr43gkcK1nX8fwDRdJrEQrkjwQdRvRhDDzx2hCgEQ&usqp=CAU",
     title: "Avalanche Docs",
     description: "Avalanche Documentation",
     url: "https://docs.avax.network/build/tutorials",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: ["Smart Contracts", "Avalanche", "Blockchain"],
   },
   {
     id: 16,
-    coverImage: "https://pbs.twimg.com/profile_images/1228405960835813378/eH3FdBKB_400x400.jpg",
+    coverImage:
+      "https://pbs.twimg.com/profile_images/1228405960835813378/eH3FdBKB_400x400.jpg",
     title: "ZKsync Docs",
     description: "ZKSync Documentation",
     url: "https://docs.zksync.io",
-    tag: ["Begineer", "Intermediate", "Documentation"],
+    tag: ["Beginner", "Intermediate", "Documentation"],
     keywords: ["Smart Contracts", "ZKSync", "Blockchain"],
   },
 ];

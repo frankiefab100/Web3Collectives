@@ -7,7 +7,7 @@ export const devTools = [
     description:
       "An online Integrated Development Environment used to write, compile, debug and deploy solidity code for smart contracts",
     url: "https://remix.ethereum.org",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Code Editor", "IDE"],
   },
 
@@ -18,7 +18,7 @@ export const devTools = [
     title: "EthFiddle",
     description: "A solidity browser-based development tool",
     url: "https://ethfiddle.com/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["EthFiddle", "Solidity", "Ethereum", "Code Editor"],
   },
   {
@@ -29,7 +29,7 @@ export const devTools = [
     description:
       "An object-oriented, high-level language for implementing smart contracts on Ethereum Virtual Machine",
     url: "https://docs.soliditylang.org",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
       "Programming Language",
@@ -45,7 +45,7 @@ export const devTools = [
     description:
       "A wallet extension for accessing and injecting the Ethereum web3 API",
     url: "https://docs.metamask.io/guide",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Metamask",
       "Ethereum",
@@ -62,7 +62,7 @@ export const devTools = [
     description:
       "Development environment, testing framework and asset pipeline for blockchains using the EVM",
     url: "https://trufflesuite.com/doc",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Truffle Suite", "Solidity", "Ethereum", "Ganache"],
   },
   {
@@ -73,7 +73,7 @@ export const devTools = [
     description:
       "A collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket",
     url: "https://web3js.readthedocs.io",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Web3.js", "Solidity", "Ethereum", "Javascript library"],
   },
   {
@@ -84,7 +84,7 @@ export const devTools = [
     description:
       "An Ethereum development environment that helps developers manage and automate the recurring tasks inherent to building smart contracts and DApps",
     url: "https://hardhat.org/getting-started/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Hardhat", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
   {
@@ -95,7 +95,7 @@ export const devTools = [
     description:
       "A compact library for interacting with the Ethereum Blockchain and its ecosystem",
     url: "https://docs.ethers.io",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Ethers.js", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
   {
@@ -106,7 +106,7 @@ export const devTools = [
     description:
       "A contract-oriented, pythonic programming language that targets the Ethereum Virtual Machine",
     url: "https://vyper.readthedocs.io",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Vyper", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
   {
@@ -116,7 +116,7 @@ export const devTools = [
     description:
       "A Python library for interacting with Ethereum, inspired by web3.js",
     url: "https://web3py.readthedocs.io",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Web3.py", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
   {
@@ -127,7 +127,7 @@ export const devTools = [
     description:
       "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine",
     url: "https://eth-brownie.readthedocs.io",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Brownie", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
   {
@@ -137,7 +137,7 @@ export const devTools = [
     description:
       "A library for secure smart contract development and community-vetted code",
     url: "https://docs.openzeppelin.com/learn/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "OpenZeppelin",
       "Solidity",
@@ -153,7 +153,7 @@ export const devTools = [
     title: "EVM Codes",
     description: "An interactive reference to Ethereum Virtual Machine Opcodes",
     url: "https://www.evm.codes/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["EVM Codes", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
   {
@@ -162,7 +162,7 @@ export const devTools = [
     title: "EVM Opcodes",
     description: "Ethereum Virtual Machine Opcodes",
     url: "https://www.ethervm.io/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "EVM Opcodes",
       "Solidity",
@@ -179,7 +179,7 @@ export const devTools = [
     description:
       "Convert from a bytes32/hex into a string/number or vice-versa",
     url: "https://web3-type-converter.onbrn.com/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Web3 Type Converter",
       "Solidity",
@@ -195,7 +195,7 @@ export const devTools = [
     title: "Go Ethereum",
     description: "Golang implementation of Ethereum protocol",
     url: "https://geth.ethereum.org/docs/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Go Ethereum",
       "Solidity",
@@ -211,7 +211,7 @@ export const devTools = [
     description:
       "Programming language for writing smart contracts on Solana Blockchain",
     url: "https://www.rust-lang.org/learn",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Rust", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
   {
@@ -221,7 +221,7 @@ export const devTools = [
     title: "Solang",
     description: "Solidity Compiler for Solana",
     url: "https://solang.readthedocs.io/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solang", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
   {
@@ -232,7 +232,7 @@ export const devTools = [
     description:
       "Moralis provides a single workflow for building high performance dapps",
     url: "https://moralis.io",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Moralis", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
   {
@@ -243,7 +243,7 @@ export const devTools = [
     description:
       "Powerful SDK and intuitive tools for developers to implement web3 features",
     url: "https://thirdweb.com",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Thirdweb", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
 ];

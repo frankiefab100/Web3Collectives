@@ -7,7 +7,7 @@ export const games = [
     description:
       "CryptoZombies is an interactive school that teaches you all things technical about blockchains. Learn to make smart contracts in Solidity by making your own ...",
     url: "https://cryptozombies.io",
-    tag: ["Begineer", "game"],
+    tag: ["Beginner", "game"],
     keywords: ["Solidity", "Ethereum", "Web3"],
   },
   {
@@ -17,7 +17,7 @@ export const games = [
     title: "Ethernaut",
     description: ".....",
     url: "https://ethernaut.openzeppelin.com",
-    tag: ["Begineer", "game"],
+    tag: ["Beginner", "game"],
     keywords: ["Solidity", "Ethereum", "Web3"],
   },
   {
@@ -27,7 +27,7 @@ export const games = [
     description:
       "Damn Vulnerable DeFi is the wargame to learn offensive security of DeFi smart contracts. Throughout numerous challenges you will build the skills to become ...",
     url: "https://www.damnvulnerabledefi.xyz",
-    tag: ["Begineer", "game"],
+    tag: ["Beginner", "game"],
     keywords: ["Solidity", "Ethereum", "Web3"],
   },
   {
@@ -38,7 +38,7 @@ export const games = [
     description:
       "This is an interactive tutorial website for learning Vyper while building games using smart contracts, similar to Cryptozombies.",
     url: "https://vyper.fun/lessons.html#",
-    tag: ["Begineer", "game"],
+    tag: ["Beginner", "game"],
     keywords: ["Vyper", "Ethereum", "Web3"],
   },
   {
@@ -47,7 +47,7 @@ export const games = [
     title: "Capture the Ether",
     description: ".....",
     url: "https://capturetheether.com",
-    tag: ["Begineer", "game"],
+    tag: ["Beginner", "game"],
     keywords: ["Solidity", "Ethereum", "Web3"],
   },
   {
@@ -57,7 +57,7 @@ export const games = [
     title: "Space Doggos",
     description: ".....",
     url: "https://www.bitdegree.org/course/learn-solidity-space-doggos",
-    tag: ["Begineer", "game"],
+    tag: ["Beginner", "game"],
     keywords: ["Solidity", "Ethereum", "Web3"],
   },
   {
@@ -68,7 +68,7 @@ export const games = [
     description:
       "A fun, free platform to learn about cryptography through solving challenges and cracking insecure code",
     url: "https://cryptohack.org",
-    tag: ["Begineer", "game"],
+    tag: ["Beginner", "game"],
     keywords: ["Solidity", "Ethereum", "Web3"],
   },
 ];

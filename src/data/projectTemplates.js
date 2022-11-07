@@ -6,7 +6,7 @@ export const projectTemplates = [
     title: "Scaffold-Eth",
     description: ".....",
     url: "https://github.com/scaffold-eth/scaffold-eth",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Metamask"],
   },
   {
@@ -16,7 +16,7 @@ export const projectTemplates = [
     title: "Create-eth-app",
     description: "...",
     url: "https://github.com/paulrberg/create-eth-app",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -26,7 +26,7 @@ export const projectTemplates = [
     title: "Web3-ui",
     description: "...",
     url: "https://github.com/Developer-DAO/web3-ui",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -36,7 +36,7 @@ export const projectTemplates = [
     title: "Web3-react",
     description: "...",
     url: "https://github.com/NoahZinsmeister/web3-react",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
   {
@@ -46,7 +46,7 @@ export const projectTemplates = [
     title: "Create-web3-frontend",
     description: "...",
     url: "https://github.com/Dhaiwat10/create-web3-frontend",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
   {
@@ -56,7 +56,7 @@ export const projectTemplates = [
     title: "Wagmi.sh",
     description: "...",
     url: "https://wagmi.sh",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
   {
@@ -66,7 +66,7 @@ export const projectTemplates = [
     title: "Eth-hooks",
     description: "...",
     url: "https://scaffold-eth.github.io/eth-hooks/",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
   {
@@ -76,7 +76,7 @@ export const projectTemplates = [
     title: "Typescript Solidity Dev Starter Kit",
     description: "...",
     url: "https://github.com/rhlsthrm/typescript-solidity-dev-starter-kit",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
   {
@@ -86,7 +86,7 @@ export const projectTemplates = [
     title: "Dapp scaffold",
     description: "...",
     url: "https://github.com/solana-labs/dapp-scaffold",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
   {
@@ -96,7 +96,7 @@ export const projectTemplates = [
     title: "Ethereum Boilerplate",
     description: "...",
     url: "https://github.com/ethereum-boilerplate/ethereum-boilerplate",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
   {
@@ -106,7 +106,7 @@ export const projectTemplates = [
     title: "Nextjs dapp starter typescript",
     description: "...",
     url: "https://github.com/G3root/nextjs-dapp-starter-ts",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
   {
@@ -116,7 +116,7 @@ export const projectTemplates = [
     title: "Polygon dapp starter kit",
     description: "...",
     url: "https://github.com/Polygon-Academy/starter-kits",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Polygon"],
   },
   {
@@ -126,7 +126,7 @@ export const projectTemplates = [
     title: "Buildspace dao starter",
     description: "...",
     url: "https://github.com/buildspace/buildspace-dao-starter",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "DAO"],
   },
   {
@@ -136,7 +136,7 @@ export const projectTemplates = [
     title: "Lens protocol frontend",
     description: "...",
     url: "https://github.com/dabit3/lens-protocol-frontend",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
   {
@@ -146,7 +146,7 @@ export const projectTemplates = [
     title: "Solana dapp scaffold",
     description: "...",
     url: "https://github.com/swaroopmaddu/solana-dapp-scaffold",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
   {
@@ -156,7 +156,7 @@ export const projectTemplates = [
     title: "Web3ui kit",
     description: "...",
     url: "https://github.com/web3ui/web3uikit",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Web3js"],
   },
 ];

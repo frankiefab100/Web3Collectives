@@ -7,7 +7,7 @@ export const githubRepos = [
     description:
       "Learn Blockchain, Solidity, and Full Stack Web3 Development with Javascript",
     url: "https://github.com/smartcontractkit/full-blockchain-solidity-course-js",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -18,7 +18,7 @@ export const githubRepos = [
     description:
       "Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course Python Edition",
     url: "https://github.com/smartcontractkit/full-blockchain-solidity-course-py",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -28,7 +28,7 @@ export const githubRepos = [
     title: "Blockchain for software engineers",
     description: "A curated list of resources for blockchain engineers",
     url: "https://github.com/benstew/blockchain-for-software-engineers",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -39,7 +39,7 @@ export const githubRepos = [
     description:
       "A guide to available tools and platforms for developing on Ethereum.",
     url: "https://github.com/ConsenSys/ethereum-developer-tools-list",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -50,7 +50,7 @@ export const githubRepos = [
     description:
       "A curated list of awesome Solidity resources, libraries, tools and more.",
     url: "https://github.com/bkrem/awesome-solidity",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -60,7 +60,7 @@ export const githubRepos = [
     title: "Awesome ethereum security",
     description: "A curated list of awesome Ethereum security references",
     url: "https://github.com/crytic/awesome-ethereum-security",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -71,7 +71,7 @@ export const githubRepos = [
     description:
       "Curated list of resources for the development and applications of blockchain.",
     url: "https://github.com/yjjnls/awesome-blockchain",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -81,7 +81,7 @@ export const githubRepos = [
     title: "Blockchain learning path",
     description: "A suggested learning path for blockchain development.",
     url: "https://github.com/protofire/blockchain-learning-path",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -91,7 +91,7 @@ export const githubRepos = [
     title: "Awesome solidity BlockchainLabs",
     description: "A curated list of awesome Solidity resources",
     url: "https://github.com/BlockchainLabsNZ/awesome-solidity",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -101,7 +101,7 @@ export const githubRepos = [
     title: "Solidity 101",
     description: "........",
     url: "https://github.com/l-henri/solidity-101",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -111,7 +111,7 @@ export const githubRepos = [
     description:
       "a curated Web3.0 Developer handbook which includes a list of the best tools for DApps, development resources and lifehacks.",
     url: "https://github.com/OffcierCia/DeFi-Developer-Road-Map",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "DeFi"],
   },
   {
@@ -122,7 +122,7 @@ export const githubRepos = [
     description:
       "Blockchain Development curriculum, code snippets and best of practice learnt on the course of transitioning from Web2.",
     url: "https://github.com/frankiefab100/Web3.0-Roadmap",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -132,7 +132,7 @@ export const githubRepos = [
     title: "Smart contract resources",
     description: "........",
     url: "https://github.com/ErichDylus/Smart-Contract-Resources",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -142,7 +142,7 @@ export const githubRepos = [
     title: "Learning solidity",
     description: "Basic examples of Solidity smart contracts",
     url: "https://github.com/pbrudny/learning-solidity-2018",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -152,7 +152,7 @@ export const githubRepos = [
     title: "Solidity Notes",
     description: "A bunch of notes for beginners learning solidity",
     url: "https://github.com/0xpranay/solidity-notes",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -162,7 +162,7 @@ export const githubRepos = [
     title: "Learn solidity with examples",
     description: "A repo full of smart contracts written in solidity",
     url: "https://github.com/James-Sangalli/learn-solidity-with-examples",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -173,7 +173,7 @@ export const githubRepos = [
     description:
       "A compilation of patterns and best practices for the smart contract programming language Solidity",
     url: "https://github.com/fravoll/solidity-patterns",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -184,7 +184,7 @@ export const githubRepos = [
     description:
       "A collection of short yet fully-functional contracts that demonstrate Solidity language features",
     url: "https://github.com/raineorshine/solidity-by-example",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -195,7 +195,7 @@ export const githubRepos = [
     description:
       "HUGO site for devpill.me, a public good blockchain development guide",
     url: "https://github.com/dcbuild3r/blockchain-development-guide",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -206,7 +206,7 @@ export const githubRepos = [
     description:
       "Cheat sheet and best practices for solidity. Write smart contracts for Ethereum.",
     url: "https://github.com/manojpramesh/solidity-cheatsheet",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -215,7 +215,7 @@ export const githubRepos = [
     title: "Journey to become a blockchain engineer",
     description: "Note on everything learned to become a Blockchain Engineer",
     url: "https://github.com/spo0ds/Journey-to-become-a-Blockchain-Engineer",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -224,7 +224,7 @@ export const githubRepos = [
     title: "Web2 to Web3 resources",
     description: "........",
     url: "https://github.com/decentology/web2-to-web3-resources",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -235,7 +235,7 @@ export const githubRepos = [
     description:
       "Write and publish your own blockchain in less than 200 lines of Go",
     url: "https://github.com/nosequeldeebee/blockchain-tutorial",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -246,7 +246,7 @@ export const githubRepos = [
     description:
       "A collection about awesome blockchains - open distributed public databases w/ crypto hashes incl. git ",
     url: "https://github.com/openblockchains/awesome-blockchains",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -257,7 +257,7 @@ export const githubRepos = [
     description:
       "A curated list of awesome things related to learning Zero-Knowledge Proofs (ZKP).",
     url: "https://github.com/matter-labs/awesome-zero-knowledge-proofs",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -268,7 +268,7 @@ export const githubRepos = [
     description:
       "A curated list of awesome ZK resources, libraries, tools and more",
     url: "https://github.com/ventali/awesome-zk",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -279,7 +279,7 @@ export const githubRepos = [
     description:
       "A curated list of awesome zkEVM resources, libraries, tools and more",
     url: "https://github.com/LuozhuZhang/awesome-zkevm",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -290,7 +290,7 @@ export const githubRepos = [
     description:
       "Guidelines and training material to write secure smart contracts.",
     url: "https://github.com/crytic/building-secure-contracts",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -301,7 +301,7 @@ export const githubRepos = [
     description:
       "Opinionated security and code quality standard for Solidity smart contracts.",
     url: "https://github.com/Rari-Capital/solcurity",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -312,7 +312,7 @@ export const githubRepos = [
     description:
       "An initiative to prepare a code base for the solidity beginners by those who were beginners sometime.It categorize the smart contracts according to different difficulty levels and in multiple standards.",
     url: "https://github.com/Aniket-Engg/solidity-school",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -321,7 +321,7 @@ export const githubRepos = [
     title: "Solidity trivias",
     description: "Condensed demos and explanations for the Solidity trivias",
     url: "https://github.com/ajsantander/trivias",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -332,7 +332,7 @@ export const githubRepos = [
     description:
       "Hashes, MAC, Key Derivation, DHKE, Symmetric and Asymmetric Ciphers, Public Key Cryptosystems...",
     url: "https://github.com/nakov/practical-cryptography-for-developers-book",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -340,9 +340,10 @@ export const githubRepos = [
     coverImage:
       "data:image/jpeg;base64,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",
     title: "Awesome openzeppelin",
-    description: "....",
+    description:
+      "Blockchain educational resources curated by the OpenZeppelin team.",
     url: "https://github.com/OpenZeppelin/awesome-openzeppelin",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -353,7 +354,7 @@ export const githubRepos = [
     description:
       "Blockchain dark forest selfguard handbook. Master these, master the security of your cryptocurrency",
     url: "https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -363,7 +364,7 @@ export const githubRepos = [
     title: "Decentralized Applications",
     description: "Decentralized Applications White Paper and Spec",
     url: "https://github.com/DavidJohnstonCEO/DecentralizedApplications",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -374,7 +375,7 @@ export const githubRepos = [
     description:
       "Source code for Eat The Blocks, a screencast for Ethereum Dapp Developers",
     url: "https://github.com/jklepatch/eattheblocks",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -385,7 +386,7 @@ export const githubRepos = [
     description:
       "Collect libraries and packages about blockchain/cryptography in Rust",
     url: "https://github.com/rust-in-blockchain/awesome-blockchain-rusts",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -395,7 +396,7 @@ export const githubRepos = [
     title: "Awesome rust",
     description: "A curated list of Rust code and resources.",
     url: "https://github.com/rust-unofficial/awesome-rust",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -405,7 +406,7 @@ export const githubRepos = [
     title: "Awesome aeternity",
     description: "A curated list of resources for the æternity blockchain.",
     url: "https://github.com/aeternity/awesome-aeternity",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -415,7 +416,7 @@ export const githubRepos = [
     title: "Typechain",
     description: "TypeScript bindings for Ethereum smart contracts",
     url: "https://github.com/dethcrypto/TypeChain",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -425,7 +426,7 @@ export const githubRepos = [
     title: "EVM Opcodes",
     description: "Ethereum opcodes and instruction reference.",
     url: "https://github.com/crytic/evm-opcodes",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
   {
@@ -436,7 +437,7 @@ export const githubRepos = [
     description:
       "Collection of the best DeFI and Blockchain researches for discussion.",
     url: "https://github.com/OffcierCia/ultimate-defi-research-base",
-    tag: ["Begineer", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
   },
 ];
