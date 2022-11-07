@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import ContactImg from "../../assets/images/contact-img.jpeg";
-// import { db } from "../../firebase/firebaseConfig";
 import { db } from "../../firebase/firebaseConfig";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import "./Contact.css";
 
 const Contact = () => {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
@@ -43,11 +43,26 @@ const Contact = () => {
   //   } else alert("Fields can't be empty");
   // };
 
-  const handleForm = async () => {
-    const collectionRef = collection(db, "contact_us");
-    const payload = { email, subject, message };
+  const handleForm = () => {
+    // const collectionRef = collection(db, "contact_us");
+    // const payload = { email, subject, message };
+    // await addDoc(collectionRef, payload, serverTimestamp());
 
-    await addDoc(collectionRef, payload, serverTimestamp());
+    const collectionRef = collection(db, "contactdata");
+
+    addDoc(collectionRef, {
+      name: name,
+      email: email,
+      subject: subject,
+      message: message,
+    })
+      .then(() => {
+        if (!alert("Form submitted successfully!"))
+          document.location = "../Error/Error.jsx";
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
   };
 
   return (
@@ -116,7 +131,22 @@ const Contact = () => {
         </p>
 
         <div className="form-container">
-          <form className="form contact-form" action="" method="POST">
+          <form
+            onSubmit={handleForm}
+            className="form contact-form"
+            action=""
+            method="POST"
+          >
+            <label htmlFor="email">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              onChange={(e) => setName(e.target.value)}
+              // value={name}
+            />
+
             <label htmlFor="email">Email</label>
             <input
               type="email"
@@ -124,7 +154,7 @@ const Contact = () => {
               id="email-address"
               required
               onChange={(e) => setEmail(e.target.value)}
-              value={email}
+              // value={email}
             />
 
             <label htmlFor="subject">Subject</label>
@@ -133,7 +163,7 @@ const Contact = () => {
               name="subject"
               id="subject"
               onChange={(e) => setSubject(e.target.value)}
-              value={subject}
+              // value={subject}
             />
 
             <label htmlFor="message">Message</label>
@@ -143,7 +173,7 @@ const Contact = () => {
               rows="10"
               required
               onChange={(e) => setMessage(e.target.value)}
-              value={message}
+              // value={message}
             ></textarea>
 
             <button onClick={handleForm} className="submit-btn">
