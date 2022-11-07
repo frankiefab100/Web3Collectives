@@ -131,12 +131,7 @@ const Contact = () => {
         </p>
 
         <div className="form-container">
-          <form
-            onSubmit={handleForm}
-            className="form contact-form"
-            action=""
-            method="POST"
-          >
+          <form className="form contact-form" action="" method="POST">
             <label htmlFor="email">Name</label>
             <input
               type="text"
