@@ -85,7 +85,7 @@ const SubmitForm = () => {
         <form
           className="form resources-form"
           onSubmit={handleOnSubmit}
-          action=""
+          action="https://formspree.io/f/xyyvlzkd"
           method="POST"
         >
           <label htmlFor="email">Email</label>
