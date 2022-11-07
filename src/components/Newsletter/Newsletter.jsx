@@ -1,41 +1,76 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaEnvelope } from "react-icons/fa";
+import { useReducer } from "react";
 import { db } from "../../firebase/firebaseConfig";
-import { doc, setDoc } from "firebase/firestore";
+import { addDoc, collection } from "firebase/firestore";
 import "./Newsletter.css";
 
-const Newsletter = () => {
-  const [email, setEmail] = useState("");
-  const [error, setError] = useState(null);
+const initialState = {
+  sendEmail: "",
+  successMessage: false,
+  subscribing: false,
+};
 
-  const handleSubmit = async (e) => {
+const ACTION = {
+  FIELD: "field",
+  SUCCESS_MESSAGE: "successMessage",
+  SUBSCRIBING: "subscribing",
+  SET_DEFAULT: "setDefault",
+};
+
+function handleEmails(state, action) {
+  switch (action.type) {
+    case ACTION.FIELD: {
+      return {
+        ...state,
+        [action.field]: action.value,
+        sendEmail: action.value,
+      };
+    }
+
+    case ACTION.SUCCESS_MESSAGE: {
+      return {
+        ...state,
+        successMessage: true,
+      };
+    }
+    case ACTION.SUBSCRIBING: {
+      return {
+        ...state,
+        subscribing: true,
+      };
+    }
+    case ACTION.SET_DEFAULT: {
+      return {
+        [action.field]: "",
+        sendEmail: "",
+        subscribing: false,
+        successMessage: false,
+      };
+    }
+    default:
+      throw new Error();
+  }
+}
+
+const Newsletter = () => {
+  const [state, dispatch] = useReducer(handleEmails, initialState);
+  const { sendEmail, successMessage, subscribing } = state;
+  const emailRef = collection(db, "emails");
+
+  async function handleSubmit(e) {
     e.preventDefault();
 
-    setError(null);
+    await dispatch({ type: ACTION.SUBSCRIBING });
 
-    if (email !== "") {
-      try {
-        await setDoc(doc(db, "newsletter", email), {
-          email,
-        });
+    await addDoc(emailRef, { email: sendEmail });
 
-        setEmail("");
-        alert("Subscription successfully!");
-      } catch (error) {
-        alert(error.message);
-      }
-    } else alert("Please enter a valid email address");
-  };
+    await dispatch({ type: ACTION.SUCCESS_MESSAGE });
 
-  // UX for Keyboard users
-  const handleKeyUp = (e) => {
-    setError(null);
-
-    if (e.keyCode === 13) {
-      e.preventDefault();
-      handleSubmit();
-    }
-  };
+    await setTimeout(() => {
+      dispatch({ type: ACTION.SET_DEFAULT });
+    }, 3000);
+  }
 
   return (
     <div className="newsletter-section">
@@ -48,21 +83,27 @@ const Newsletter = () => {
 
       <div className="subscribe-section">
         <div className="newsletter-subscribe">
-          <form id="newsletter-form">
+          <form id="newsletter-form" onSubmit={handleSubmit}>
             <input
               type="email"
               id="email"
               name="email"
               placeholder="Enter your email"
-              onChange={(e) => setEmail(e.target.value)}
-              onKeyUp={(e) => handleKeyUp(e.target.value)}
-              value={email}
+              onChange={(e) =>
+                dispatch({
+                  type: ACTION.FIELD,
+                  value: e.target.value,
+                  field: "email",
+                })
+              }
               required
             />
 
-            <button onClick={handleSubmit} className="input-cta subscribe-btn">
+            <button disabled={subscribing} className="input-cta subscribe-btn">
               Subscribe <FaEnvelope />
             </button>
+
+            {successMessage && "Thank you for subscribing"}
           </form>
         </div>
       </div>
