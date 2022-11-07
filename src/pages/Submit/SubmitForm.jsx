@@ -1,8 +1,14 @@
 import React, { useState } from "react";
+// import { useForm, ValidationError } from "@formspree/react";
 import axios from "axios";
 import "./SubmitForm.css";
 
 const SubmitForm = () => {
+  // const [state, handleSubmit] = useForm("xyyvlzkd");
+  // if (state.succeeded) {
+  //   return <p>Thanks for joining!</p>;
+  // }
+
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -50,7 +56,7 @@ const SubmitForm = () => {
     });
   };
 
-  const handleOnSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
@@ -61,6 +67,7 @@ const SubmitForm = () => {
       .then((response) => {
         handleServerResponse(
           true,
+          response,
           "Thank you! your submission was successful.",
         );
       })
@@ -84,7 +91,7 @@ const SubmitForm = () => {
 
         <form
           className="form resources-form"
-          onSubmit={handleOnSubmit}
+          onSubmit={handleSubmit}
           action="https://formspree.io/f/xyyvlzkd"
           method="POST"
         >
@@ -92,17 +99,18 @@ const SubmitForm = () => {
           <input
             type="email"
             id="email-address"
-            name="_replyto"
+            name="email"
             onChange={handleOnChange}
             value={inputs.email}
             required
           />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
 
           <label htmlFor="name">Resource Name</label>
           <input
             type="text"
             id="resource"
-            name="_replyto"
+            name="resource"
             onChange={handleOnChange}
             value={inputs.resource}
             required
@@ -112,7 +120,7 @@ const SubmitForm = () => {
           <input
             type="text"
             id="category"
-            name="_replyto"
+            name="category"
             onChange={handleOnChange}
             value={inputs.category}
             required
@@ -122,11 +130,24 @@ const SubmitForm = () => {
           <input
             type="text"
             id="link"
-            name="_replyto"
+            name="link"
             onChange={handleOnChange}
             value={inputs.link}
             required
           />
+
+          {/* <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
+          <button
+            type="submit"
+            className="submit-btn"
+            disabled={state.submitting}
+          >
+            Submit
+          </button> */}
 
           <button
             type="submit"
