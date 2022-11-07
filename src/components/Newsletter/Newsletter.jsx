@@ -62,11 +62,8 @@ const Newsletter = () => {
     e.preventDefault();
 
     await dispatch({ type: ACTION.SUBSCRIBING });
-
     await addDoc(emailRef, { email: sendEmail });
-
     await dispatch({ type: ACTION.SUCCESS_MESSAGE });
-
     await setTimeout(() => {
       dispatch({ type: ACTION.SET_DEFAULT });
     }, 3000);
@@ -102,9 +99,8 @@ const Newsletter = () => {
             <button disabled={subscribing} className="input-cta subscribe-btn">
               Subscribe <FaEnvelope />
             </button>
-
-            {successMessage && "Thank you for subscribing"}
           </form>
+          {successMessage && "Subscription successful! Thank you"}
         </div>
       </div>
     </div>

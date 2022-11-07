@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ErrorIllustration from "../../assets/images/error404.svg";
-import "./Error.css";
+import "./PageNotFound.css";
 
-const Error = () => {
+const PageNotFound = () => {
   return (
     <div className="error-section">
       <img
@@ -20,10 +20,9 @@ const Error = () => {
 
       <Link to="/">
         <button>GO TO HOMEPAGE</button>
-        {/* GO TO HOMEPAGE */}
       </Link>
     </div>
   );
 };
 
-export default Error;
+export default PageNotFound;
