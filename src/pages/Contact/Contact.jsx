@@ -1,67 +1,26 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import ContactImg from "../../assets/images/contact-img.jpeg";
-import { db } from "../../firebase/firebaseConfig";
-import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import "./Contact.css";
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  const form = useRef();
 
-  // const handleForm = async () => {
-  //   if (email !== "" && subject !== "" && message !== "") {
-  //     try {
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  // await setDoc(doc(database, "contact", email), {
-  //   email,
-  //   subject,
-  //   message,
-  // });
-
-  // const dbRef = collection(db, "users");
-  // addDoc(dbRef, data).then(docRef => {
-  //   alert("added successfully")
-  // }).catch(error => { console.log(error)
-
-  //       const docRef = doc(database, "contact", user.id);
-  //       const colRef = collection(docRef, "contact_info");
-  //       await addDoc(colRef, {
-  //         email: email,
-  //         subject: subject,
-  //         message: message,
-  //       });
-
-  //       setEmail("");
-  //       setSubject("");
-  //       setMessage("");
-  //       alert("Form submitted successfully!");
-  //     } catch (error) {
-  //       alert(error.message);
-  //     }
-  //   } else alert("Fields can't be empty");
-  // };
-
-  const handleForm = () => {
-    // const collectionRef = collection(db, "contact_us");
-    // const payload = { email, subject, message };
-    // await addDoc(collectionRef, payload, serverTimestamp());
-
-    const collectionRef = collection(db, "contactdata");
-
-    addDoc(collectionRef, {
-      name: name,
-      email: email,
-      subject: subject,
-      message: message,
-    })
-      .then(() => {
-        if (!alert("Form submitted successfully!"))
-          document.location = "../Error/Error.jsx";
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_APP_EMAIL_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAIL_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_APP_EMAIL_PUBLIC_KEY,
+      )
+      .then((response) => {
+        alert("Success!", response.text);
       })
       .catch((error) => {
-        alert(error.message);
+        alert("Ooops!", error);
       });
   };
 
@@ -131,47 +90,26 @@ const Contact = () => {
         </p>
 
         <div className="form-container">
-          <form className="form contact-form" action="" method="POST">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="form contact-form"
+            action=""
+            method="POST"
+          >
             <label htmlFor="email">Name</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              required
-              onChange={(e) => setName(e.target.value)}
-              // value={name}
-            />
+            <input type="text" name="user_name" id="name" required />
 
             <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email-address"
-              required
-              onChange={(e) => setEmail(e.target.value)}
-              // value={email}
-            />
+            <input type="email" name="user_email" id="email-address" required />
 
             <label htmlFor="subject">Subject</label>
-            <input
-              type="text"
-              name="subject"
-              id="subject"
-              onChange={(e) => setSubject(e.target.value)}
-              // value={subject}
-            />
+            <input type="text" name="from_name" id="subject" />
 
             <label htmlFor="message">Message</label>
-            <textarea
-              name="message"
-              cols="30"
-              rows="10"
-              required
-              onChange={(e) => setMessage(e.target.value)}
-              // value={message}
-            ></textarea>
+            <textarea name="message" cols="30" rows="10" required></textarea>
 
-            <button onClick={handleForm} className="submit-btn">
+            <button onClick={sendEmail} className="submit-btn">
               Send
             </button>
           </form>

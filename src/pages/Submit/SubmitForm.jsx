@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-// import Featured from "../../components/Featured/Featured";
-// import Footer from "../../components/Footer/Footer";
-// import Newsletter from "../../components/Newsletter/Newsletter";
 import "./SubmitForm.css";
 
 const SubmitForm = () => {
@@ -58,7 +55,7 @@ const SubmitForm = () => {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
       method: "POST",
-      url: "https://formspree.io/",
+      url: "https://formspree.io/f/xyyvlzkd",
       data: inputs,
     })
       .then((response) => {
@@ -149,9 +146,6 @@ const SubmitForm = () => {
         )}
         {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
       </div>
-      {/* <Featured />
-      <Newsletter />
-      <Footer /> */}
     </>
   );
 };

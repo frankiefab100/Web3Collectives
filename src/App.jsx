@@ -5,7 +5,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import SubmitForm from "./pages/Submit/SubmitForm";
 import Contact from "./pages/Contact/Contact";
-import Error from "./pages/Error/Error";
+import PageNotFound from "./pages/Error/PageNotFound";
 import ScrollButton from "./components/ScrollButton/ScrollButton";
 import { Routes, Route } from "react-router-dom";
 
@@ -52,7 +52,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="submit" element={<SubmitForm />} />
-          <Route path="*" element={<Error />} />
+          <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
       <ScrollButton />
