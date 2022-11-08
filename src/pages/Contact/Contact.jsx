@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import ContactImg from "../../assets/images/contact-img.jpeg";
+import Success from "../Success/Success";
 import "./Contact.css";
 
 const Contact = () => {
@@ -45,9 +46,11 @@ const Contact = () => {
           >
             GitHub
           </a>
-          . Did you find a new resource(s) or have any suggestion or general
-          feedback! Open an issue or submit a pull request! Don't forget to see
-          our contributing guides. We appreciate every contribution.
+          . <br /> Did you find a new resource(s), have any suggestion or
+          general feedback? Please open an issue or submit a pull request.
+          <br />
+          Don't forget to see our contributing guides. We appreciate every
+          contribution.
         </p>
         <p>
           For more details or assistance, send an email at
@@ -66,7 +69,8 @@ const Contact = () => {
           >
             twitter
           </a>
-          . Also follow us and join our growing community to learn, and
+          . <br />
+          Also follow us and join our growing community to learn, and
           collaborate with fellow like-minds.
         </p>
         <h2>Support</h2>
