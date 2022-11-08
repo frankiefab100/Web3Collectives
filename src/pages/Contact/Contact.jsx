@@ -98,13 +98,13 @@ const Contact = () => {
             method="POST"
           >
             <label htmlFor="email">Name</label>
-            <input type="text" name="user_name" id="name" required />
+            <input type="text" name="name" id="name" required />
 
             <label htmlFor="email">Email</label>
-            <input type="email" name="user_email" id="email-address" required />
+            <input type="email" name="email" id="email-address" required />
 
             <label htmlFor="subject">Subject</label>
-            <input type="text" name="from_name" id="subject" />
+            <input type="text" name="subject" id="subject" />
 
             <label htmlFor="message">Message</label>
             <textarea name="message" cols="30" rows="10" required></textarea>
