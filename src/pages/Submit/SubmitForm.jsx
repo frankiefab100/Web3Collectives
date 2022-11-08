@@ -1,11 +1,12 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import Success from "../Success/Success";
 import "./SubmitForm.css";
 
 const SubmitForm = () => {
   const [state, handleSubmit] = useForm(import.meta.env.VITE_APP_FORMSPREE_ID);
   if (state.succeeded) {
-    return <p>Thanks for your contribution!</p>;
+    return <Success />;
   }
 
   return (
@@ -27,10 +28,6 @@ const SubmitForm = () => {
           action="https://formspree.io/f/xyyvlzkd"
           method="POST"
         >
-          {/* <label htmlFor="email">Email</label>
-          <input type="email" id="email-address" name="email" required />
-          <ValidationError prefix="Email" field="email" errors={state.errors} /> */}
-
           <label htmlFor="name">Resource Name</label>
           <input type="text" id="resource" name="resource" required />
           <ValidationError

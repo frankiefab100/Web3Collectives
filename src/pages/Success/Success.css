@@ -34,9 +34,3 @@
 .success-page h3 {
   margin: 0;
 }
-
-@media screen and (min-width: 600px) {
-  .success-page p {
-    width: 50%;
-  }
-}
