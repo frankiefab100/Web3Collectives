@@ -20,7 +20,7 @@ const Contact = () => {
         alert("Success!", response.text);
       })
       .catch((error) => {
-        alert("Ooops!", error);
+        alert("Ooops!", error.text);
       });
   };
 
@@ -94,7 +94,6 @@ const Contact = () => {
             ref={form}
             onSubmit={sendEmail}
             className="form contact-form"
-            action=""
             method="POST"
           >
             <label htmlFor="email">Name</label>
