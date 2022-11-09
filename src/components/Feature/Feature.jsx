@@ -2,9 +2,9 @@ import React from "react";
 import DevDaoLogo from "../../assets/images/DeveloperDAO.png";
 import ImmunefiLogo from "../../assets/images/Immunefi.png";
 import CadenaLogo from "../../assets/images/Cadena.png";
-import "./Featured.css";
+import "./Feature.css";
 
-const Featured = () => {
+const Feature = () => {
   return (
     <div className="featured">
       <h2>Repository As Seen In</h2>
@@ -17,4 +17,4 @@ const Featured = () => {
   );
 };
 
-export default Featured;
+export default Feature;

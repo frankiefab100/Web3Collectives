@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Hero from "../../components/Hero/Hero";
+import Feature from "../../components/Feature/Feature";
 import Website from "../../components/Resources/Website";
 import YoutubeChannel from "../../components/Resources/YoutubeChannel";
 import DevTool from "../../components/Resources/DevTool";
@@ -256,6 +257,8 @@ const Home = () => {
       <ProjectTemplate resources={filterTemplates} />
       <NodeProvider resources={filterNodes} />
       <Book resources={filterBooks} />
+
+      <Feature />
     </div>
   );
 };
