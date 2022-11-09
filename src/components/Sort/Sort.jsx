@@ -55,7 +55,9 @@ const Sort = ({ resources, setResources }) => {
         className="custom-select"
         aria-label="Sort Resources"
       >
-        <option>Sort {BsSortDownAlt}</option>
+        <option>
+          Sort <BsSortDownAlt />
+        </option>
         <option value="oldest">Oldest</option>
         <option value="newest">Newest</option>
         <option value="ascending">Ascending</option>
