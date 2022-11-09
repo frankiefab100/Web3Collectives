@@ -6,7 +6,7 @@ export const devTools = [
     title: "Remix",
     description:
       "An online Integrated Development Environment used to write, compile, debug and deploy solidity code for smart contracts",
-    url: "https://remix.ethereum.org",
+    url: "https://remix.ethereum.org/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Remix", "Solidity", "Ethereum", "Code Editor", "IDE"],
   },
@@ -17,7 +17,7 @@ export const devTools = [
       "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO8AAADTCAMAAABeFrRdAAAAnFBMVEX///9LwMgCgZsAfZgAd5QAepYAdpM4vMQAfJdCvsY2u8RMwcn7/v7l9fZAvsb5/f245OfV7/Gg299jx87h7vGA0Nar3+Pp8/WH0thYxMvx+vrC5+qFuMZsytCz4uXO7O5Nm6+31d09lKrO4+ilytRqqboWh6CS1tuw0dpdo7V4scCSv8stjqWgx9LU5uvE3eMhlqk9s74xpLSAyNAHeExoAAAQ3ElEQVR4nL1d6ULjvA5tttK0pYUBBmhhKEs7wLB8M/f93+02SZdY1nG8yDk/Z4nr2JFk6eh4MPDD4r6cLD3/bygun7LVdb9DLssySU6upv2O2uAzT9OseO1xxOnVOKlQTs57HLXBYlWkFfK3eV9DnleL2+Dkd1+D7vBYZGmDLPvuZ8jfJ8kR5cVpP6PWmK/z9Ij8vYchT2/LRMH4Vw+jNnjejNI2Rh+XsYf8OU4oxveL2KM2uBumFMPPqCMu7vXpbvf0rA/PdPlRaNPd7umYnmk5K5npVmbrJrpneuFmW5utx0gj7r0QhzKJ65kWq5yfbrWn11Fe9vkELO5uiX/EGHSHxyyD092arc2z/JCKF+Iwu43mmdZ4cZs9nd8Jj6h5IXaJz4RHbfBFvBCHQtYzMV6InfBVhBjvT27ay8cZv4iNyHshDmXyIDZqg+snYJc15CuhMAB6IQ5j2YD6xW5xa8gE1NObLkNFlljQbC3eOgwVXeL3YM90noDFLW9nYMYnPyXmusU38kKjEfiLYvMVNuRv9OWOf2CHLBNQT9/1cHm3jHcL5KGy4Z+AIaEXag76MOCSCKi/NsBQjdLqMz2eg+kSP3kH1NALHcLlZYkC6tBUzx0yVPu8BjTcvqke6IXKcmnxj4ICav4sVE1mdJzMJzJmXqkeuHTk6/yJzHdAQP2JNmuubFYYeGWpq2eaXsFp0HQG/sg9PRM+C+X0dA9N2tAt1QNN74xLV8GjhFeqB56FuBj5O0UuyyWg/uG4Rx/w3nf+kuBZaMiegeYwJClsUz0dXogdVcoz0Yzccb1SdMZ9gZ7JLtVzBhfXlLSB/2t84zBdJiO3W1xDDgN7JpuAGhmqthficHoB4svZra1nwl6oMOeo/gyRPe/KAyxQVGwRI8KvfmznmbA/7TzpwWCsWBnjnlN0OrA6A5yjl8VadYJr6IWsDM87+N+jD8O7Og30pNMbaLa6Uj1OXojDNzgzZRs44VOwPA5FMeyZjKmeKTzv2Gfi5mCDZCmY8AKsjVPR0xBQ41TPIkNnIadMK0jJZxv2VU95t+ucg/sF/RneJsAyu2bSwWOyJ+4f33PT9TnJQs9kMgN3+mb0qZTwx8hirf9L9rDrmanA8Sg2898piaz88o18gDbUjsSn3HS9M1Ew6zXDL5BEwkPPfPJ0zcVoIxpa3jK/LSDTiFM9J/gDeT1GwsWHf5mTc230E/6pf3InLoGvDlw7xQbwEAnzZyFbcAF1rmyXBVO1D6UpYM9kcHB1JIzPQrZg8gBF+y3faGsxE6jnwnyfoQixjYRzgXruq2buR62Mh26sxiLla59Uz3QtwiR71Fa4OFoEbXllpjsw5OvFihAIj3SFjwt8Td2lwYa64gF5puisHu14eVjgH+QnlZI1vrlvAiEYb8QtFftSC12BW9lxz8aQ1SM7EMFUs9HNnz+Qb+xEmmqzgAF1XL4p/YTzJp1FrFV5JT+ya4JXCCt1R2e1xZqSnzCOQbMxJPAjmq1LarLqn6Ju5xjLWwHSBCKxemqQBc6rajixzuJf7x64ABeD1dPgWV3g2kLfq6NPYo1tKrBKs3oO2Kgf8GpAvVEZ04DAVI8wq+eIO3L638a46m8QiyRZiNdOu/Clbujh9eBB9Y1lZGLvD3hmihJQk5ijeB6cqW/8IsaobfTsmVbKfEcvxDyLhs48cEDdWYTwgPoBj/4Mfqvz7aP5wifV44tXJbWzjbDUaDLGK9YRidXD4VGd73pwpc63p55AyOqR9kzP6nzfBlfqjhL1/JeY3NeXZyIh9IrMdyY5389hbkgjy7J6EL7ofG9i7ee6gJ0ZaOcGVo+cZ/qm+5nYZzF79bnjVOQraHPFWD0GPFL7TPyvUPjcYieYWDJn0Ru4XhT/m90Nfqnx5L3IKI8KucDQx4lrp0KpnnflBLyNN0j8LHEc1NgJJto5TvWIeKYnZb7FIz0fnYR7g2dayTXTzmFALeGZ5lqCY6qu7yz4mMJU6lMj7RyyenQurjNUc5XmW8N/oY4ReECCHLnRELtiGFAHe6a1sr7Zx/aPVIeUjINGQF2rHeRNKy69D0hCtuJxLNUPOOREiJnanX3YmNUTUoRQT0dp3dmwIHtp5n0me0RtQTbkaw8Wcjc+1B/UVMxIgrL0tFhzlihSwVJHAQfUvkHQt7rd6s93QDM6Sen1BTNeaDeKdfMEZvV4pno+1F+yKxDOia3wqjBApnZuZuQqwB3zXkWIT2I8h7uv6oq8VvdyN/RCrm25kqkeWj2qs+0VzulbLR0DG/oij7N1plEJFiHIbk7zAz3xgj781uVlQi/k11bvw+rhsKaLsDn8Fa14J+WF/UeHvZBnc6pMqueOTrf9ZWkLbD1hyNQOkcXAXbjWvpKJ4lt/q33Btu8Se6Gg5vJgz6S3M+QKuZia6MQudcefhdJw8YCwVM9CJ1ASwuiCSTN02gfshXzJvC2cwT3d2VrMNRXmJKLlHt+xp2G/UAiZ94hrmOrpKEJwTaOFlm9gdrTRPhjOQlLiLrh2ath5bOsV08FAaToNTtCBG/YLjdJAiYQWPFI9vBpLwWw4vvuI56PzpPkKOdMaEQDI6uGLEKB1Mmd9xZLfPkwqGHatyotv2bbV1wCtsTlIFgKTqB24sXaClIRNCzigpp4JuQsc1aKkisL6M5yF4ojnYVaPsvM+wSdmyjYgp9dq8MQZuWjiiDapHtheaj6zLDvsQw9eiINJ1qYGPLR06cvADuDaPkAVF0kvxMEQUJ+a3EVHY/gWc8OBGzUVx5IIbAELgszOvtChpdjYfGKAWzH5C89C3W9RAMsTdoknk/+QRbGNBTj7MJn8Q6p5MbwQh8U9sxCTvxvwibmcSDX7gB9LOtWiQkv1bFcB/iynVThXwhrDY+N5IQ5k502SD6lVaKeCTY+N6YU4tIsQk7+hIgdtHOzD1lBBLxRByLQDhwauraFCFsUvFmjaaAyPlWhsdMcu1YMtyshZ/WqPrX0w2b8+vBCHs1lpchcBQvanF9hQ9X0FQguLe8MqhLSXXj+h6Wb/+pNt1/GKQoxsE1Ief0HxY7b5OzFID0QG1vjK/k0CWD2wdDD6bzLpS7ZdB5QdrVYh8W4tNsgu149NIukfdwFq9DWrkBiSjCZADa3sv2Sy9/ixZdt1QKWr7LAKPjvPoJH2b3J4btL7hSJQ/HrUWoXEmdUDNfCyD+WxSbxOKQ77u2KY36WughurB8sua4+t0NuFIgZDVTI/y5bVAzUsi81f/bGJl8qkD6AmWMGtgp2K3MBg//K7K1TB6sEzQXdRfPwPKW+Pu1k915DvWUmN/YJ5wtgXisAcf6UUi2WZu8zWF9rLw3W9Z6Ow/rrRJamJixAXxk/tGX0ix7OQPOuvG1Cl/3gWQqyeMjF8xN8oR98+Cz04aQcLAPOd2pQbvPPgrwLTzUhdCDZ4CvDRGRiUKdUTKSpCoAl/8dNlmPiwjUZeFAeWDhgyGyxCsD/qGjyWK8As7pFnEhbFwfrIHJkNFCHKW855sDlI2Elj0O4XnC72QqB0sGS1ejjG7zv3Ik2dUvE9E+79wBk5fufpIS9nqzqY2tAzCYniwEqzOSPHlr+oSM504/rYLR6Q2ZKQHkDyt1uL0pGRO+VkmUmb0XuXgiH/m2T56G0E3RfC7Dw1yXOpGf3MrnSAZduDUj0GfWQrjggT5yt9VSv6Mg0q0Spwg2fAVVeQdTuyKmBvca6tQ7uvSgubgWQyCyzb7pvqwb0f9rdm6BKTrU5QurxQEpuFcIMnVul3qgud031XHgIDLZDM3cgnuMHTQxQH9n641oU0qtHhC16T5XWv2OMDt2NAjc9CI+e60G/aKLgLC+a0T+fN9ckurD8j8FnI59YqmtQqmz+mxSeOPNsNfA+S9VVX2Av53UpG227Gjccg1mrkeeMZDqgtixAGL+RJZiMc9sZiLcgomXeg0Mn6MwLfFeN9TbfmlKo/VBVI0lEAAyXAM2EvFNLYQxa4FqsjknaGNnsLYM9kTvUgMm8QO0ELs2oxhif1da4CHj/wlB5YPMGMXKD4tSrDX537p+SK91DONsv6qwczNHCB1p6AuxN3IGKiE61LlvYleQA3eOIiBPf58qkzN5BGwW2IRczVpvsZnfBK9WjmOfju0wpTzWCp8apPbMXAJ9XzrJZyHM5CJqidr+VSFywUAZRtNxQh2rQbf44cAZH3+kkEk0Lt4QFeKpOHC0XCvFAbv6i8l6rqXgi91kGV6nHXP27qgCYROFcslWNw+XvwpppnQcIrLkIYUj1/8izcC7WgynttI2hVYFXAHbXg0+D5nIpSqolDuqLzlW2rOZ94XHUlCvVMuA2wyPcrTeDGDZ6xLxRpsKT7OZJ9PgCqTHqx/pyhigNt7dWdOl/5lkfcwCV4TQuEJjdJ4ivZduUGWMsr9FbzbhA54F9UcPQjxqBsBat+33EvFBnQA+H2iEaSz37Juk7IFyHscK1+SyengzmReIvULRZVZRJDDSeT2VQ6vwExxReKROSbEq26qgr8Lpm/MiGeyiQEuXevrhEK5ie7Ro+lMglB0jl1rYPmn9OIPqIfVs8BU1pBqveRUH3BCv3yTX+SwRqxZ5n6kS165JtS0afd5RJzkikTymEhwIB6diH8ojXdxZ1Z1Oq/4ocGBVhl0oKP7gCqj3Ng2Wn1/SJyzzb2TIINXJr+0fHmLtoV6UJX8QK+oU/uqivtRuMj5UwjEwpNeI6zJYYihMTIg8GFdidq601qba/Zh8CEn02N5fDMFHKt9BH67ettRuGXzq+zZXZhVOKFplxjWHnciIW2uuSisjUjqR9mpXcVsMxA9jF4prCA+lxPfRMK9JxONw2UIzimTfI3fCU7VpkM8UzcYXtGfoR2PXC6a7HygkKjMl4oIh9Qs4xOnV7A8ts9Ra0omdcgn4RVJj0DajZZVjLXpPD9Cx5CJUxLifFCEbjEHmYLHDlLxttcs9Q299oV21JiqtUbbuhz9UzAAvJX3oJmOke5J0Sjyg0hjNTdsYAdNAbZBP0O92ZtUnshFZ+WkoHQ3bHnIILBp5BXtDa2WXgoodtVwBaQbUcpX1OhivNKFey4I1AT0UbkJfCGPthXYD5jPgNCrg036DWkpcSQ6rEJqHHfSEcmEPZ3d/1oLPJiTaPylm3HcZrFzQq4Fca0KaF2gs1dMXt4yrbjONxKSAFqdRqMDlamdKJRebF6gjOAjNz7bolBJHwJu1adybx8g2eCZdtx7dFB6wY2ibDLBUVefGhUmG/KsnoMGXyX0x1eMS0PgLUTPMkReAqaZxLsu4ZfJDG3gV6Ig/WFIqJ99VhWpjURAS/EAfNNW54J6yb4KfrAuRzDpW/xlpIdIN/0uHI+lNQOwL2av9XGAErt+LeU7NF5oUiUbB+0RVWqByr4yJB58VVXN/N4dUYo61asPcISJ2Dje4vpL8G6RQbBOP6PBSl60DOhxRXhCUBZRnbZJcm8eNvyiyvEA4Fdm/ri+jU2GgDNEjNdMZ4PvoVAhXV7vQPg4YdAVp0JBtRtCLWUEGDRC2VxhdkQ+BaRw14exdJHhkWIA2KwXeBdZbvFjajSD5NTO8RhM8F+5AqxeJc7wCJEIsoJUDF/g9d2RFfph0WIiGxEpGrjd2+mIwDftJTl9FBwAbV/2dQNXBEilkbgEVpAHf+umD30IkREDcgD1IC6X5V+NaCe3fajPt069vZ1V8we7YA6citAC4fkup0alSj2AbWpPV4cTaqn37ti9miKEJLMQxu8FL14IQ7zq5Mw/o4Xrlf93xWzx9I/xPg/Q6BMDXP36PAAAAAASUVORK5CYII=",
     title: "EthFiddle",
     description: "A solidity browser-based development tool",
-    url: "https://ethfiddle.com/",
+    url: "https://ethfiddle.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["EthFiddle", "Solidity", "Ethereum", "Code Editor"],
   },
@@ -28,7 +28,7 @@ export const devTools = [
     title: "Solidity",
     description:
       "An object-oriented, high-level language for implementing smart contracts on Ethereum Virtual Machine",
-    url: "https://docs.soliditylang.org",
+    url: "https://docs.soliditylang.org/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
@@ -44,7 +44,7 @@ export const devTools = [
     title: "Metamask",
     description:
       "A wallet extension for accessing and injecting the Ethereum web3 API",
-    url: "https://docs.metamask.io/guide",
+    url: "https://docs.metamask.io/guide/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Metamask",
@@ -61,7 +61,7 @@ export const devTools = [
     title: "Truffle Suite",
     description:
       "Development environment, testing framework and asset pipeline for blockchains using the EVM",
-    url: "https://trufflesuite.com/doc",
+    url: "https://trufflesuite.com/doc/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Truffle Suite", "Solidity", "Ethereum", "Ganache"],
   },
@@ -72,7 +72,7 @@ export const devTools = [
     title: "Web3.js",
     description:
       "A collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket",
-    url: "https://web3js.readthedocs.io",
+    url: "https://web3js.readthedocs.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Web3.js", "Solidity", "Ethereum", "Javascript library"],
   },
@@ -83,7 +83,7 @@ export const devTools = [
     title: "Hardhat",
     description:
       "An Ethereum development environment that helps developers manage and automate the recurring tasks inherent to building smart contracts and DApps",
-    url: "https://hardhat.org/getting-started/",
+    url: "https://hardhat.org/getting-started/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Hardhat", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
@@ -94,7 +94,7 @@ export const devTools = [
     title: "Ethers.js",
     description:
       "A compact library for interacting with the Ethereum Blockchain and its ecosystem",
-    url: "https://docs.ethers.io",
+    url: "https://docs.ethers.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Ethers.js", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
@@ -105,7 +105,7 @@ export const devTools = [
     title: "Vyper",
     description:
       "A contract-oriented, pythonic programming language that targets the Ethereum Virtual Machine",
-    url: "https://vyper.readthedocs.io",
+    url: "https://vyper.readthedocs.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Vyper", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
@@ -115,7 +115,7 @@ export const devTools = [
     title: "Web3.py",
     description:
       "A Python library for interacting with Ethereum, inspired by web3.js",
-    url: "https://web3py.readthedocs.io",
+    url: "https://web3py.readthedocs.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Web3.py", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
@@ -126,7 +126,7 @@ export const devTools = [
     title: "Brownie",
     description:
       "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine",
-    url: "https://eth-brownie.readthedocs.io",
+    url: "https://eth-brownie.readthedocs.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Brownie", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
@@ -136,7 +136,7 @@ export const devTools = [
     title: "OpenZeppelin",
     description:
       "A library for secure smart contract development and community-vetted code",
-    url: "https://docs.openzeppelin.com/learn/",
+    url: "https://docs.openzeppelin.com/learn/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "OpenZeppelin",
@@ -152,7 +152,7 @@ export const devTools = [
       "data:image/png;base64,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",
     title: "EVM Codes",
     description: "An interactive reference to Ethereum Virtual Machine Opcodes",
-    url: "https://www.evm.codes/",
+    url: "https://www.evm.codes/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["EVM Codes", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
@@ -161,7 +161,7 @@ export const devTools = [
     coverImage: "https://static.ethervm.io/img/og_thumb.png",
     title: "EVM Opcodes",
     description: "Ethereum Virtual Machine Opcodes",
-    url: "https://www.ethervm.io/",
+    url: "https://www.ethervm.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "EVM Opcodes",
@@ -178,7 +178,7 @@ export const devTools = [
     title: "Web3 Type Converter",
     description:
       "Convert from a bytes32/hex into a string/number or vice-versa",
-    url: "https://web3-type-converter.onbrn.com/",
+    url: "https://web3-type-converter.onbrn.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Web3 Type Converter",
@@ -194,7 +194,7 @@ export const devTools = [
       "https://www.nicepng.com/png/detail/152-1526494_go-ethereum.png",
     title: "Go Ethereum",
     description: "Golang implementation of Ethereum protocol",
-    url: "https://geth.ethereum.org/docs/",
+    url: "https://geth.ethereum.org/docs/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Go Ethereum",
@@ -210,7 +210,7 @@ export const devTools = [
     title: "Rust",
     description:
       "Programming language for writing smart contracts on Solana Blockchain",
-    url: "https://www.rust-lang.org/learn",
+    url: "https://www.rust-lang.org/learn/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Rust", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
@@ -220,7 +220,7 @@ export const devTools = [
       "data:image/jpeg;base64,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",
     title: "Solang",
     description: "Solidity Compiler for Solana",
-    url: "https://solang.readthedocs.io/",
+    url: "https://solang.readthedocs.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solang", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
@@ -231,7 +231,7 @@ export const devTools = [
     title: "Moralis",
     description:
       "Moralis provides a single workflow for building high performance dapps",
-    url: "https://moralis.io",
+    url: "https://moralis.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Moralis", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },
@@ -242,7 +242,7 @@ export const devTools = [
     title: "Thirdweb",
     description:
       "Powerful SDK and intuitive tools for developers to implement web3 features",
-    url: "https://thirdweb.com",
+    url: "https://thirdweb.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Thirdweb", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
   },

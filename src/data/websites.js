@@ -6,7 +6,7 @@ export const websites = [
     title: "Consensys Academy",
     description:
       "ConsenSys Academy's mission is to develop the global blockchain ecosystem by bridging the Ethereum knowledge gap, becoming a beacon for Ethereum education",
-    url: "https://consensys.net/academy/",
+    url: "https://consensys.net/academy/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Infura"],
   },
@@ -17,7 +17,7 @@ export const websites = [
     title: "Ethereum.org",
     description:
       "Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.",
-    url: "https://ethereum.org/en/developers/tutorials/",
+    url: "https://ethereum.org/en/developers/tutorials/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Infura"],
   },
@@ -28,7 +28,7 @@ export const websites = [
     title: "Questbook",
     description:
       "Questbook is a Decentralized University​ where learning is always free. Get started with Web 3.0 along with 10000+developers who are building on Web 3.0",
-    url: "https://www.questbook.app",
+    url: "https://www.openquest.xyz/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Blockchain"],
   },
@@ -39,7 +39,7 @@ export const websites = [
     title: "Buildspace",
     description:
       "Buildspace accelerates your builder journey into web3. Whether you're just starting out, a seasoned vet transitioning from web2, or thinking of building ...",
-    url: "https://buildspace.so",
+    url: "https://buildspace.so/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
@@ -58,7 +58,7 @@ export const websites = [
     title: "Web3Learn",
     description:
       "Learn Blockchain Development & ‍Get placed in Top Protocols. Build the Future of Internet.",
-    url: "https://web3learn.io/",
+    url: "https://web3learn.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
@@ -77,7 +77,7 @@ export const websites = [
     title: "Blockchain at Berkeley",
     description:
       "Blockchain at Berkeley is a university-based eco-system for blockchain. The organization specializes in educating the community, facilitating innovating ...",
-    url: "https://blockchain.berkeley.edu/courses",
+    url: "https://blockchain.berkeley.edu/courses/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
@@ -96,7 +96,7 @@ export const websites = [
     title: "ProtoSchool",
     description:
       "ProtoSchool is an educational community that teaches decentralized web protocols and tools through online tutorials ",
-    url: "https://proto.school/tutorials",
+    url: "https://proto.school/tutorials/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
@@ -115,7 +115,7 @@ export const websites = [
     title: "The Blockchain School",
     description:
       "TheBlockchainSchool.io solves a pressing need in the blockchain industry for competent professionals.",
-    url: "https://theblockchainschool.io",
+    url: "https://theblockchainschool.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
@@ -134,8 +134,8 @@ export const websites = [
       "data:image/png;base64,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",
     title: "Dacade",
     description:
-      "Peer to peer learning ... Learn to build amazing projects and get feedback from your peers. Earn crypto using your new skills by building amazing Dapps and ...",
-    url: "https://dacade.org",
+      "Peer to peer learning... Learn to build amazing projects and get feedback from your peers. Earn crypto using your new skills by building amazing Dapps and ...",
+    url: "https://dacade.org/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Celo", "Sophia", "Aeternity", "Solidity"],
   },
@@ -146,7 +146,7 @@ export const websites = [
     title: "Figment",
     description:
       "Build a better Internet. The Web 3 education platform for developers, by developers.",
-    url: "https://learn.figment.io",
+    url: "https://learn.figment.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
@@ -166,7 +166,7 @@ export const websites = [
       "data:image/png;base64,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",
     title: "Finematics",
     description: "Decentralized finance education",
-    url: "https://finematics.com",
+    url: "https://finematics.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
@@ -185,7 +185,7 @@ export const websites = [
     title: "NEAR University",
     description:
       "NEAR University is the best place to start learning about everything NEAR.",
-    url: "https://www.near.university/learn/by-yourself",
+    url: "https://www.near.university/learn/by-yourself/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Blockchain", "NEAR", "Go lang"],
   },
@@ -196,7 +196,7 @@ export const websites = [
     title: "Kerala Blockchain Academy",
     description:
       "Kerala Blockchain Academy (KBA), is an initiative of the Government of Kerala under the Kerala University of Digital Sciences, Innovation and Technology ...",
-    url: "https://kba.ai",
+    url: "https://kba.ai/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Ganache", "Web3js", "Metamask"],
   },
@@ -207,7 +207,7 @@ export const websites = [
     title: "Ethereum Blockchain Developer",
     description:
       "Join over 100.000 People building DApps with this always updated guide for learning Smart Contract Development and Solidity.",
-    url: "https://ethereum-blockchain-developer.com",
+    url: "https://ethereum-blockchain-developer.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
@@ -225,7 +225,7 @@ export const websites = [
       "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIVFRgVFRUYGRgaGBkZGBwZHBoaHxwdGhwcGhkZGhwcIy4lHh8sIR0cJjgmKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHxISHj0rJCs9NjY/NDQ0NzQxNTQ1PzYxND8/NDQ/NDQ0NDQ0PTE/NDY2NDQ0NDQ0NDQ0NDQ0NDQxNP/AABEIALEBHAMBIgACEQEDEQH/xAAbAAEAAQUBAAAAAAAAAAAAAAAABQECAwQHBv/EAEEQAAEDAwICBgcHAwMCBwAAAAEAAhEDEiEEMUFRBQYiYXGBExQyUpGhsUKSosHR0vAHFmIzQ/Fy4RUjJFOCssL/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAQIDBAUG/8QALBEBAAECBAUDBAIDAAAAAAAAAAECEQQSIZEDFBUxUSJCYhMyQVJhoXGB8P/aAAwDAQACEQMRAD8A9T1M6SbV07WF3bpi1w4wPZd4RGV6FcRZUc3LXEHbBI+i9B1e60v01zXh1RhyAXZa7uJnB5IJH+o9VpfRZ9prXuJ7nEAD8JXjFIdO9JnU1nVbbQQAGzMADn8fio9AREQEREBERAREQEREBERAXvP6btbZWMC65gnugmPjK8Gvb/02f/rt/wCg/wD3H5hB7lXNWHUVbGl0TtA5kkAfMrX6N6QFWcDYxEwYJafaAOCPNS7cUVTE1R2huLnX9RHvOoY0iGin2TzJcbvoAuirznXnT0naZz3+2wiwje5xAt8CMnwVYee/p053rDwPZNKT4hzY+pXRFxzorpOppnh9MxwcODmzJaV7z+63VBGl01SoeZ7LQe88fkg9OrjyXitL0l0w6s1rqQDbu1LIZbxl+fkV7NAREQEREBERAREQEREHD0REBERAREQEREBERAREQERX0HhrmucJaHAkcwDJHwQevq9UqVPTCrVdUL7AbGQQXu9loFpPj4FePfTc0w5paeRBB+BXbabw5ocNiAR4ESPkuQ9YdZ6bU1HwQCYaHAg2tAaJB2wJ80Ecpjqx0yNNVL3NLmOba6NxmQRz8O9Q6IPedYOuVJ1Ms08uc7Be5paGjjAdku8oWz1A1JdSex03scN5mx4ubvwm74qM6jdD0arX1ajbyx4a0GYEAOkjjuN+S3NJVqM6UqEdtlQBrywEhmAGB52BBAHmjUVTEWu9kuY9celqlSu+kXCym8hoAjIEEnmZldH1WupUove1kgkBxAJt3id+C45rK973v997n/ecXfmjLE1pJAAJJMADJJ5ALpHULpEPomjaQ6lucQQ5ziPPcR3KJ/pzpGufVqEdpoa1s8LskjvwPmvaaPoynTfUewQ6o4OfmRI5DhuT5oNvgVarxJwrSgoiIgIiICIiAiIgIiIOHoiICIiAiIgIiICIiAiIgNaSQACSTAA3PcF7fo7qJfRLqr3MqOHZAiGSMXczzXl+gXPGoolgl3pGwOec/KV1rpHVMpUnveYa1pJ+GAO87IPN9WesVMxp6jz6QPcwHdjrey0MPAQMT+a1uvnQz3n1lgm1sVOcDZ0cdyPILX6j9D6eqw1HtJeyqC0yQAAGlu2HZle41FJr2OY72XNLSO4iCg4mik+nOhqmleGPc11wLmls7TGRwXpOq/VSlUpNrVrnXyWsBtAGwOMknfzQV/pxqf8AWpEwMPHPPZP0Cp0bX12mZU0raLnP7T6bxBAudlzicGc9844r1P8A4VSpg+hpsYdja0AkCYk/aznPJZabnMYS4cQAMCSYHgJKxmnNazpTRmpvE6+HMta/WayqGvY5z2i20MtszJkfZ8TyUi/qPqgy8OYX+4CZ8nHE/LvXuujtaypJa0AnJIntQS3MgGQQRlbq3DNVNVM5ZQfVXq96s0uc8ufUDbhgBpHAZM7kSp63MK1Xk4CMqOdKrMhWK5m6C1Fc4dytQEREBERAREQFWECuJ70HDEREBERAREQEREBERAREQZtHq30nh7HWvGxwd/FZukela9cg1XudGw2A8GjErTRB0vqq6pR0wOpexjA0uY0gBzWHNzjuZnAhbeo61aJhg1Qf+hrnfMBeF6F6v1tYHPD2gMIZLy4nABAEcM8163ojqlRaxhrsa6owuEtc61wuJaXDEkAwg06/RdPXudqy94piGMbsX2YmT7AJ7u9el6I1TXCxrbQxpa2Acej7BEOE4xB4rcFNttsC2IiMRyhNPSaybRvg5JPcJPBR0pqpimYmNVyo+mHAtIkHf+cFe4I1VzibMdDTsZMTJ3JJO3CTwWRzSFr63VMpiXOGdhIG25JJEAK7R6pr23N48MHcAggjcQQQe9RuqmqYzTuyK6cBXBvd81a5Vgu7gq3eSpaeStQXAoWlWqsoKIricK1BUBViEHFUJQVnuSBzVqILh3FCrUQcPREQEREBERAREQEREBERARFf6J0B1rrTsYMHwOyDPoOkq1AzSe5nMA4Pi04K6l1e6YbqaQfs8G17eR5juIz/AMLkJcBuV0P+nNP/AMmo/gXgA87W5jzKD16uaFaiDICeWEJHD6KO6R6Y09F7WVagaX7TO3M+6PFU6Y9I7T1PQk3lhLC05J/xPONkGDpXot9R4IOMbW7Wltrrh7OSccypHS6axoa0k7SeZAA8sDZeV6pdZXve3T1gAW0w0F03ue09oOLskkcO4817EGDspEOtXFqqpime0ER+SpceaqORQsPJVyG/8LQ6V6Wo6cs9I+30hgfmTyHetx77AXcgSfACSuPdN9Kv1NU1HC0QA1syGgcB9T4oOtM1tJzC9r2FjQS5wcCABkyRsoNnW+g+oylRBe577Q5wc1o5HAJPwCgehOttOlpyx7A5wwxrGhrXNjd54mdzC1+h+sVBla9+mpsEQ0025ZvJye1Mxw28kHSQTAkye7A8hKLDo9VTqsa9jg5rhgj6EcD3LMgqCofpvrFp9MbXkufbNjRnO0nYK/rJVrM01R1H2w3fi1v2nN7wJXLdHS9NVDX1bbzF75dn7M8e6UHSeges1PUvLGsexwZcZIIwQIBG+/JTq0Ojuh6FDNNjWuttLhMnjmTzUiEFqK67mlpQcNREQEREBERAREQEREBERBfRdDmkgGHAwdjnY9y7bRYA0BsAQIAwAI4BcU0undUexjd3uDR4uMLtdBgawNHBob8MILXU2kyWgnmQD8yrmAARAjuwiw6/UejpvfaXWMc6BxgEwg1untYKWnqPDrHBjrCY9sjsgA7mVzJnWHWAlwrvk7yQR8CIWnrtdUrPL3vLiSTEmBPujgFroJjoShSrOrvrvNzab3tkwXP5niYxhet6m9YWPY2g82vaA1pOA8DYD/Icu5RHUh9AMritYBAy+0YcCCATzwvINOxQdC60dVqlWp6egQHmC8E25aMOaRxxstDoDrlUpuFLUgvaDbeZvZwyPtD5rH1R6y1GPZQquLmOIawk5YSTHeQTA3wret+tb6V7H0WCox7HU3sO7LpioOJgeRKDomqaXMcG4JBjgZ8eCjujNJUY5xcIabsWhu5FogEyQJF3G7is3RHSbNRSZUZifaEyWu4tXjetXWWu1/omF9N9NxDyxzS1wIBaYidoME8VLOlPEy0zT5el640KrtK9tOS7s3NaCSWyLgI/mCuVMovc4Na1xcTAABknkAup9GsdqqFOpUqOktBim8sEgQbiMkyDI2GVMhg5DGyrm5pQ6laxwkhje5zjP4QVEdJdFV9O62owt5O3afBwx+a7GqPYHCHAEHcESEHJur3S+ooPApEkPcLmRcH+XODuF1w94WFlBjfZY0RtAAWdnJBjr0A9jmmYc1zTzgiDHkuPdMdGv01V1J/DLXe83g4fzBBXZ3tPP+ZXh/6i1aYbTYWBzyH2uuILALeA3B5Hkg2Oq/WO+kTqajZ9IymwgQTc2RdGI78bFeuDPquY9Sqene99Ksxr7gCy4jds9kDckz8l0togQNhgILwArcqiuDig4p6ofeb+L9qeqH3m/i/attFyzy/XdDw/mWp6ofeb+L9qeqH3m/i/attEzydDw/mWp6ofeb+L9qeqH3m/i/atpVVzydDw/mWp6ofeb+L9qeqH3m/i/attFM8nQ8P5lqeqH3m/i/anqh95v4v2rbRM8nQ8P5lqeqH3m/i/anqh95v4v2rbRM8nQ8P5lr0qL2OD2PaHNILSLsEZB9ldKodadLaA+obobd2H7xkjHNc9RM8nQ8P5l0T+6tJ75+6/9FDdY+srH03U6Dj2xDnG9sCctAtkyMT3ryiomeU6Hh/M7tX1U+8z8X7VVukM+2wd/b/Jq2VVM8r0PD+ZYqOgaXQ6qxrfeteflbKv0umpsqNLy17A7tAXtLhn/HHNXImeToeH8zu9FV1HR1Jl+mYPTNLXM9IKhDTOe6QvLVqT3uc9z2lziXEm7JJkn2VnRM8nQ8P5ndM9Tuk26Z721Hix4nAe6HDjbbxHHuWt1p1jNTVuY1jQMB8ODniBF+OBujuIUeiZ5Oh4fzL1nVnrBSpURTrENLMNLGvNzd5djefipj+6dH77vuv/AEXOlVM8nQ8P5nd0T+6dJ77vuv8A0T+6dJ77vuv/AEXO0TPJ0PD+ZdD/ALp0fvn7j/0VzetWj/8Acd9x/wCi50iZ5ToeH8y6J/dWk9933H/ovLda36bUv9KysQ8NDbXMfDoJjtRjdQiJnk6Hh/M7r+hAKWop1Hubax4Ji4mO4WroX91aP3j9x/6LnSJnleh4fzO7ov8AdOj9933X/oqf3To/fd9x/wCi52iZ5ToeH8zuIpCr0PWDi0AO7RaC1zTJALuBxhp3VtHomu4AhoghpEua2bptAk+0YON1LS+pzPBtfNG7QRSWk6IqOc27sh10C5t3Za4mGzO7YWqNDUvFO3tn7MjGJgmYEDedktKU4nhVTMRVGmrWVylNN0OZeahgNY14tcyHXGGkOJtjBWLSdEvqMa9kuuqWEBpNuxuPxTLLPN8LWb6R+fxrqj0W5W6MqNc4ASB6WDgSKRLXOiVta3oKq14awXAkAG5syW3Q4TjE78ktK81wbxGaNdUUiuq0y0kEgkciCPIjBVgUeimYmLwqiIo0IiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIglG9Nua57mNa2+CQC4w4Em4TsckeBQ9NvLnOcxrgXNc1uQGuaLW2wdo4FVc3RZNzxgQ2DyIJ+hVLNFtc8f5ZMeUeAlb1fK+nwe/05/tib0vUD2VIFzA+DnJfcSfHtFWDpN/pRWht0Q4RhxIIcSOBIPBZi3SF3tODbW8Dh3GMfyd1ipM03Zuc7LXXwNjItjHimrpTTwrfZPa3b8ayrX6Tc5pYGhrS1jWtBJgNJduckkncrHR172ta0AQ2peMnJxg92FsmnosC+p3mM7DYRG8/LdGN0YIlzyCM92HZwMmYTVI+lFOWKJt37KDpl1rgWAud6WHSZAqmXADY+avrdNud/tgS4OcWucC4tba3My3nha49XFMntOqEEAGYBuEO+C2LdFJNz+MCOexGNxyPJW8szw+DE3+nP9tHXao1XueQGkxgdwA8zjdYFKuo6L335DoxPEgA4x/NkDdDBBc/fGMiAcbRvCzZ3o49NNMU00zaP4RSopMjSAtILiLu1Mjs28IHPPnxV7WaKCL3mSIMHAG/Dilm5xNvbOyKlJUjSGkhwcXTLg10HGeyYiNpSozSXNAc62HXGDM/ZgR/ISxzMXtlnZHSkqQLdLc0XODZdcYMxAtgRvM/zKvazRwJc/mTB5HAxHJLE4iI9s7IyUlSTaej4uqeEePGOPyxuqmno/fePLwxt4qWOZj9Z2RkqkqU1FLSlpLXEOG12JJznHDbxVQ3RyCXOGBLYMT3GJ7/1VsRiY/WdkXKSpDTs0touc64xMA4hxujGZbHwSqzSgG1zzDmxI3aXdqcYNvzSxzOtss7I6UUpXbpCHWucHBpgAEgunEkidvojGaOBLnnIkAH3c5IzlMpzMWvlnZGSi33s0sthzyDddjIj2Y8RhZXM0c+08TOwON8bbRH6pY5n4zsikUiynpbjLnhtrYxm643cNo+qvbT0hLWhzgCXXOOIbHZExEd+6WJxMR7Z2RgVJUs1mjEm95wIBbiczsPD4cVipM0oe4Oc4sgWkA3A7EEcec9yWIxMTf0zsj5SVIuZpS7DnhpY4xEkOnDfD9FfUZoicOeBHAYkAZyJkmcd3elk5mP1nZFopQM0UGXPJnkcCRnbeJxt9VbTGkhwJd7TrTBPZLRBPeHSljmfjOyNRSgp6Ptdp8QYMGQZbEY2i7Kvb6lAlzwc885MH2eUJY5r4zsxlmj95/GP/wAnI/nwVLdGSe08bREnd22e769yx0m6W3tOqXdrbbfs/JZZ0Zc4doNltpG8BoDpkcTKPPN4nvUsqN0xthzhlt25xHaOY4q540YDoLybXBtwwT9k+OfkrKvqsC0vJubM7xJujETEFXOGjEwahg4BgSLZzAxn6IT2j7mRw0RAy8RO0mZGJnvhWURpCxtznh1vagcSRjwEFZHepOMAvaC7HCATmZCx+i0gDiXOJDiGgEZGYO31VSJ/HqXNbosS5558t+GJOPqlIaQZJdMjEEiIkn4wFVjNEZ7VQYMd+OGOawtbpJdLnxAtgbmO0CY5qHe+tTMG6KQbn7jGYiJPCd8YWOk3SES51QGXSGjAGbY+XxVQ3R4M1Nsjv5TH8lCdJLQLy203H7V1zSOEDAPBDX5DxpC4+0GlrY3w6e18vzTT+qCS4uPawCMW4gmOO/xVXepQSDUkRA55O5jw2V7joSAO2IAkgZJkTOOUoX0t6mHTs0trb3OuxcQDjeY/Cs49RmZedsRjYg+c5VG+pAAkuJ2IgkYG5xzVjhooJmpOIHPBmTGxMInefcvpDRC2S4jBMjfeRjhssNVulghrnk2mCfegQI8ZVWjShzgS63sw4Z53DA2mBPcSrqjdGBAc8mAZ8jg45xzRY0n3MbhpiW5cN7u7s4t/+X1V7W6OR2nkRmR3HIxvMb7d6tonSh7rrnMMWwCCOBnnxPks12iJuIeMN7ImJntZ8Poi1TMaepjqs0kEhzsYE7mSd8bRB8lYxuktFxqXWmRAgOjA8CVXTDSWi8uunJE4EnbHKFcBo4IPpBEwRkk2iJxAzPyQvMaeooU9GbbnOBtF07TBu4bbR4q8DRcS/lEcI38ZVh9ULnSXhoDA2Ac++ThW6Y6UFhdccvvEGIg2RHHZEm9r3q/7VWkdLDg67NwaeIkNtPLBu/hRrdHc4Fz7ZbB4+yZEeMK+dECCLzMyHbDB2HHhxVn/AKS53t2lpjGQ6QQR3bq3XXW2Zc0aOACX7zPEi0YOI9qdka3RxBc/YEmMzBkfRVezRZ7VXYxjjAjcc5VLtHc4EPtwGkb+yQSZ4zCjP+MymtoaYNljyXYwTPjw32+fJXvbouBfi7I+1xG434KyodILLS4xcHGNxDoMHjJCUXaUOfdJbLbZDpAjtSRwu4cQi621zaLgzRSO1UjjIzsdo74+KxVGaWBa55NzbsbNjJ2yZlVfU00GAQezG52cS7uy2Pgrq3qZDi0vByWiMDAgbZEosZon3LazNLa61zy6MYwTJ38oV1mjj2nznYHujcb7qtmiAy55MN22mMiYQN0We1V+zyznJ25fREzae5jr09NLbHOie0CM2zgjHKVlbT0ZulzgBbE7mTkARyVjRpCXFxeAXOtgYDYMY33Rp0pLpuDYbbG829qZHPKLrMW9Wi63R5Ac/wASO50RA5kfBaGsbTvPoi4txBO+yz671eAaV0zkHYCOHGf+/ctNHfg8OZ1vP+0jUdpQOyHE3N34gHtbcxjyWQepEiTUAxOPGQPkoOKn+P8AI/7rYI7527uGcIzTws2l5hJNfpTcHBwEttIGR2QDPPMlU1J0kdm8GABO2+Z74lRqJduMNabxVO6Tf6mDj0hE+e7fyu71bVGljsl5MjB5XZ/DCj4RLry/yndJV3aQtNoeHBrrY2JmWkz8PJXvGiAAl5MAyM5PCf5uolVUunLfKd0hrTpTJp3TdIDhiIyByzzV+pdpC02tqB0EidpkQD3bqLRW6xhrW9U6fylSdFAHbEA5HHGAfA8ViqHS4LQ/d0g8oNkHxifNaCQlyMN8p3SjhoeBqR5e6PzlWn1PaX8c8siBHOJ8wFGKqXOW+U7pF40ocHNLiA7tNcCSQdoVK3qtptvuO13CHd3MSo4olzl+3qndLgaImJeBwOee58AsVM6WCHX+0YI927E98fVRsIl05b5TumKg0JDiDUBzAHji0eHNGnQg/wC4QCd+IjAIUQiXOV/Gad0k71PNvpJgwXc4xMd+VjpPoWhpBuLhc7bs3GSOWIWiiXXlotbNO6QqDSWm01LodExBI9mfHBVw9Sgf6swJ23kSB3KNRLnL6fdO6Tqv0gabQ4uFoEjftAuPjbhZKr9C4bPBAdsIBPD81DwkJdOVj9p3SE6a1p7V0suHAgRf9D8u9ZX+pcDU3O+0YiPn+ai4RLry3yndJg6Kf92JGe6c4WJh04A9om504+zBDfPZaCJc5f5TulB6lJzUiDGOMCPKZmVSm/SEEODgbjlvAXG3HhAUailzlvlO6QqO0t4w+21sgbgyJOe6fNXvOjDXW3l1roDhicx57KLhVVunL9vVO4iIsvWoECIqiqIigIiIoiIgIiIgiIiiIiAiIiCIiAiIiiIiIIiIoiIgIiICIiIIiIoiIiCIiK//2Q==",
     title: "Blockchain Hub",
     description: "BlockchainHub advocate, educate and discuss blockchains",
-    url: "https://blockchainhub.net",
+    url: "https://blockchainhub.net/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Solidity",
@@ -243,7 +243,7 @@ export const websites = [
       "data:image/jpeg;base64,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",
     title: "DApp University",
     description: "......",
-    url: "https://www.dappuniversity.com",
+    url: "https://www.dappuniversity.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -254,7 +254,7 @@ export const websites = [
     title: "Ethereum Dev",
     description:
       "EthereumDev is the best website to learn everything about blockchain development trusted by thousands of developers since 2017.",
-    url: "https://ethereumdev.io",
+    url: "https://ethereumdev.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -265,7 +265,7 @@ export const websites = [
     title: "Blockchain Edu",
     description:
       "The Blockchain Education Network (BEN) is a 501(c)(3) non-porfit charitable organization founded in 2014. We exist to provide borderless education in blockchain ...",
-    url: "https://learn.blockchainedu.org",
+    url: "https://learn.blockchainedu.org/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -276,7 +276,7 @@ export const websites = [
     title: "Web3 University",
     description:
       "The comprehensive educational resource on blockchain development with the most useful tutorials across the web3 ecosystem. ",
-    url: "https://www.web3.university/",
+    url: "https://www.web3.university/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -287,7 +287,7 @@ export const websites = [
     title: "Metaschool",
     description:
       "Metaschool is a platform where developers hangout to learn web3 with each other, collaborate on projects, earn NFTs for completing their work, and connect with talented folks building the future of the web!",
-    url: "https://metaschool.so",
+    url: "https://metaschool.so/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -298,7 +298,7 @@ export const websites = [
     title: "Zastrin",
     description:
       "Zastrin offers courses to help you become a blockchain developer. Join over 7,000 developers who have learned to build complex decentralized applications ...",
-    url: "https://www.zastrin.com",
+    url: "https://www.zastrin.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -309,7 +309,7 @@ export const websites = [
     title: "We teach Blockchain",
     description:
       "Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from the comfort of your own home!",
-    url: "https://weteachblockchain.org/courses",
+    url: "https://weteachblockchain.org/courses/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -320,7 +320,7 @@ export const websites = [
     title: "ChainShot",
     description:
       "Fast-track your Ethereum Developer career in an instructor-led and challenging bootcamp focused on discussion and application!",
-    url: "https://www.chainshot.com/",
+    url: "https://www.chainshot.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -331,7 +331,7 @@ export const websites = [
     title: "LearnWeb3 DAO",
     description:
       "LearnWeb3 is a high quality, holistic education platform to onboard you as a web3 developer. Learn with a community, make friends, gain skills for the web3 ...",
-    url: "https://www.learnweb3.io",
+    url: "https://www.learnweb3.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -342,7 +342,7 @@ export const websites = [
     title: "Cadena",
     description:
       "Cadena helps developers learn how to develop on the blockchain and transition their careers into web3.",
-    url: "https://cadena.dev",
+    url: "https://cadena.dev/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -353,7 +353,7 @@ export const websites = [
     title: "Tacode",
     description:
       "On Tacode you learn Tezos development from simple recipes with your peers...",
-    url: "https://tacode.dev",
+    url: "https://tacode.dev/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -364,7 +364,7 @@ export const websites = [
     title: "Start on Solana",
     description:
       "Kickstart you Solana development journey and start contributing to ecosystem projects from day one.",
-    url: "https://www.startonsolana.com",
+    url: "https://www.startonsolana.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solana", "Rust"],
   },
@@ -375,7 +375,7 @@ export const websites = [
     title: "Blockgeeks",
     description:
       "Blockgeeks mission is to share and grow the knowledge around Blockchain technology",
-    url: "https://blockgeeks.com",
+    url: "https://blockgeeks.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Blockchain"],
   },
@@ -397,7 +397,7 @@ export const websites = [
     title: "Pointer",
     description:
       "Learn web3 dev skills with fun interactive tutorials. Earn crypto rewards along the way!",
-    url: "https://www.pointer.gg",
+    url: "https://www.pointer.gg/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -408,7 +408,7 @@ export const websites = [
     title: "Soldev",
     description:
       "Build your own online store using Solana Pay. No Rust knowledge is required.",
-    url: "https://soldev.app",
+    url: "https://soldev.app/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solana", "Rust", "Blockchain"],
   },
@@ -418,7 +418,7 @@ export const websites = [
       "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWYAAACNCAMAAACzDCDRAAAAjVBMVEUAAQAAAAD///83/1hkbmUKGQ7Hx8eOjo5TU1N5eXn7+/v4+Pjr6+vZ2dnLy8u4uLhubm69vb1YWFjh4eEyMjKkpKRKSkrk5OSwsLDs7OyVlZWdnZ04ODgMDAx1dXWGhoYkJCRmZmYVFRUtLS1BQUGampogICBfX1/T09OqqqpFRUUHEQkmsz0ovEBFS0WD0cUUAAADrklEQVR4nO3YYXPaVhCFYe+2BSMhCQFCyCZgY+yA0+b//7zuvTILTr8V7hyHOc+MHQESM7xaX4nc3RERERERERERERERERERERERERERERERERERERERERER0e9Dbhq6rkOHSAtd16FDpIWu69Ah0kLXdegQaaHrOnSItNB1HTpEWui6Dh0iLXRdhw6RFrquQ4dIC13XoUOkha7r0CHSQtd16BBpoes6dIi00HUdOkRa6LoOHSItdF132ccYDc4Mf3lxvbjsza8AXddd9CkW+slz/+SgLWzrqVLNNyKTurUnN2Ut01k3Lie2w6HdLeuymHXVciovw0EVHwxfZ+vnQZvl+4Ud3M5+PWv/B7quu+hTjD5njmGmYauU5+NTY+1Etqr1pH9mKdZ/eDxkJvlx80F18vFgHv7NmPmUeSn7z5kHVutQiD18Xdo8S2cpZW47HsaaTTLVaa3alJ1qUVvtgeZVmWtWHOzBurDadlRpB29yZj5lruTUOWauwyzf2Wg28ZW3XPdxdWnsUSevqo9lGNRSQ8Zw1KNIG07FQXVlb7hobPJtzOffmPmU+aPmKfP38Pc+t1D3IjaYq0xrCUvIQ4y5to0iFJ7p2HZuNNaOp8IOCWfH3izf2tDrmpnPModpPM8cV+V9FS+IlsxW5UPccWQxS3m0RWOsdlHstJC4kD9IOL4O860huw3ySl5sTdGLI99S5nwlk/PMj/fWbryxpfctrCm2Kr/Opzal3y1mZbMdLnpFGOCB7Wy7Te2mJJ6KMOR2dkZ2GzgafbN5fmJmz5w/WeWiqqrx6RIYqvX3DF1/46G27u52cavdSli8Ja7qYVWxmLs40+GWZNDfX8QbkeLyyreTeRNmOWxPPjI3sbKs7KYhW8YV14oubYjLsJiMRN40G9oAj59t5324s7ZTMbMRzuyupbCf/r205CXwyDJ3y5CkaZr2uDZv3/sXn+bh98v8ZWvRbWbn7x+rQPhyeNd/Q9z1R+yOT78f3/n9GpFvJfP689eTzVXSXBO6rrvsY7Tnlbu367S5InRdd+HnWNw7/H8U/Re6rkOHSAtd16FDpIWu69Ah0kLXdegQaaHrOnSItNB1HTpEWui6Dh0iLXRdhw6RFrquQ4dIC13XoUOkha7r0CHSQtd16BBpoes6dIi00HUdOkRa6LoOHSItdN0j+fHXDfvxVTrL33/csH++TOaff96wn18lM9dmIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiot/dv1tuUof4yCSxAAAAAElFTkSuQmCC",
     title: "Solidity Tips",
     description: "The go-to place to learn Solidity and web3.",
-    url: "https://soliditytips.com",
+    url: "https://soliditytips.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -429,7 +429,7 @@ export const websites = [
     title: "Learn NEAR Club",
     description:
       "This course is an opportunity for web developers to earn a Certificate of Completion that represents the ability to design, develop, test and deploy smart contracts on the NEAR platform",
-    url: "https://learnnear.club",
+    url: "https://learnnear.club/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["NEAR", "Go lang", "Blockchain"],
   },
@@ -440,7 +440,7 @@ export const websites = [
     title: "Codiesalert",
     description:
       "Learn Blockchain and Web3, Start your Blockchain journey with our Free beginners Course.",
-    url: "https://www.codiesalert.com/",
+    url: "https://www.codiesalert.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -451,7 +451,7 @@ export const websites = [
     title: "Cryptopedia",
     description:
       "A platform designed to provide open source, high-quality, comprehensive crypto content & education to the world.",
-    url: "https://www.gemini.com/cryptopedia",
+    url: "https://www.gemini.com/cryptopedia/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -462,7 +462,7 @@ export const websites = [
     title: "Crypto Lectures",
     description:
       "The University of Basel has been offering Blockchain courses since 2017. As part of the CryptoLectures.io project, these courses are made available to the ...",
-    url: "https://cryptolectures.teachable.com",
+    url: "https://cryptolectures.teachable.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },
@@ -473,7 +473,7 @@ export const websites = [
     title: "NFTschool",
     description:
       "NFT School is open-source community education on best practices and how-tos for developers in the non-fungible token space.",
-    url: "https://nftschool.dev",
+    url: "https://nftschool.dev/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
   },

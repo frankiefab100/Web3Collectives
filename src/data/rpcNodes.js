@@ -6,7 +6,7 @@ export const rpcNodes = [
     title: "Infura",
     description:
       "Infura provides infrastructure and tools for developers to build amazing Web 3.0 applications",
-    url: "https://infura.io/",
+    url: "https://infura.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Node", "RPC", "Data query", "Infura"],
   },
@@ -16,7 +16,7 @@ export const rpcNodes = [
     title: "Alchemy",
     description:
       "Alchemy provides infrastructure service to build great blockchain applications",
-    url: "https://www.alchemy.com",
+    url: "https://www.alchemy.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Node", "RPC", "Data query", "Alchemy"],
   },
@@ -27,7 +27,7 @@ export const rpcNodes = [
     title: "QuickNode",
     description:
       "A single platform for your production, staging, and testing environments",
-    url: "https://www.quicknode.com",
+    url: "https://www.quicknode.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Node", "RPC", "Data query", "QuickNode"],
   },
@@ -37,7 +37,7 @@ export const rpcNodes = [
       "data:image/png;base64,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",
     title: "Ankr",
     description: "The fastest and most reliable Web3 infrastructure provider",
-    url: "https://www.ankr.com/protocol/",
+    url: "https://www.ankr.com/protocol/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Node", "RPC", "Data query", "Ankr"],
   },
