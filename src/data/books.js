@@ -7,7 +7,7 @@ export const books = [
     description: "A Peer-to-Peer Electronic Cash System",
     url: "https://bitcoin.org/bitcoin.pdf",
     tag: ["Beginner"],
-    keywords: ["Bitcoin", "Whitepaper", "Satoshi", "Blockchain"],
+    keywords: ["Bitcoin", "Whitepaper", "Satoshi", "Blockchain", "BTC"],
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ export const books = [
     description: "A Secure Decentralized Generalised Transaction Ledger ",
     url: "https://ethereum.github.io/yellowpaper/paper.pdf",
     tag: ["Beginner"],
-    keywords: ["Ethereum", "Whitepaper", "Satoshi", "Blockchain"],
+    keywords: ["Ethereum", "Whitepaper", "Gwei", "Blockchain", "ETH"],
   },
   {
     id: 3,
@@ -25,12 +25,13 @@ export const books = [
     title: "Mastering Ethereum",
     description: "Building Smart Contracts and DApps",
     url: "https://github.com/ethereumbook/ethereumbook/",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Intermediate", "Advanced"],
     keywords: [
       "Smart Contracts",
       "DApps",
       "Ethereum",
       "Decentralized Applications",
+      "Decentralization",
     ],
   },
   {
@@ -40,8 +41,14 @@ export const books = [
     title: "Mastering Bitcoin",
     description: "Programming the Open Blockchain",
     url: "https://ethereum.github.io/yellowpaper/paper.pdf",
-    tag: ["Beginner"],
-    keywords: ["Ethereum", "Whitepaper", "Satoshi", "Blockchain"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: [
+      "Bitcoin",
+      "Whitepaper",
+      "Satoshi",
+      "Blockchain",
+      "Distributed Ledger",
+    ],
   },
   {
     id: 5,
@@ -51,7 +58,7 @@ export const books = [
     url: "https://",
     tag: ["Advanced"],
     keywords: [
-      "Blockchain",
+      "Blockchain network",
       "Smart Contracts",
       "DApps",
       "Ethereum",

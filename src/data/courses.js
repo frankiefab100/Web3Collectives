@@ -6,8 +6,8 @@ export const courses = [
     title: "Solidity, Blockchain, and Smart Contract Course (FreeCodeCamp)",
     description: "Beginner to Expert Python Tutorial",
     url: "https://www.youtube.com/watch?v=M576WGiDBdQ/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Blockchain", "Ethereum", "Vyper"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: ["Remix", "Solidity", "Ethereum", "DApp", "Vyper", "Python"],
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ export const courses = [
     description:
       "In this awesome tutorial of 32 hours you will learn in details most of concepts of Ethereum, EVM, Smart contracts and how to code them",
     url: "https://youtu.be/gyMwXuJrbJQ/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: ["Remix", "Solidity", "Ethereum", "DApp", "Web3", "JavaScript"],
   },
   {
     id: 3,
@@ -28,8 +28,8 @@ export const courses = [
     title: "Blockchain Theory 101",
     description: ".......",
     url: "https://www.udemy.com/share/101yjc2@PUdKbFpaTVMPcUBCO0hOfg==/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
+    tag: ["Beginner"],
+    keywords: ["Blockchain", "Cryptocurrency", "DLT", "Bitcoin"],
   },
   {
     id: 4,
@@ -39,8 +39,8 @@ export const courses = [
     description:
       "This free online blockchain course introduces you to Blockchain technology and all its applications, including cryptocurrencies. ",
     url: "https://alison.com/course/diploma-in-blockchain-technology-and-applications/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
+    tag: ["Beginner"],
+    keywords: ["Blockchain technology", "Cryptocurrency", "DLT", "Bitcoin"],
   },
   {
     id: 5,
@@ -48,8 +48,8 @@ export const courses = [
     title: "Smart Contracts",
     description: ".......",
     url: "https://www.coursera.org/learn/smarter-contracts/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: ["Blockchain", "Smart contracts", "Ethereum", "Decentralization"],
   },
   {
     id: 6,
@@ -59,8 +59,8 @@ export const courses = [
     description:
       "This course provides a conceptual overview and technical summary of the two top job growth areas worldwide: blockchain technology and deep learning ...",
     url: "https://www.udemy.com/course/blockchain-and-deep-learning-future-of-ai/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
+    tag: ["Beginner"],
+    keywords: ["Blockchain", "Artificial Intelligence", "AI", "Deep learning"],
   },
   {
     id: 7,
@@ -68,8 +68,14 @@ export const courses = [
     title: "Understanding Blockchain Technology",
     description: ".......",
     url: "https://www.udemy.com/course/understanding-blockchain-technology/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Blockchain technology",
+      "Smart contrcats",
+      "Web3",
+      "Bitcoin",
+      "Cryptocurrency",
+    ],
   },
   {
     id: 8,
@@ -79,8 +85,8 @@ export const courses = [
     description:
       "By the end of the tutorial, you will have all the skills required to design your own smart contracts in Solidity",
     url: "https://www.ludu.co/course/ethereum/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: ["Solidity", "Ethereum", "Blockchain", "Smart contracts"],
   },
 
   {
@@ -91,8 +97,14 @@ export const courses = [
     description:
       "Start free Blockchain Technology course online to learn the basic fundamentals of Blockchain Technology and get started with most in-demand technology in ...",
     url: "https://witscad.com/course/blockchain-technology-fundamentals/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
+    tag: ["Beginner"],
+    keywords: [
+      "Blockchain technology",
+      "Smart contrcats",
+      "Web3",
+      "Bitcoin",
+      "Cryptocurrency",
+    ],
   },
   {
     id: 10,
@@ -100,10 +112,17 @@ export const courses = [
       "data:image/jpeg;base64,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",
     title: "Enterprise Blockchains Fundamentals",
     description:
-      "101 Blockchains is a comprehensive platform that specializes in practical blockchain professional training and certification programs.",
+      "A practical blockchain professional training and certification programs.",
     url: "https://academy.101blockchains.com/courses/enterprise-blockchains-fundamentals/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
+    tag: ["Intermediate"],
+    keywords: [
+      "Blockchain technology",
+      "Hyperledger",
+      "Smart contrcats",
+      "Web3",
+      "Bitcoin",
+      "Cryptocurrency",
+    ],
   },
   {
     id: 11,
@@ -113,7 +132,13 @@ export const courses = [
     description:
       "Web-based demonstration of hash, block, distributed ledger, token, public/private key pairs and signing",
     url: "https://andersbrownworth.com/blockchain/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Blockchain"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Hash",
+      "Block",
+      "Distributed ledger",
+      "Public key",
+      "Key pairs",
+    ],
   },
 ];

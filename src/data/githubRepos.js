@@ -7,8 +7,14 @@ export const githubRepos = [
     description:
       "Learn Blockchain, Solidity, and Full Stack Web3 Development with Javascript",
     url: "https://github.com/smartcontractkit/full-blockchain-solidity-course-js",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Solidity",
+      "Ethereum",
+      "Smart contracts",
+      "Blockchain",
+      "DApps",
+    ],
   },
   {
     id: 2,
@@ -18,8 +24,16 @@ export const githubRepos = [
     description:
       "Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course Python Edition",
     url: "https://github.com/smartcontractkit/full-blockchain-solidity-course-py",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Solidity",
+      "Vyper",
+      "Python",
+      "Ethereum",
+      "Smart contracts",
+      "Blockchain",
+      "DApps",
+    ],
   },
   {
     id: 3,
@@ -29,7 +43,13 @@ export const githubRepos = [
     description: "A curated list of resources for blockchain engineers",
     url: "https://github.com/benstew/blockchain-for-software-engineers",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    keywords: [
+      "Solidity",
+      "Ethereum",
+      "Smart contracts",
+      "Blockchain",
+      "DApps",
+    ],
   },
   {
     id: 4,
@@ -39,8 +59,16 @@ export const githubRepos = [
     description:
       "A guide to available tools and platforms for developing on Ethereum.",
     url: "https://github.com/ConsenSys/ethereum-developer-tools-list",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Smart contracts",
+      "Solidity",
+      "Development tools",
+      "Ethereum",
+      "Smart contracts",
+      "Blockchain",
+      "DApps",
+    ],
   },
   {
     id: 5,
@@ -50,8 +78,8 @@ export const githubRepos = [
     description:
       "A curated list of awesome Solidity resources, libraries, tools and more.",
     url: "https://github.com/bkrem/awesome-solidity",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps"],
   },
   {
     id: 6,
@@ -60,8 +88,8 @@ export const githubRepos = [
     title: "Awesome ethereum security",
     description: "A curated list of awesome Ethereum security references",
     url: "https://github.com/crytic/awesome-ethereum-security",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Advanced"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps", "Security"],
   },
   {
     id: 7,
@@ -71,8 +99,14 @@ export const githubRepos = [
     description:
       "Curated list of resources for the development and applications of blockchain.",
     url: "https://github.com/yjjnls/awesome-blockchain",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: [
+      "Solidity",
+      "Ethereum",
+      "Smart contracts",
+      "Blockchain",
+      "DApps",
+    ],
   },
   {
     id: 8,
@@ -81,8 +115,8 @@ export const githubRepos = [
     title: "Blockchain learning path",
     description: "A suggested learning path for blockchain development.",
     url: "https://github.com/protofire/blockchain-learning-path",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Roadmap", "Ethereum", "Smart contracts", "Blockchain", "DApps"],
   },
   {
     id: 9,
@@ -91,8 +125,14 @@ export const githubRepos = [
     title: "Awesome solidity BlockchainLabs",
     description: "A curated list of awesome Solidity resources",
     url: "https://github.com/BlockchainLabsNZ/awesome-solidity",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: [
+      "Solidity",
+      "Ethereum",
+      "Smart contracts",
+      "Blockchain",
+      "DApps",
+    ],
   },
   {
     id: 10,
@@ -101,8 +141,8 @@ export const githubRepos = [
     title: "Solidity 101",
     description: "........",
     url: "https://github.com/l-henri/solidity-101",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps"],
   },
   {
     id: 11,
@@ -111,8 +151,8 @@ export const githubRepos = [
     description:
       "a curated Web3.0 Developer handbook which includes a list of the best tools for DApps, development resources and lifehacks.",
     url: "https://github.com/OffcierCia/DeFi-Developer-Road-Map",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "DeFi"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: ["DeFi", "Solidity", "Ethereum", "Roadmap"],
   },
   {
     id: 12,
@@ -122,8 +162,14 @@ export const githubRepos = [
     description:
       "Blockchain Development curriculum, code snippets and best of practice learnt on the course of transitioning from Web2.",
     url: "https://github.com/frankiefab100/Web3.0-Roadmap",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: [
+      "Smart contracts",
+      "Solidity",
+      "Ethereum",
+      "DApps",
+      "Code snoppets",
+    ],
   },
   {
     id: 13,
@@ -132,8 +178,14 @@ export const githubRepos = [
     title: "Smart contract resources",
     description: "........",
     url: "https://github.com/ErichDylus/Smart-Contract-Resources",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: [
+      "Solidity",
+      "Ethereum",
+      "Smart contracts",
+      "Blockchain",
+      "DApps",
+    ],
   },
   {
     id: 14,
@@ -142,8 +194,8 @@ export const githubRepos = [
     title: "Learning solidity",
     description: "Basic examples of Solidity smart contracts",
     url: "https://github.com/pbrudny/learning-solidity-2018",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps"],
   },
   {
     id: 15,
@@ -152,8 +204,8 @@ export const githubRepos = [
     title: "Solidity Notes",
     description: "A bunch of notes for beginners learning solidity",
     url: "https://github.com/0xpranay/solidity-notes",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps"],
   },
   {
     id: 16,
@@ -162,8 +214,8 @@ export const githubRepos = [
     title: "Learn solidity with examples",
     description: "A repo full of smart contracts written in solidity",
     url: "https://github.com/James-Sangalli/learn-solidity-with-examples",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps"],
   },
   {
     id: 17,
@@ -174,7 +226,13 @@ export const githubRepos = [
       "A compilation of patterns and best practices for the smart contract programming language Solidity",
     url: "https://github.com/fravoll/solidity-patterns",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    keywords: [
+      "Smart contracts",
+      "Solidity",
+      "Ethereum",
+      "DApps",
+      "Solidity patterns",
+    ],
   },
   {
     id: 18,
@@ -184,8 +242,8 @@ export const githubRepos = [
     description:
       "A collection of short yet fully-functional contracts that demonstrate Solidity language features",
     url: "https://github.com/raineorshine/solidity-by-example",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps"],
   },
   {
     id: 19,
@@ -195,8 +253,8 @@ export const githubRepos = [
     description:
       "HUGO site for devpill.me, a public good blockchain development guide",
     url: "https://github.com/dcbuild3r/blockchain-development-guide",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps"],
   },
   {
     id: 20,
@@ -207,7 +265,13 @@ export const githubRepos = [
       "Cheat sheet and best practices for solidity. Write smart contracts for Ethereum.",
     url: "https://github.com/manojpramesh/solidity-cheatsheet",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    keywords: [
+      "Smart contracts",
+      "Solidity",
+      "Ethereum",
+      "DApps",
+      "Cheatsheet",
+    ],
   },
   {
     id: 21,
@@ -215,8 +279,8 @@ export const githubRepos = [
     title: "Journey to become a blockchain engineer",
     description: "Note on everything learned to become a Blockchain Engineer",
     url: "https://github.com/spo0ds/Journey-to-become-a-Blockchain-Engineer",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps"],
   },
   {
     id: 22,
@@ -225,7 +289,7 @@ export const githubRepos = [
     description: "........",
     url: "https://github.com/decentology/web2-to-web3-resources",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps", "Web3"],
   },
   {
     id: 23,
@@ -236,7 +300,7 @@ export const githubRepos = [
       "Write and publish your own blockchain in less than 200 lines of Go",
     url: "https://github.com/nosequeldeebee/blockchain-tutorial",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    keywords: ["Smart contracts", "Solidity", "Go", "DApps"],
   },
   {
     id: 24,
@@ -246,8 +310,8 @@ export const githubRepos = [
     description:
       "A collection about awesome blockchains - open distributed public databases w/ crypto hashes incl. git ",
     url: "https://github.com/openblockchains/awesome-blockchains",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Blockchain", "Ethereum", "DApps"],
   },
   {
     id: 25,
@@ -257,8 +321,8 @@ export const githubRepos = [
     description:
       "A curated list of awesome things related to learning Zero-Knowledge Proofs (ZKP).",
     url: "https://github.com/matter-labs/awesome-zero-knowledge-proofs",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: ["Smart contracts", "Zero knowledge proof", "ZKP", "Privacy"],
   },
   {
     id: 26,
@@ -268,8 +332,8 @@ export const githubRepos = [
     description:
       "A curated list of awesome ZK resources, libraries, tools and more",
     url: "https://github.com/ventali/awesome-zk",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Advanced"],
+    keywords: ["Smart contracts", "Zero knowledge proof", "ZKP", "Privacy"],
   },
   {
     id: 27,
@@ -279,8 +343,8 @@ export const githubRepos = [
     description:
       "A curated list of awesome zkEVM resources, libraries, tools and more",
     url: "https://github.com/LuozhuZhang/awesome-zkevm",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Advanced"],
+    keywords: ["Smart contracts", "Zero knowledge proof", "ZKP", "Privacy"],
   },
   {
     id: 28,
@@ -290,8 +354,15 @@ export const githubRepos = [
     description:
       "Guidelines and training material to write secure smart contracts.",
     url: "https://github.com/crytic/building-secure-contracts",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: [
+      "Smart contracts",
+      "Solidity",
+      "Ethereum",
+      "DApps",
+      "Smart contract audit",
+      "Security",
+    ],
   },
   {
     id: 29,
@@ -301,8 +372,15 @@ export const githubRepos = [
     description:
       "Opinionated security and code quality standard for Solidity smart contracts.",
     url: "https://github.com/Rari-Capital/solcurity",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Advanced"],
+    keywords: [
+      "Smart contracts",
+      "Solidity",
+      "Ethereum",
+      "DApps",
+      "Smart contract audit",
+      "Security",
+    ],
   },
   {
     id: 30,
@@ -312,8 +390,8 @@ export const githubRepos = [
     description:
       "An initiative to prepare a code base for the solidity beginners by those who were beginners sometime.It categorize the smart contracts according to different difficulty levels and in multiple standards.",
     url: "https://github.com/Aniket-Engg/solidity-school",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps"],
   },
   {
     id: 31,
@@ -322,7 +400,7 @@ export const githubRepos = [
     description: "Condensed demos and explanations for the Solidity trivias",
     url: "https://github.com/ajsantander/trivias",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps", "Trivias"],
   },
   {
     id: 32,
@@ -332,19 +410,31 @@ export const githubRepos = [
     description:
       "Hashes, MAC, Key Derivation, DHKE, Symmetric and Asymmetric Ciphers, Public Key Cryptosystems...",
     url: "https://github.com/nakov/practical-cryptography-for-developers-book",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Advanced"],
+    keywords: [
+      "Smart contracts",
+      "Solidity",
+      "Ethereum",
+      "DApps",
+      "Cryptography",
+    ],
   },
   {
     id: 33,
     coverImage:
       "data:image/jpeg;base64,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",
-    title: "Awesome openzeppelin",
+    title: "Awesome Openzeppelin",
     description:
       "Blockchain educational resources curated by the OpenZeppelin team.",
     url: "https://github.com/OpenZeppelin/awesome-openzeppelin",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: [
+      "Smart contracts",
+      "Solidity",
+      "Ethereum",
+      "DApps",
+      "Openzeppelin",
+    ],
   },
   {
     id: 34,
@@ -354,8 +444,8 @@ export const githubRepos = [
     description:
       "Blockchain dark forest selfguard handbook. Master these, master the security of your cryptocurrency",
     url: "https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Advanced"],
+    keywords: ["Smart contracts", "Solidity", "Ethereum", "DApps"],
   },
   {
     id: 35,
@@ -364,8 +454,8 @@ export const githubRepos = [
     title: "Decentralized Applications",
     description: "Decentralized Applications White Paper and Spec",
     url: "https://github.com/DavidJohnstonCEO/DecentralizedApplications",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Ethereum", "DApps"],
   },
   {
     id: 36,
@@ -376,7 +466,13 @@ export const githubRepos = [
       "Source code for Eat The Blocks, a screencast for Ethereum Dapp Developers",
     url: "https://github.com/jklepatch/eattheblocks",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    keywords: [
+      "Smart contracts",
+      "Solidity",
+      "Ethereum",
+      "DApps",
+      "Eat the blocks",
+    ],
   },
   {
     id: 37,
@@ -384,10 +480,10 @@ export const githubRepos = [
       "data:image/png;base64,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",
     title: "Awesome blockchain rust",
     description:
-      "Collect libraries and packages about blockchain/cryptography in Rust",
+      "Collection of libraries and packages about blockchain/cryptography in Rust",
     url: "https://github.com/rust-in-blockchain/awesome-blockchain-rusts",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Rust", "Blockchain", "DApps"],
   },
   {
     id: 38,
@@ -396,8 +492,8 @@ export const githubRepos = [
     title: "Awesome rust",
     description: "A curated list of Rust code and resources.",
     url: "https://github.com/rust-unofficial/awesome-rust",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Rust", "Blockchain", "DApps"],
   },
   {
     id: 39,
@@ -406,8 +502,8 @@ export const githubRepos = [
     title: "Awesome aeternity",
     description: "A curated list of resources for the æternity blockchain.",
     url: "https://github.com/aeternity/awesome-aeternity",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Beginner"],
+    keywords: ["Smart contracts", "Aeternity", "Blockchain", "DApps"],
   },
   {
     id: 40,
@@ -417,17 +513,17 @@ export const githubRepos = [
     description: "TypeScript bindings for Ethereum smart contracts",
     url: "https://github.com/dethcrypto/TypeChain",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    keywords: ["Smart contracts", "Typechain", "Ethereum", "DApps"],
   },
   {
     id: 41,
     coverImage:
       "data:image/png;base64,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",
-    title: "EVM Opcodes",
-    description: "Ethereum opcodes and instruction reference.",
-    url: "https://github.com/crytic/evm-opcodes",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    title: "EVM DAppss",
+    description: "Ethereum DApps and instruction reference.",
+    url: "https://github.com/crytic/evm-DAppss",
+    tag: ["Intermediate", "Advanced"],
+    keywords: ["Smart contracts", "EVM", "Ethereum", "DApps"],
   },
   {
     id: 42,
@@ -437,7 +533,12 @@ export const githubRepos = [
     description:
       "Collection of the best DeFI and Blockchain researches for discussion.",
     url: "https://github.com/OffcierCia/ultimate-defi-research-base",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Opcode"],
+    tag: ["Advanced"],
+    keywords: [
+      "Smart contracts",
+      "DeFi",
+      "Blockchain Research",
+      "Decentralized Finance",
+    ],
   },
 ];

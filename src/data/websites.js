@@ -6,9 +6,16 @@ export const websites = [
     title: "Consensys Academy",
     description:
       "ConsenSys Academy's mission is to develop the global blockchain ecosystem by bridging the Ethereum knowledge gap, becoming a beacon for Ethereum education",
-    url: "https://consensys.net/academy/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Infura"],
+    url: "https://courses.consensys.net/collections/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
+    tag: ["Beginner"],
+    keywords: [
+      "Consensys Academy",
+      "Consensys",
+      "Solidity",
+      "Ethereum",
+      "Blockchain technology",
+      "Smart contracts",
+    ],
   },
   {
     id: 2,
@@ -18,8 +25,14 @@ export const websites = [
     description:
       "Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.",
     url: "https://ethereum.org/en/developers/tutorials/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Infura"],
+    tag: ["Beginner"],
+    keywords: [
+      "Crytocurrency",
+      "Solidity",
+      "Ethereum",
+      "Blockchain technology",
+      "Smart contracts",
+    ],
   },
   {
     id: 3,
@@ -29,8 +42,15 @@ export const websites = [
     description:
       "Questbook is a Decentralized University​ where learning is always free. Get started with Web 3.0 along with 10000+developers who are building on Web 3.0",
     url: "https://www.openquest.xyz/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Blockchain"],
+    tag: ["Beginner"],
+    keywords: [
+      "Questbook",
+      "Solidity",
+      "Ethereum",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 4,
@@ -40,8 +60,9 @@ export const websites = [
     description:
       "Buildspace accelerates your builder journey into web3. Whether you're just starting out, a seasoned vet transitioning from web2, or thinking of building ...",
     url: "https://buildspace.so/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Intermediate", "Advanced"],
     keywords: [
+      "Builspace",
       "Solidity",
       "Ethereum",
       "Solana",
@@ -59,15 +80,14 @@ export const websites = [
     description:
       "Learn Blockchain Development & ‍Get placed in Top Protocols. Build the Future of Internet.",
     url: "https://web3learn.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate"],
     keywords: [
+      "Web3Learn",
       "Solidity",
       "Ethereum",
-      "Solana",
-      "Polygon",
-      "Rust",
-      "Hardhat",
-      "Etherjs",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
     ],
   },
   {
@@ -78,15 +98,14 @@ export const websites = [
     description:
       "Blockchain at Berkeley is a university-based eco-system for blockchain. The organization specializes in educating the community, facilitating innovating ...",
     url: "https://blockchain.berkeley.edu/courses/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Beginner"],
     keywords: [
+      "Blockchain at Berkeley",
       "Solidity",
       "Ethereum",
-      "Solana",
-      "Polygon",
-      "Rust",
-      "Hardhat",
-      "Etherjs",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
     ],
   },
   {
@@ -97,15 +116,15 @@ export const websites = [
     description:
       "ProtoSchool is an educational community that teaches decentralized web protocols and tools through online tutorials ",
     url: "https://proto.school/tutorials/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate"],
     keywords: [
       "Solidity",
       "Ethereum",
       "Solana",
       "Polygon",
-      "Rust",
-      "Hardhat",
-      "Etherjs",
+      "Proto School",
+      "Smart contracts",
+      "Blockchain",
     ],
   },
   {
@@ -116,16 +135,15 @@ export const websites = [
     description:
       "TheBlockchainSchool.io solves a pressing need in the blockchain industry for competent professionals.",
     url: "https://theblockchainschool.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Intermediate"],
     keywords: [
-      "Solidity",
-      "Ethereum",
-      "Solana",
+      "The Blockchain School",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
       "Polygon",
       "NEAR",
-      "Rust",
-      "Hardhat",
-      "Etherjs",
+      "Tezos",
     ],
   },
   {
@@ -136,8 +154,8 @@ export const websites = [
     description:
       "Peer to peer learning... Learn to build amazing projects and get feedback from your peers. Earn crypto using your new skills by building amazing Dapps and ...",
     url: "https://dacade.org/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Celo", "Sophia", "Aeternity", "Solidity"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: ["Celo", "Sophia", "Aeternity", "Solidity", "Tezos"],
   },
   {
     id: 10,
@@ -147,7 +165,7 @@ export const websites = [
     description:
       "Build a better Internet. The Web 3 education platform for developers, by developers.",
     url: "https://learn.figment.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Intermediate", "Advanced"],
     keywords: [
       "Solidity",
       "Ethereum",
@@ -167,15 +185,14 @@ export const websites = [
     title: "Finematics",
     description: "Decentralized finance education",
     url: "https://finematics.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate"],
     keywords: [
-      "Solidity",
+      "Smart contracts",
       "Ethereum",
-      "Solana",
+      "DeFi",
       "Polygon",
-      "Rust",
-      "Hardhat",
-      "Etherjs",
+      "Blockchain",
+      "Finematics",
     ],
   },
   {
@@ -186,8 +203,8 @@ export const websites = [
     description:
       "NEAR University is the best place to start learning about everything NEAR.",
     url: "https://www.near.university/learn/by-yourself/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Blockchain", "NEAR", "Go lang"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: ["Blockchain", "NEAR", "NEAR University"],
   },
   {
     id: 13,
@@ -197,8 +214,17 @@ export const websites = [
     description:
       "Kerala Blockchain Academy (KBA), is an initiative of the Government of Kerala under the Kerala University of Digital Sciences, Innovation and Technology ...",
     url: "https://kba.ai/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Ganache", "Web3js", "Metamask"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Kerala Blockchain Academy",
+      "Ethereum",
+      "Ganache",
+      "Web3js",
+      "Metamask",
+      "Solidity",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 14,
@@ -208,15 +234,14 @@ export const websites = [
     description:
       "Join over 100.000 People building DApps with this always updated guide for learning Smart Contract Development and Solidity.",
     url: "https://ethereum-blockchain-developer.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate"],
     keywords: [
-      "Solidity",
       "Ethereum",
-      "Solana",
-      "Polygon",
-      "Rust",
-      "Hardhat",
-      "Etherjs",
+      "Ethereum Blockchain Developer",
+      "Solidity",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
     ],
   },
   {
@@ -226,15 +251,13 @@ export const websites = [
     title: "Blockchain Hub",
     description: "BlockchainHub advocate, educate and discuss blockchains",
     url: "https://blockchainhub.net/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate"],
     keywords: [
-      "Solidity",
+      "Blockchain Hub",
       "Ethereum",
-      "Solana",
-      "Polygon",
-      "Rust",
-      "Hardhat",
-      "Etherjs",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
     ],
   },
   {
@@ -244,8 +267,15 @@ export const websites = [
     title: "DApp University",
     description: "......",
     url: "https://www.dappuniversity.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "DApp University",
+      "Solidity",
+      "Ethereum",
+      "Truffle",
+      "Hardhat",
+      "Etherjs",
+    ],
   },
   {
     id: 17,
@@ -255,19 +285,32 @@ export const websites = [
     description:
       "EthereumDev is the best website to learn everything about blockchain development trusted by thousands of developers since 2017.",
     url: "https://ethereumdev.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: [
+      "Ethereum Dev",
+      "Solidity",
+      "Ethereum",
+      "Smart contracts",
+      "Blockchain development",
+    ],
   },
   {
     id: 18,
     coverImage:
       "data:image/png;base64,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",
-    title: "Blockchain Edu",
+    title: "Blockchain Education Network (BEN)",
     description:
       "The Blockchain Education Network (BEN) is a 501(c)(3) non-porfit charitable organization founded in 2014. We exist to provide borderless education in blockchain ...",
     url: "https://learn.blockchainedu.org/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Blockchain Education Network",
+      "Solidity",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+      "BEN",
+    ],
   },
   {
     id: 19,
@@ -277,8 +320,15 @@ export const websites = [
     description:
       "The comprehensive educational resource on blockchain development with the most useful tutorials across the web3 ecosystem. ",
     url: "https://www.web3.university/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner"],
+    keywords: [
+      "Web3 University",
+      "Solidity",
+      "Ethereum",
+      "Smart contracts",
+      "DeFi",
+      "DAOs",
+    ],
   },
   {
     id: 20,
@@ -288,8 +338,15 @@ export const websites = [
     description:
       "Metaschool is a platform where developers hangout to learn web3 with each other, collaborate on projects, earn NFTs for completing their work, and connect with talented folks building the future of the web!",
     url: "https://metaschool.so/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Metaschool",
+      "Solidity",
+      "Ethereum",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 21,
@@ -300,7 +357,14 @@ export const websites = [
       "Zastrin offers courses to help you become a blockchain developer. Join over 7,000 developers who have learned to build complex decentralized applications ...",
     url: "https://www.zastrin.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    keywords: [
+      "Zastrin",
+      "Solidity",
+      "Ethereum",
+      "Polygon",
+      "Hardhat",
+      "Etherjs",
+    ],
   },
   {
     id: 22,
@@ -310,8 +374,14 @@ export const websites = [
     description:
       "Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from the comfort of your own home!",
     url: "https://weteachblockchain.org/courses/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner"],
+    keywords: [
+      "We teach Blockchain",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+      "DeFi",
+    ],
   },
   {
     id: 23,
@@ -321,8 +391,14 @@ export const websites = [
     description:
       "Fast-track your Ethereum Developer career in an instructor-led and challenging bootcamp focused on discussion and application!",
     url: "https://www.chainshot.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "ChainShot",
+      "Ethereum",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 24,
@@ -332,8 +408,15 @@ export const websites = [
     description:
       "LearnWeb3 is a high quality, holistic education platform to onboard you as a web3 developer. Learn with a community, make friends, gain skills for the web3 ...",
     url: "https://www.learnweb3.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "LaernWeb3 DAO",
+      "Solidity",
+      "Ethereum",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 25,
@@ -343,8 +426,14 @@ export const websites = [
     description:
       "Cadena helps developers learn how to develop on the blockchain and transition their careers into web3.",
     url: "https://cadena.dev/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Cadena",
+      "Ethereum",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 26,
@@ -354,8 +443,14 @@ export const websites = [
     description:
       "On Tacode you learn Tezos development from simple recipes with your peers...",
     url: "https://tacode.dev/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Tacode",
+      "Tezos",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 27,
@@ -365,8 +460,14 @@ export const websites = [
     description:
       "Kickstart you Solana development journey and start contributing to ecosystem projects from day one.",
     url: "https://www.startonsolana.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solana", "Rust"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Solana",
+      "Rust",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 28,
@@ -376,8 +477,13 @@ export const websites = [
     description:
       "Blockgeeks mission is to share and grow the knowledge around Blockchain technology",
     url: "https://blockgeeks.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Blockchain"],
+    tag: ["Beginner"],
+    keywords: [
+      "Blockgeeks",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 29,
@@ -387,8 +493,15 @@ export const websites = [
     description:
       "A round trip from your command line to an Ethereum node and back as it travels through Web3.py",
     url: "https://snakecharmers.ethereum.org",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Vyper", "Ethereum", "Brownie"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: [
+      "Vyper",
+      "Ethereum",
+      "Web3.py",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 30,
@@ -398,8 +511,14 @@ export const websites = [
     description:
       "Learn web3 dev skills with fun interactive tutorials. Earn crypto rewards along the way!",
     url: "https://www.pointer.gg/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Pointer",
+      "Ethereum",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 31,
@@ -409,7 +528,7 @@ export const websites = [
     description:
       "Build your own online store using Solana Pay. No Rust knowledge is required.",
     url: "https://soldev.app/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate"],
     keywords: ["Solana", "Rust", "Blockchain"],
   },
   {
@@ -417,10 +536,10 @@ export const websites = [
     coverImage:
       "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWYAAACNCAMAAACzDCDRAAAAjVBMVEUAAQAAAAD///83/1hkbmUKGQ7Hx8eOjo5TU1N5eXn7+/v4+Pjr6+vZ2dnLy8u4uLhubm69vb1YWFjh4eEyMjKkpKRKSkrk5OSwsLDs7OyVlZWdnZ04ODgMDAx1dXWGhoYkJCRmZmYVFRUtLS1BQUGampogICBfX1/T09OqqqpFRUUHEQkmsz0ovEBFS0WD0cUUAAADrklEQVR4nO3YYXPaVhCFYe+2BSMhCQFCyCZgY+yA0+b//7zuvTILTr8V7hyHOc+MHQESM7xaX4nc3RERERERERERERERERERERERERERERERERERERERERER0e9Dbhq6rkOHSAtd16FDpIWu69Ah0kLXdegQaaHrOnSItNB1HTpEWui6Dh0iLXRdhw6RFrquQ4dIC13XoUOkha7r0CHSQtd16BBpoes6dIi00HUdOkRa6LoOHSItdF132ccYDc4Mf3lxvbjsza8AXddd9CkW+slz/+SgLWzrqVLNNyKTurUnN2Ut01k3Lie2w6HdLeuymHXVciovw0EVHwxfZ+vnQZvl+4Ud3M5+PWv/B7quu+hTjD5njmGmYauU5+NTY+1Etqr1pH9mKdZ/eDxkJvlx80F18vFgHv7NmPmUeSn7z5kHVutQiD18Xdo8S2cpZW47HsaaTTLVaa3alJ1qUVvtgeZVmWtWHOzBurDadlRpB29yZj5lruTUOWauwyzf2Wg28ZW3XPdxdWnsUSevqo9lGNRSQ8Zw1KNIG07FQXVlb7hobPJtzOffmPmU+aPmKfP38Pc+t1D3IjaYq0xrCUvIQ4y5to0iFJ7p2HZuNNaOp8IOCWfH3izf2tDrmpnPModpPM8cV+V9FS+IlsxW5UPccWQxS3m0RWOsdlHstJC4kD9IOL4O860huw3ySl5sTdGLI99S5nwlk/PMj/fWbryxpfctrCm2Kr/Opzal3y1mZbMdLnpFGOCB7Wy7Te2mJJ6KMOR2dkZ2GzgafbN5fmJmz5w/WeWiqqrx6RIYqvX3DF1/46G27u52cavdSli8Ja7qYVWxmLs40+GWZNDfX8QbkeLyyreTeRNmOWxPPjI3sbKs7KYhW8YV14oubYjLsJiMRN40G9oAj59t5324s7ZTMbMRzuyupbCf/r205CXwyDJ3y5CkaZr2uDZv3/sXn+bh98v8ZWvRbWbn7x+rQPhyeNd/Q9z1R+yOT78f3/n9GpFvJfP689eTzVXSXBO6rrvsY7Tnlbu367S5InRdd+HnWNw7/H8U/Re6rkOHSAtd16FDpIWu69Ah0kLXdegQaaHrOnSItNB1HTpEWui6Dh0iLXRdhw6RFrquQ4dIC13XoUOkha7r0CHSQtd16BBpoes6dIi00HUdOkRa6LoOHSItdN0j+fHXDfvxVTrL33/csH++TOaff96wn18lM9dmIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiot/dv1tuUof4yCSxAAAAAElFTkSuQmCC",
     title: "Solidity Tips",
-    description: "The go-to place to learn Solidity and web3.",
+    description: "The go-to place to learn Solidity and Web3.",
     url: "https://soliditytips.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: ["Solidity", "Ethereum", "Web3", "Smart contracts", "Blockchain"],
   },
   {
     id: 33,
@@ -431,7 +550,13 @@ export const websites = [
       "This course is an opportunity for web developers to earn a Certificate of Completion that represents the ability to design, develop, test and deploy smart contracts on the NEAR platform",
     url: "https://learnnear.club/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["NEAR", "Go lang", "Blockchain"],
+    keywords: [
+      "Learn NEAR Club",
+      "NEAR",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 34,
@@ -441,8 +566,15 @@ export const websites = [
     description:
       "Learn Blockchain and Web3, Start your Blockchain journey with our Free beginners Course.",
     url: "https://www.codiesalert.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner"],
+    keywords: [
+      "Codiesalert",
+      "Decentralized Applications",
+      "Ethereum",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 35,
@@ -452,8 +584,16 @@ export const websites = [
     description:
       "A platform designed to provide open source, high-quality, comprehensive crypto content & education to the world.",
     url: "https://www.gemini.com/cryptopedia/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner", "Intermediate"],
+    keywords: [
+      "Cryptopedia",
+      "Cryptocurrency",
+      "DeFi",
+      "DAOs",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 36,
@@ -463,18 +603,24 @@ export const websites = [
     description:
       "The University of Basel has been offering Blockchain courses since 2017. As part of the CryptoLectures.io project, these courses are made available to the ...",
     url: "https://cryptolectures.teachable.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner"],
+    keywords: [
+      "Crypto Lectures",
+      "DApps",
+      "Blockchain technology",
+      "Smart contracts",
+      "Blockchain",
+    ],
   },
   {
     id: 37,
     coverImage:
       "data:image/jpeg;base64,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",
-    title: "NFTschool",
+    title: "NFT School",
     description:
       "NFT School is open-source community education on best practices and how-tos for developers in the non-fungible token space.",
     url: "https://nftschool.dev/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solidity", "Ethereum", "Polygon", "Hardhat", "Etherjs"],
+    tag: ["Beginner"],
+    keywords: ["NFT School", "NFTs", "Non-Fungible Token"],
   },
 ];

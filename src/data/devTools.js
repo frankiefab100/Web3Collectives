@@ -7,8 +7,16 @@ export const devTools = [
     description:
       "An online Integrated Development Environment used to write, compile, debug and deploy solidity code for smart contracts",
     url: "https://remix.ethereum.org/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Remix", "Solidity", "Ethereum", "Code Editor", "IDE"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: [
+      "Remix",
+      "Solidity",
+      "Ethereum",
+      "Code Editor",
+      "IDE",
+      "ABI",
+      "Smart Contract",
+    ],
   },
 
   {
@@ -18,7 +26,7 @@ export const devTools = [
     title: "EthFiddle",
     description: "A solidity browser-based development tool",
     url: "https://ethfiddle.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Intermediate", "Advanced"],
     keywords: ["EthFiddle", "Solidity", "Ethereum", "Code Editor"],
   },
   {
@@ -52,6 +60,7 @@ export const devTools = [
       "Wallet",
       "Cryptocurrency",
       "Injected Web3",
+      "Faucets",
     ],
   },
   {
@@ -62,8 +71,8 @@ export const devTools = [
     description:
       "Development environment, testing framework and asset pipeline for blockchains using the EVM",
     url: "https://trufflesuite.com/doc/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Truffle Suite", "Solidity", "Ethereum", "Ganache"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: ["Truffle Suite", "Solidity", "Ethereum", "Ganache", "Testing"],
   },
   {
     id: 6,
@@ -74,7 +83,13 @@ export const devTools = [
       "A collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket",
     url: "https://web3js.readthedocs.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Web3.js", "Solidity", "Ethereum", "Javascript library"],
+    keywords: [
+      "Web3.js",
+      "Solidity",
+      "Ethereum",
+      "Javascript library",
+      "Decentralized Applications",
+    ],
   },
   {
     id: 7,
@@ -84,8 +99,8 @@ export const devTools = [
     description:
       "An Ethereum development environment that helps developers manage and automate the recurring tasks inherent to building smart contracts and DApps",
     url: "https://hardhat.org/getting-started/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Hardhat", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: ["Hardhat", "Solidity", "Ethereum", "Smart Contracts", "DApps"],
   },
   {
     id: 8,
@@ -96,7 +111,7 @@ export const devTools = [
       "A compact library for interacting with the Ethereum Blockchain and its ecosystem",
     url: "https://docs.ethers.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Ethers.js", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
+    keywords: ["Ethers.js", "Solidity", "Ethereum", "Smart Contracts", "DApps"],
   },
   {
     id: 9,
@@ -107,7 +122,7 @@ export const devTools = [
       "A contract-oriented, pythonic programming language that targets the Ethereum Virtual Machine",
     url: "https://vyper.readthedocs.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Vyper", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
+    keywords: ["Vyper", "Solidity", "Ethereum", "Smart Contracts", "DApps"],
   },
   {
     id: 10,
@@ -117,7 +132,7 @@ export const devTools = [
       "A Python library for interacting with Ethereum, inspired by web3.js",
     url: "https://web3py.readthedocs.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Web3.py", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
+    keywords: ["Web3.py", "Solidity", "Ethereum", "Smart Contracts", "DApps"],
   },
   {
     id: 11,
@@ -128,7 +143,7 @@ export const devTools = [
       "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine",
     url: "https://eth-brownie.readthedocs.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Brownie", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
+    keywords: ["Brownie", "Solidity", "Ethereum", "Smart Contracts", "DApps"],
   },
   {
     id: 12,
@@ -142,7 +157,7 @@ export const devTools = [
       "OpenZeppelin",
       "Solidity",
       "Ethereum",
-      "Smart Contacts",
+      "Smart Contracts",
       "DApps",
     ],
   },
@@ -154,7 +169,14 @@ export const devTools = [
     description: "An interactive reference to Ethereum Virtual Machine Opcodes",
     url: "https://www.evm.codes/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["EVM Codes", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
+    keywords: [
+      "EVM Codes",
+      "Solidity",
+      "Ethereum",
+      "Smart Contracts",
+      "EVM",
+      "Opcodes",
+    ],
   },
   {
     id: 14,
@@ -167,8 +189,8 @@ export const devTools = [
       "EVM Opcodes",
       "Solidity",
       "Ethereum",
-      "Smart Contacts",
-      "DApps",
+      "Smart Contracts",
+      "Ethereum Virtual Machine",
     ],
   },
   {
@@ -179,13 +201,13 @@ export const devTools = [
     description:
       "Convert from a bytes32/hex into a string/number or vice-versa",
     url: "https://web3-type-converter.onbrn.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
+    tag: ["Beginner", "Intermediate"],
     keywords: [
       "Web3 Type Converter",
-      "Solidity",
+      "Hex values",
       "Ethereum",
-      "Smart Contacts",
-      "DApps",
+      "Smart Contracts",
+      "Bytes",
     ],
   },
   {
@@ -198,9 +220,10 @@ export const devTools = [
     tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: [
       "Go Ethereum",
+      "Go lang",
       "Solidity",
       "Ethereum",
-      "Smart Contacts",
+      "Smart Contracts",
       "DApps",
     ],
   },
@@ -212,7 +235,7 @@ export const devTools = [
       "Programming language for writing smart contracts on Solana Blockchain",
     url: "https://www.rust-lang.org/learn/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Rust", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
+    keywords: ["Rust", "Solidity", "Ethereum", "Smart Contracts", "DApps"],
   },
   {
     id: 18,
@@ -222,7 +245,14 @@ export const devTools = [
     description: "Solidity Compiler for Solana",
     url: "https://solang.readthedocs.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Solang", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
+    keywords: [
+      "Solang",
+      "Solidity",
+      "Ethereum",
+      "Smart Contracts",
+      "DApps",
+      "Compiler",
+    ],
   },
   {
     id: 19,
@@ -232,8 +262,15 @@ export const devTools = [
     description:
       "Moralis provides a single workflow for building high performance dapps",
     url: "https://moralis.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Moralis", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: [
+      "Moralis",
+      "Solidity",
+      "Ethereum",
+      "Smart Contracts",
+      "DApps",
+      "Decentralized Applications",
+    ],
   },
   {
     id: 20,
@@ -244,6 +281,14 @@ export const devTools = [
       "Powerful SDK and intuitive tools for developers to implement web3 features",
     url: "https://thirdweb.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
     tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Thirdweb", "Solidity", "Ethereum", "Smart Contacts", "DApps"],
+    keywords: [
+      "Thirdweb",
+      "Solidity",
+      "Ethereum",
+      "Smart Contracts",
+      "DApps",
+      "Web3",
+      "SDK",
+    ],
   },
 ];

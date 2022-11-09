@@ -7,8 +7,8 @@ export const rpcNodes = [
     description:
       "Infura provides infrastructure and tools for developers to build amazing Web 3.0 applications",
     url: "https://infura.io/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Node", "RPC", "Data query", "Infura"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: ["Node", "RPC", "Data query", "Infura", "Infrastructure"],
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ export const rpcNodes = [
     description:
       "Alchemy provides infrastructure service to build great blockchain applications",
     url: "https://www.alchemy.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Node", "RPC", "Data query", "Alchemy"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: ["Node", "RPC", "Data query", "Alchemy", "Infrastructure"],
   },
   {
     id: 3,
@@ -28,8 +28,8 @@ export const rpcNodes = [
     description:
       "A single platform for your production, staging, and testing environments",
     url: "https://www.quicknode.com/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Node", "RPC", "Data query", "QuickNode"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: ["Node", "RPC", "Data query", "QuickNode", "Infrastructure"],
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const rpcNodes = [
     title: "Ankr",
     description: "The fastest and most reliable Web3 infrastructure provider",
     url: "https://www.ankr.com/protocol/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
-    tag: ["Beginner", "Intermediate", "Advanced"],
-    keywords: ["Node", "RPC", "Data query", "Ankr"],
+    tag: ["Intermediate", "Advanced"],
+    keywords: ["Node", "RPC", "Data query", "Ankr", "Infrastructure"],
   },
 ];
