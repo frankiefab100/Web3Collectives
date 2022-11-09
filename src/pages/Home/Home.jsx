@@ -27,7 +27,6 @@ import { rpcNodes } from "../../data/rpcNodes";
 import "./Home.css";
 
 const Home = () => {
-  // const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
   const [resources, setResources] = useState({
