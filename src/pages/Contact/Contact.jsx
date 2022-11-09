@@ -46,11 +46,11 @@ const Contact = () => {
           >
             GitHub
           </a>
-          . <br /> Did you find a new resource(s), have any suggestion or
-          general feedback? Please open an issue or submit a pull request.
+          . Did you find a new resource(s), have any suggestion or general
+          feedback? Please open an issue or submit a pull request.
           <br />
-          Don't forget to see our contributing guides. We appreciate every
-          contribution.
+          We appreciate every contribution and do check out our contributing
+          guides.
         </p>
         <p>
           For more details or assistance, send an email at
@@ -69,28 +69,24 @@ const Contact = () => {
           >
             twitter
           </a>
-          . <br />
-          Also follow us and join our growing community to learn, and
-          collaborate with fellow like-minds.
+          . Also, feel free to follow us and join our growing community to
+          learn, support and collaborate with fellow like-minds.
         </p>
         <h2>Support</h2>
         <p>
-          If you appreciate what we are doing at Web3Collectives, you can
-          <a href="https://www.buymeacoffee.com/frankiefab100" target="_blank">
-            Buy Me a Coffee
-          </a>{" "}
-          or Donate via{" "}
+          If you appreciate what we are doing at Web3Collectives, you can donate
           <a
             href="https://polygonscan.com/address/0x370f92912744ecae29991b8668e1bf5730e6e6d8"
             target="_blank"
           >
-            MATIC token
-          </a>
+            MATIC Token
+          </a>{" "}
+          in support. Thank you!
         </p>
         <h2>Partner/Sponsor</h2>
         <p>
           If you would like to collaborate or partner with us, you can send a
-          message
+          message.
         </p>
 
         <div className="form-container">
