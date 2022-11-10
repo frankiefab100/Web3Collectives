@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import ContactImg from "../../assets/images/contact-img.jpeg";
-import Success from "../Success/Success";
+// import Success from "../Success/Success";
 import "./Contact.css";
 
 const Contact = () => {
