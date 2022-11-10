@@ -189,7 +189,7 @@ input:checked + .slider:before {
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 50px;
+    top: 60px;
     padding: 0 20px;
     width: 100vw;
     height: 450px;
