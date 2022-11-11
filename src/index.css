@@ -180,11 +180,11 @@ button:hover {
 select {
   background: var(--bg-color-secondary);
   border: none;
-  border-radius: 5px;
   color: var(--text-secondary);
   font-size: 0.85rem;
   letter-spacing: 1px;
-  padding: 6px;
+  padding: 16px 5px;
+  margin: 0 5px;
 }
 
 .category {
