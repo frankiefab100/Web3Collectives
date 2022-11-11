@@ -1,0 +1,59 @@
+.skeleton {
+  position: relative;
+  background-color: var(--skeleton-backgroun);
+  border-radius: 5px;
+  min-height: 200px;
+}
+
+#avatar,
+#paragraphy {
+  background-color: var(--skeleton-avatar);
+  width: 100%;
+}
+
+#avatar {
+  height: 180px;
+}
+
+#heading {
+  background-color: var(--skeleton-heading);
+  border-radius: 5px;
+  margin: 8px 2px;
+  width: 200px;
+  height: 20px;
+}
+
+#paragraphy {
+  margin: 5px 2px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.shimmer-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: loading 2.5s infinite;
+}
+
+.shimmer {
+  background-color: var(--skeleton-shimmer);
+  box-shadow: var(--skeleton-shadow);
+  width: 50%;
+  height: 100%;
+  transform: skewX(-20deg);
+}
+
+@keyframes loading {
+  0% {
+    transform: translateX(-150%);
+  }
+  50% {
+    transform: translateX(-60%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}

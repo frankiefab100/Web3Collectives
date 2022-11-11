@@ -23,6 +23,11 @@ body,
   --box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.1);
   --black: #000;
   --neutral: #fff;
+  --skeleton-background: #fff;
+  --skeleton-avatar: #efefef;
+  --skeleton-heading: #f0f0f0;
+  --skeleton-shimmer: rgba(255, 255, 255, 0.481);
+  --skeleton-shadow: 0 0 30px 30px rgba(252, 252, 252, 0.33);
 }
 
 [data-theme-color="dark"] {
@@ -38,6 +43,11 @@ body,
   --box-shadow: 0 10px 6px -10px rgba(128, 128, 128, 0.651);
   --black: #100e15;
   --neutral: #fff;
+  --skeleton-background: #181818;
+  --skeleton-avatar: #151515;
+  --skeleton-heading: #161616;
+  --skeleton-shimmer: rgba(47, 47, 47, 0.139);
+  --skeleton-shadow: 0 0 30px 30px rgba(67, 67, 67, 0.33);
 }
 
 @font-face {
@@ -125,6 +135,7 @@ a:hover,
 a:active,
 a:visited {
   color: var(--cta-secondary);
+  font-weight: 600;
   text-decoration: none;
 }
 
