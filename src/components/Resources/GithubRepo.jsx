@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Card from "../Card/Card";
 import categories from "../../data/categories.json";
+import Skeleton from "../Skeleton/Skeleton";
 
 const GithubRepo = ({ resources }) => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const getResources = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+
+    return () => {
+      clearTimeout(getResources);
+    };
+  }, []);
+
   return (
     <>
       {!!resources?.length && (
@@ -18,13 +31,19 @@ const GithubRepo = ({ resources }) => {
               const { coverImage, title, description, url } = resource;
 
               return (
-                <Card
-                  key={index}
-                  coverImage={coverImage}
-                  title={title}
-                  description={description}
-                  url={url}
-                />
+                <>
+                  {isLoading ? (
+                    <Skeleton />
+                  ) : (
+                    <Card
+                      key={index}
+                      coverImage={coverImage}
+                      title={title}
+                      description={description}
+                      url={url}
+                    />
+                  )}
+                </>
               );
             })}
           </div>

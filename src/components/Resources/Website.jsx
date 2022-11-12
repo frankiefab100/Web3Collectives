@@ -1,12 +1,12 @@
-import React from "react";
+import React, {useState, useEffect}  from "react";
 import Card from "../Card/Card";
 import categories from "../../data/categories.json";
 import Skeleton from "../Skeleton/Skeleton";
 
 const Website = ({ resources }) => {
-  const [isLoading, setIsLoading] = React.useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const getResources = setTimeout(() => {
       setIsLoading(false);
     }, 3000);
