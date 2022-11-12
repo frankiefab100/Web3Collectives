@@ -76,7 +76,6 @@ body {
   color: var(--text-primary);
   width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
 }
 
 h1,
