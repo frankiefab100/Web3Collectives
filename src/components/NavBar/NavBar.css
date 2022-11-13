@@ -60,7 +60,6 @@
   color: var(--text-secondary);
   opacity: 0.8;
   font-size: 1rem;
-  padding-bottom: 24px;
   z-index: 3;
 }
 

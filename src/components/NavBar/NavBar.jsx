@@ -4,7 +4,7 @@ import Logo from "../../assets/images/logo-32.png";
 import { CgMenuRightAlt, CgClose } from "react-icons/cg";
 import "./NavBar.css";
 
-export const NavBar = ({ toggleTheme }) => {
+const NavBar = ({ toggleTheme }) => {
   const [showMenu, setShowMenu] = useState(false);
   const [showNav, setShowNav] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
