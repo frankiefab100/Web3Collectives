@@ -75,6 +75,21 @@ git checkout -b <your_branch_name>
 
 **9.** Make necessary changes to the project code base.
 
+> **Note**: Before doing so, please setup a Firebase account and modify the firebase.js configuration.
+
+```JS
+const firebaseConfig = {
+  apiKey: YOUR_VITE_APP_FIREBASE_API_KEY,
+  authDomain: YOUR_VITE_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: YOUR_VITE_APP_FIREBASE_PROJECT_ID,
+  storageBucket: YOUR_VITE_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: YOUR_VITE_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: YOUR_VITE_APP_FIREBASE_APP_ID,
+  measurementId: YOUR_VITE_APP_FIREBASE_MEASUREMENT_ID,
+};
+```
+
+
 **10.** Add your changes.
 
 ```BASH
