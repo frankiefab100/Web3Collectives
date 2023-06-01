@@ -1,4 +1,7 @@
 <div align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
  <img width="100px" src="https://user-images.githubusercontent.com/46662771/183313844-91c27035-6ac0-4576-afa1-ecb731494da2.png" alt="W3C logo" />
  
  <h1>Web3Collectives</h1>
@@ -198,6 +201,13 @@ If you like this project, please give a star ⭐ and/or consider buying me coffe
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://pete.vercel.app"><img src="https://avatars.githubusercontent.com/u/60905186?v=4?s=100" width="100px;" alt="Ikechukwu Peter"/><br /><sub><b>Ikechukwu Peter</b></sub></a><br /><a href="https://github.com/frankiefab100/Web3Collectives/commits?author=ikechukwu-peter" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
@@ -213,3 +223,16 @@ This project was inspired by
 ## **Author** ✍
 
 Franklin Ohaegbulam - [@frankiefab100](https://twitter.com/frankiefab100)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
