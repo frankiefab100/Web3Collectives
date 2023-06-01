@@ -195,7 +195,7 @@ If you like this project, please give a star ⭐ and/or consider buying me coffe
     <img width="90px" alt="bmc-button" src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white">
   </a>
   
- ## **Contributors** 🌏
+## Contributors ✨
  Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -221,19 +221,4 @@ This project was inspired by
 - Toools.design
 - Designresourc.es  
 
-## **Author** ✍
 
-Franklin Ohaegbulam - [@frankiefab100](https://twitter.com/frankiefab100)
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
