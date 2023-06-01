@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "ikechukwu-peter",
+      "name": "Ikechukwu Peter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60905186?v=4",
+      "profile": "http://pete.vercel.app",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Web3Collectives",
+  "projectOwner": "frankiefab100"
+}
