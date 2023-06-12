@@ -180,20 +180,6 @@ We appreciate contributions, whether it is:
 
  Please refer to [Contributing Guidelines](./CONTRIBUTING.md) to learn how to getting started with your contributions.
 
-## **License** 🔐
-
-This project is built under the [MIT License](./License).
-
-## **Sponsor** ❤
-
-If you like this project, please give a star ⭐ and/or consider buying me coffee(s). Every donation is appreciated.
-
-  <a href="https://www.buymeacoffee.com/frankiefab100">
-    <img width="120px"src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black">
-  </a>
-  <a href="https://etherscan.io">
-    <img width="90px" alt="bmc-button" src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white">
-  </a>
   
 ## Contributors ✨
  Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -221,4 +207,18 @@ This project was inspired by
 - Toools.design
 - Designresourc.es  
 
+## **License** 🔐
+
+This project is built under the [MIT License](./License).
+
+## **Sponsor** ❤
+
+If you like this project, please give a star ⭐ and/or consider buying me coffee(s). Every donation is appreciated.
+
+  <a href="https://www.buymeacoffee.com/frankiefab100">
+    <img width="120px"src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black">
+  </a>
+  <a href="https://etherscan.io">
+    <img width="90px" alt="bmc-button" src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white">
+  </a>
 
