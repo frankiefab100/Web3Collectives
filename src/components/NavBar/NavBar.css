@@ -66,6 +66,7 @@
 .nav-links li a:hover {
   border-bottom: 3px solid var(--cta-secondary);
   color: var(--cta-secondary);
+  padding-bottom: 22px;
 }
 
 #tweet-btn {
