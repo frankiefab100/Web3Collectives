@@ -1,7 +1,4 @@
 <div align="center">
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
  <img width="100px" src="https://user-images.githubusercontent.com/46662771/183313844-91c27035-6ac0-4576-afa1-ecb731494da2.png" alt="W3C logo" />
  
  <h1>Web3Collectives</h1>
