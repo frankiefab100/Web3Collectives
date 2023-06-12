@@ -24,10 +24,12 @@ import { githubRepos } from "../../data/githubRepos";
 import { projectTemplates } from "../../data/projectTemplates";
 import { youtubeChannels } from "../../data/youtubeChannels";
 import { rpcNodes } from "../../data/rpcNodes";
+import { useMemo } from "react";
 import "./Home.css";
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const [sortOption, setSortOption] = useState("");
 
   const [resources, setResources] = useState({
     websites: websites,
@@ -45,22 +47,51 @@ const Home = () => {
   //SEARCH KEY
   const searchKey = searchTerm.trim();
 
-  const filterWebsites = resources.websites.filter(
-    (resourceItem) =>
-      resourceItem.title
-        .toLowerCase()
-        .includes(searchKey.toLocaleLowerCase()) ||
-      resourceItem.description
-        .toLowerCase()
-        .includes(searchKey.toLocaleLowerCase()) ||
-      resourceItem.keywords
-        .map((elem) => elem.toLowerCase().trim())
-        .includes(searchKey) ||
-      resourceItem.tag
-        .map((elem) => elem.toLowerCase().trim())
-        .includes(searchKey) ||
-      searchTerm === "",
-  );
+  const filterWebsites = useMemo(() => {
+    let filteredWebsites = resources.websites.filter(
+      (resourceItem) =>
+        resourceItem.title.toLowerCase().includes(searchKey.toLowerCase()) ||
+        resourceItem.description
+          .toLowerCase()
+          .includes(searchKey.toLowerCase()) ||
+        resourceItem.keywords
+          .map((elem) => elem.toLowerCase().trim())
+          .includes(searchKey) ||
+        resourceItem.tag
+          .map((elem) => elem.toLowerCase().trim())
+          .includes(searchKey) ||
+        searchTerm === "",
+    );
+
+    if (sortOption === "ascending") {
+      filteredWebsites.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (sortOption === "descending") {
+      filteredWebsites.sort((a, b) => b.title.localeCompare(a.title));
+    } else if (sortOption === "newest") {
+      filteredWebsites.sort((a, b) => b.dateAdded - a.dateAdded);
+    } else if (sortOption === "oldest") {
+      filteredWebsites.sort((a, b) => a.dateAdded - b.dateAdded);
+    }
+
+    return filteredWebsites;
+  }, [resources.websites, searchKey, searchTerm, sortOption]);
+
+  // const filterWebsites = resources.websites.filter(
+  //   (resourceItem) =>
+  //     resourceItem.title
+  //       .toLowerCase()
+  //       .includes(searchKey.toLocaleLowerCase()) ||
+  //     resourceItem.description
+  //       .toLowerCase()
+  //       .includes(searchKey.toLocaleLowerCase()) ||
+  //     resourceItem.keywords
+  //       .map((elem) => elem.toLowerCase().trim())
+  //       .includes(searchKey) ||
+  //     resourceItem.tag
+  //       .map((elem) => elem.toLowerCase().trim())
+  //       .includes(searchKey) ||
+  //     searchTerm === "",
+  // );
 
   const filterYoutubes = resources.youtubeChannels.filter(
     (resourceItem) =>
@@ -242,7 +273,8 @@ const Home = () => {
 
       <div className="filter-sort">
         <Filter resources={resources} setResources={setResources} />
-        <Sort resources={resources} setResources={setResources} />
+        <Sort sortOption={sortOption} setSortOption={setSortOption} />
+        {/* <Sort resources={resources} setResources={setResources} /> */}
       </div>
 
       {/* -- Resources section -- */}

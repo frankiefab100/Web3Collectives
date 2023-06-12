@@ -1,68 +1,73 @@
 import React from "react";
 import { BsSortDownAlt } from "react-icons/bs";
-import "./Sort.css";
 
-const Sort = ({ resources, setResources }) => {
-  const handleSort = (item) => {
-    const sortOption = target.trim().toLowerCase();
+const Sort = ({ sortOption, setSortOption }) => {
+  const handleSort = (option) => {
+    setSortOption(option);
 
-    if (sortOption === "Ascending") {
-      const sortWebsites = resources.websites
-        .sort((a, b) => (a.id > b.id ? 1 : -1))
-        .map((resourceItem) => resourceItem.title);
-
-      const sortYoutubes = resources.youtubeChannels.sort(
-        (a, b) => a.id > b.id,
-      );
-
-      const sortBooks = resources.books.sort((a, b) => a.id > b.id);
-
-      const sortRepos = resources.githubRepos.sort((a, b) => a.id > b.id);
-
-      const sortGames = resources.games.sort((a, b) => a.id > b.id);
-
-      const sortDevTools = resources.devTools.sort((a, b) => a.id > b.id);
-
-      const sortCourses = resources.courses.sort((a, b) => a.id > b.id);
-
-      const sortTemplates = resources.projectTemplates.sort(
-        (a, b) => a.id > b.id,
-      );
-
-      const sortDocs = resources.documentations.sort((a, b) => a.id > b.id);
-
-      const sortNodes = resources.rpcNodes.sort((a, b) => a.id > b.id);
-
-      setResources(
-        { ...resources, websites: sortWebsites },
-        { ...resources, youtube: sortYoutubes },
-        { ...resources, repos: sortRepos },
-        { ...resources, games: sortGames },
-        { ...resources, devtools: sortDevTools },
-        { ...resources, courses: sortCourses },
-        { ...resources, templates: sortTemplates },
-        { ...resources, docs: sortDocs },
-        { ...resources, books: sortBooks },
-        { ...resources, rpcs: sortNodes },
-      );
+    switch (option) {
+      case "ascending":
+        sortByAscending();
+        break;
+      case "descending":
+        sortByDescending();
+        break;
+      case "newest":
+        sortByNewest();
+        break;
+      case "oldest":
+        sortByOldest();
+        break;
+      default:
+        break;
     }
+  };
+
+  const sortByAscending = () => {
+    const sorted = [...sortOption].sort((a, b) =>
+      a.title.localeCompare(b.title),
+    );
+    setSortOption(sorted);
+  };
+
+  const sortByDescending = () => {
+    const sorted = [...sortOption].sort((a, b) =>
+      b.title.localeCompare(a.title),
+    );
+    setSortOption(sorted);
+  };
+
+  const sortByNewest = () => {
+    const sorted = [...sortOption].sort(
+      (a, b) => new Date(b.date) - new Date(a.date),
+    );
+    setSortOption(sorted);
+  };
+
+  const sortByOldest = () => {
+    const sorted = [...sortOption].sort(
+      (a, b) => new Date(a.date) - new Date(b.date),
+    );
+    setSortOption(sorted);
   };
 
   return (
     <div className="sort-resources">
       <select
+        value={sortOption}
         onChange={(e) => handleSort(e.target.value)}
         className="custom-select"
         aria-label="Sort Resources"
       >
-        <option selected disabled>
-          <BsSortDownAlt /> Sort
-        </option>
-        <option value="oldest">Oldest</option>
-        <option value="newest">Newest</option>
+        <option value="">Sort </option>
         <option value="ascending">Ascending</option>
         <option value="descending">Descending</option>
+        <option value="newest">Newest</option>
+        <option value="oldest">Oldest</option>
       </select>
+      <span>
+        <BsSortDownAlt />
+      </span>
     </div>
   );
 };

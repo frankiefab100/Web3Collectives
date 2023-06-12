@@ -184,6 +184,9 @@ select {
   letter-spacing: 1px;
   padding: 16px 5px;
   margin: 0 5px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
 }
 
 .category {
