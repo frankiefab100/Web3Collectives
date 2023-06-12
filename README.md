@@ -204,7 +204,7 @@ If you like this project, please give a star ⭐ and/or consider buying me coffe
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://pete.vercel.app"><img src="https://avatars.githubusercontent.com/u/60905186?v=4?s=100" width="100px;" alt="Ikechukwu Peter"/><br /><sub><b>Ikechukwu Peter</b></sub></a><br /><a href="https://github.com/frankiefab100/Web3Collectives/commits?author=ikechukwu-peter" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://pete.vercel.app"><img src="https://avatars.githubusercontent.com/u/60905186?v=4?s=100" width="100px;" alt="Ikechukwu Peter"/><br /><sub><b>Ikechukwu Peter</b></sub></a><br /><a href="https://github.com/frankiefab100/Web3Collectives/commits?author=ikechukwu-peter" title="Code">💻</a> <a href="https://github.com/frankiefab100/Web3Collectives/issues?q=author%3Aikechukwu-peter" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
