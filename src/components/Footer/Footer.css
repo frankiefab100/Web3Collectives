@@ -90,11 +90,15 @@
   display: flex;
   justify-content: space-between;
   font-size: 0.85rem;
-  margin: 20px 50px;
+  margin: 0px 50px;
 }
 
-.footer-attribution a {
-  margin-left: 5px;
+.footer-attribution > div {
+  padding: 20px 0;
+}
+
+.footer-attribution .curator {
+  padding-left: 0;
 }
 
 .vercel-logo {

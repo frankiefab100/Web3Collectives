@@ -169,14 +169,16 @@ const Footer = () => {
       </div>
       <div className="footer-attribution">
         <div className="curator">
-          Curated by
+          Curated by {""}
           <a href="https://twitter.com/frankiefab100">Franklin Ohaegbulam</a>
         </div>
 
         <div className="host">
-          <div className="copyright">&copy; 2022 Web3Collectives</div>
+          <div className="copyright">&copy; 2023 Web3Collectives</div>
         </div>
-        <img className="vercel-logo" src={Vercel} alt="vercel logo" />
+        <div className="vercel-logo">
+          <img className="vercel-logo" src={Vercel} alt="vercel logo" />
+        </div>
       </div>
     </React.Fragment>
   );
