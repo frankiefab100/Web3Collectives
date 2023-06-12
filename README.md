@@ -191,6 +191,7 @@ We appreciate contributions, whether it is:
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://victoreke.com"><img src="https://avatars.githubusercontent.com/u/62628408?v=4?s=100" width="100px;" alt="Victor Eke"/><br /><sub><b>Victor Eke</b></sub></a><br /><a href="https://github.com/frankiefab100/Web3Collectives/commits?author=Evavic44" title="Code">💻</a> <a href="#design-Evavic44" title="Design">🎨</a></td>
+       <td align="center" valign="top" width="14.28%"><a href="http://pete.vercel.app"><img src="https://avatars.githubusercontent.com/u/60905186?v=4?s=100" width="100px;" alt="Ikechukwu Peter"/><br /><sub><b>Ikechukwu Peter</b></sub></a><br /><a href="https://github.com/frankiefab100/Web3Collectives/commits?author=ikechukwu-peter" title="Code">💻</a> <a href="https://github.com/frankiefab100/Web3Collectives/issues?q=author%3Aikechukwu-peter" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
@@ -221,4 +222,3 @@ If you like this project, please give a star ⭐ and/or consider buying me coffe
   <a href="https://etherscan.io">
     <img width="90px" alt="bmc-button" src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white">
   </a>
-

@@ -16,7 +16,17 @@
         "code",
         "design"
       ]
-    }
+    },  
+    {
+      "login": "ikechukwu-peter",
+      "name": "Ikechukwu Peter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60905186?v=4",
+      "profile": "http://pete.vercel.app",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
   ],
   "contributorsPerLine": 7,
   "skipCi": true,
