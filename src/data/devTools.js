@@ -291,4 +291,23 @@ export const devTools = [
       "SDK",
     ],
   },
+  {
+    id: 21,
+    coverImage:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwRBG6-XLThircy3fA5VL4oh_F5zAU9zACLg&usqp=CAU",
+    title: "Foundry",
+    description:
+      "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust",
+    url: "https://getfoundry.sh/?ref=web3collectives.vercel.app&utm_source=web3collectives.vercel.app",
+    tag: ["Intermediate", "Advanced"],
+    keywords: [
+      "Foundry",
+      "Solidity",
+      "Ethereum",
+      "Smart Contracts",
+      "DApps",
+      "Web3",
+      "Rust",
+    ],
+  },
 ];
