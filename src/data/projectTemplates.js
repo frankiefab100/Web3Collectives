@@ -6,7 +6,7 @@ export const projectTemplates = [
     title: "Scaffold-Eth",
     description: ".....",
     url: "https://github.com/scaffold-eth/scaffold-eth",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Intermediate", "Advanced"],
     keywords: ["Scaffold-Eth", "Solidity", "Ethereum", "Starter"],
   },
   {
@@ -66,7 +66,7 @@ export const projectTemplates = [
     title: "Eth-hooks",
     description: "...",
     url: "https://scaffold-eth.github.io/eth-hooks/",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Beginner", "Intermediate", "Advanced"],
     keywords: ["Eth-hooks", "Solidity", "Ethereum", "Smart contracts"],
   },
   {
@@ -76,7 +76,7 @@ export const projectTemplates = [
     title: "Typescript Solidity Dev Starter Kit",
     description: "...",
     url: "https://github.com/rhlsthrm/typescript-solidity-dev-starter-kit",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Intermediate", "Advanced"],
     keywords: ["TypeScript", "Solidity", "Ethereum", "Smart contracts"],
   },
   {
@@ -106,7 +106,7 @@ export const projectTemplates = [
     title: "Nextjs dapp starter typescript",
     description: "...",
     url: "https://github.com/G3root/nextjs-dapp-starter-ts",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Intermediate", "Advanced"],
     keywords: ["TypeScript", "Solidity", "Ethereum", "Nextjs"],
   },
   {
@@ -116,7 +116,7 @@ export const projectTemplates = [
     title: "Polygon dapp starter kit",
     description: "...",
     url: "https://github.com/Polygon-Academy/starter-kits",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Beginner"],
     keywords: ["Starter kits", "Solidity", "Ethereum", "Polygon"],
   },
   {
@@ -126,7 +126,7 @@ export const projectTemplates = [
     title: "Buildspace dao starter",
     description: "...",
     url: "https://github.com/buildspace/buildspace-dao-starter",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Advanced"],
     keywords: ["DAO starter", "Solidity", "Ethereum", "DAO", "Buildspace"],
   },
   {
@@ -196,7 +196,7 @@ export const projectTemplates = [
     title: "Solidity hardhat typescript boilerplate",
     description: "Solidity Hardhat Typescript Boilerplate",
     url: "https://github.com/emretepedev/solidity-hardhat-typescript-boilerplate",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Hardhat", "Typescript"],
   },
   {
@@ -206,7 +206,7 @@ export const projectTemplates = [
     title: "Solidity hardhat foundry boilerplate",
     description: "Solidity Hardhat Foundry Boilerplate",
     url: "https://github.com/defi-wonderland/solidity-foundry-boilerplate",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Intermediate", "Advanced"],
     keywords: ["Solidity", "Ethereum", "Hardhat", "Foundry"],
   },
   {
@@ -217,7 +217,7 @@ export const projectTemplates = [
     description:
       "Web3 App Template built using Next.js, RainbowKit, SIWE, Disco, and more!",
     url: "https://github.com/turbo-eth/template-web3-app",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Advanced"],
     keywords: ["Next.js", "RainbowKit", "Sign In With Ethereum", "tourboETH"],
   },
   {
@@ -249,7 +249,7 @@ export const projectTemplates = [
     description:
       "An all-in-one Next.js-based dApp boilerplate featuring RainbowKit wallet authentication, Tailwind CSS styling, and wagmi Hooks",
     url: "https://github.com/Envoy-VC/boilr3",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Beginner"],
     keywords: ["Nextjs", "Wagmi", "RainbowKit", "TailwindCSS"],
   },
   {
@@ -259,7 +259,7 @@ export const projectTemplates = [
     title: "Lens API starter",
     description: "Starter repo for mini Lens API tutorial",
     url: "https://github.com/womenbuildweb3/lens-api-starter",
-    tag: ["Beginner", "Intermediate"],
+    tag: ["Intermediate", "Advanced"],
     keywords: [
       "Lens Protocol",
       "Ethereum",
