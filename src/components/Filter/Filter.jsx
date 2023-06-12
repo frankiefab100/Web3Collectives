@@ -97,7 +97,10 @@ const Filter = ({ resources, setResources }) => {
         aria-label="Filter Resources"
       >
         <option selected disabled>
-          <BsFilter /> Filter
+          <span>
+            <BsFilter />
+          </span>
+          Filter
         </option>
         <option value="All">All</option>
         <option value="Beginner">Beginner</option>

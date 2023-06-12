@@ -8,6 +8,16 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "Evavic44",
+      "name": "Victor Eke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62628408?v=4",
+      "profile": "http://victoreke.com",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },  
+    {
       "login": "ikechukwu-peter",
       "name": "Ikechukwu Peter",
       "avatar_url": "https://avatars.githubusercontent.com/u/60905186?v=4",
@@ -15,7 +25,6 @@
       "contributions": [
         "code",
         "bug"
-      ]
     }
   ],
   "contributorsPerLine": 7,

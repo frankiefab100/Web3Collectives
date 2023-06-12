@@ -8,6 +8,8 @@
  <p>A free resources library for Blockchain developers and Web3 enthusiasts</p>
 
 <p align="center">
+<img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square">
+
 <a href="http://makeapullrequest.com">
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
 </a>
@@ -181,6 +183,34 @@ We appreciate contributions, whether it is:
 
  Please refer to [Contributing Guidelines](./CONTRIBUTING.md) to learn how to getting started with your contributions.
 
+  
+## Contributors ✨
+ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://victoreke.com"><img src="https://avatars.githubusercontent.com/u/62628408?v=4?s=100" width="100px;" alt="Victor Eke"/><br /><sub><b>Victor Eke</b></sub></a><br /><a href="https://github.com/frankiefab100/Web3Collectives/commits?author=Evavic44" title="Code">💻</a> <a href="#design-Evavic44" title="Design">🎨</a></td>
+       <td align="center" valign="top" width="14.28%"><a href="http://pete.vercel.app"><img src="https://avatars.githubusercontent.com/u/60905186?v=4?s=100" width="100px;" alt="Ikechukwu Peter"/><br /><sub><b>Ikechukwu Peter</b></sub></a><br /><a href="https://github.com/frankiefab100/Web3Collectives/commits?author=ikechukwu-peter" title="Code">💻</a> <a href="https://github.com/frankiefab100/Web3Collectives/issues?q=author%3Aikechukwu-peter" title="Bug reports">🐛</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## **Attribution**
+
+This project was inspired by
+- Toools.design
+- Designresourc.es  
+
 ## **License** 🔐
 
 This project is built under the [MIT License](./License).
@@ -195,44 +225,3 @@ If you like this project, please give a star ⭐ and/or consider buying me coffe
   <a href="https://etherscan.io">
     <img width="90px" alt="bmc-button" src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white">
   </a>
-  
- ## **Contributors** 🌏
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://pete.vercel.app"><img src="https://avatars.githubusercontent.com/u/60905186?v=4?s=100" width="100px;" alt="Ikechukwu Peter"/><br /><sub><b>Ikechukwu Peter</b></sub></a><br /><a href="https://github.com/frankiefab100/Web3Collectives/commits?author=ikechukwu-peter" title="Code">💻</a> <a href="https://github.com/frankiefab100/Web3Collectives/issues?q=author%3Aikechukwu-peter" title="Bug reports">🐛</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-## **Attribution**
-
-This project was inspired by
-- Toools.design
-- Designresourc.es  
-
-## **Author** ✍
-
-Franklin Ohaegbulam - [@frankiefab100](https://twitter.com/frankiefab100)
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
