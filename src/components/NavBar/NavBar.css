@@ -96,6 +96,7 @@
   display: flex;
   align-items: center;
   margin-left: 10px;
+  padding-top: 10px;
 }
 
 .theme-switch {
