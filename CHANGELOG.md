@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/frankiefab100/Web3Collectives/compare/v0.2.0...v0.2.1) (2023-06-15)
+
+
+### Bug Fixes
+
+* move add-contributors.yml to workflow directory ([82ad18d](https://github.com/frankiefab100/Web3Collectives/commit/82ad18d04a2064b12d0a33f3f906ebff961aef60))
+
+
+
 # [0.2.0](https://github.com/frankiefab100/Web3Collectives/compare/v0.1.0...v0.2.0) (2023-06-15)
 
 
