@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/frankiefab100/Web3Collectives/compare/v0.2.1...v0.2.2) (2023-06-15)
+
+
+### Bug Fixes
+
+* move stale-issue-pr.yml to right directory ([a9beaef](https://github.com/frankiefab100/Web3Collectives/commit/a9beaef6ddcfcd1380aaf6158a76b48e4164a937))
+
+
+
 ## [0.2.1](https://github.com/frankiefab100/Web3Collectives/compare/v0.2.0...v0.2.1) (2023-06-15)
 
 
