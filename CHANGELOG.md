@@ -1,4 +1,13 @@
-# 0.1.0 (2023-06-15)
+# [0.2.0](https://github.com/frankiefab100/Web3Collectives/compare/v0.1.0...v0.2.0) (2023-06-15)
+
+
+### Features
+
+* create add-contributors.yml ([6f488fd](https://github.com/frankiefab100/Web3Collectives/commit/6f488fd26a2949891b2d983470e0dda933f664c5))
+
+
+
+# [0.1.0](https://github.com/frankiefab100/Web3Collectives/compare/9d69a0a46709e3ad464917077b9df55a4eb16e74...v0.1.0) (2023-06-15)
 
 
 ### Bug Fixes
