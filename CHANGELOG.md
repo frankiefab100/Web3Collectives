@@ -1,3 +1,12 @@
+## [0.3.2](https://github.com/frankiefab100/Web3Collectives/compare/v0.3.1...v0.3.2) (2023-06-18)
+
+
+### Bug Fixes
+
+* update navbar logo and tweet content ([28e7e13](https://github.com/frankiefab100/Web3Collectives/commit/28e7e13881bd9e0782a0ef4416f214a519e70543))
+
+
+
 ## [0.3.1](https://github.com/frankiefab100/Web3Collectives/compare/v0.3.0...v0.3.1) (2023-06-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * move add-contributors.yml to workflow directory ([82ad18d](https://github.com/frankiefab100/Web3Collectives/commit/82ad18d04a2064b12d0a33f3f906ebff961aef60))
-
-
-
-# [0.2.0](https://github.com/frankiefab100/Web3Collectives/compare/v0.1.0...v0.2.0) (2023-06-15)
-
-
-### Features
-
-* create add-contributors.yml ([6f488fd](https://github.com/frankiefab100/Web3Collectives/commit/6f488fd26a2949891b2d983470e0dda933f664c5))
 
 
 
