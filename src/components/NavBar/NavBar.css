@@ -28,6 +28,7 @@
 
 .logo-name {
   display: flex;
+  align-items: center;
   color: var(--text-primary);
   font-family: "Clash Display Variable", sans-serif;
   font-size: 1rem;
