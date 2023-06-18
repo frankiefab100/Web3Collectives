@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { FaEnvelope } from "react-icons/fa";
+import {useState} from "react";
+import {FaEnvelope} from "react-icons/fa";
 import "./Newsletter.css";
 
 const Newsletter = () => {
@@ -8,7 +8,7 @@ const Newsletter = () => {
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async e => {
     e.preventDefault();
 
     setSubscribing(true);
@@ -24,7 +24,7 @@ const Newsletter = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({email}),
       });
 
       if (response.ok) {
@@ -67,7 +67,7 @@ const Newsletter = () => {
 
   return (
     <div
-      style={{ display: "flex", flexDirection: "column", textAlign: "center" }}
+      style={{display: "flex", flexDirection: "column", textAlign: "center"}}
     >
       <div className="newsletter-text">
         <h2
@@ -124,7 +124,7 @@ const Newsletter = () => {
               name="email"
               placeholder="Enter your email"
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={e => setEmail(e.target.value)}
               required
             />
 
@@ -148,84 +148,3 @@ const Newsletter = () => {
 };
 
 export default Newsletter;
-
-// import { useState } from "react";
-// import { FaEnvelope } from "react-icons/fa";
-
-// const Newsletter = () => {
-//   const [email, setEmail] = useState("");
-//   const [subscribing, setSubscribing] = useState(false);
-//   const [successMessage, setSuccessMessage] = useState("");
-//   const [errorMessage, setErrorMessage] = useState("");
-
-//   const handleSubmit = async (e) => {
-//     e.preventDefault();
-
-//     setSubscribing(true);
-//     setSuccessMessage("");
-//     setErrorMessage("");
-
-//     const formId = import.meta.env.VITE_APP_CONVERTKIT_FORM_ID;
-//     const url = `https://app.convertkit.com/forms/${formId}/subscriptions`;
-
-//     try {
-//       const response = await fetch(url, {
-//         method: "POST",
-//         headers: {
-//           "Content-Type": "application/json",
-//         },
-//         body: JSON.stringify({ email }),
-//       });
-
-//       if (response.ok) {
-//         setSuccessMessage("Subscription successful! Thank you");
-//         setEmail("");
-//       } else {
-//         setErrorMessage("Error subscribing. Please try again later.");
-//       }
-//     } catch (error) {
-//       setErrorMessage("An error occurred. Please try again later.");
-//     }
-
-//     setSubscribing(false);
-//   };
-
-//   return (
-//     <div className="newsletter-section">
-//       <div className="newsletter-text">
-//         <h2 className="newsletter-title">Stay up to date as you learn</h2>
-//         <p className="newsletter-subtitle">
-//           Sign up to our newsletter for biweekly Web3 resources and insights.
-//         </p>
-//       </div>
-
-//       <div className="subscribe-section">
-//         <div className="newsletter-subscribe">
-//           <form id="newsletter-form" onSubmit={handleSubmit}>
-//             <input
-//               type="email"
-//               id="email"
-//               name="email"
-//               placeholder="Enter your email"
-//               value={email}
-//               onChange={(e) => setEmail(e.target.value)}
-//               required
-//             />
-
-//             <button
-//               disabled={subscribing}
-//               id="input-cta"
-//               className="input-cta subscribe-btn"
-//             >
-//               Subscribe <FaEnvelope />
-//             </button>
-//           </form>
-//           {successMessage && <p>{successMessage}</p>}
-//           {errorMessage && <p>{errorMessage}</p>}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Newsletter;
