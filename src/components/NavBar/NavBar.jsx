@@ -80,7 +80,7 @@ const NavBar = ({toggleTheme}) => {
         </div>
         <a
           id="tweet-btn"
-          href="https://twitter.com/intent/tweet?text=Hey!20%Check20%out20%this20%amazing20%free20%web320%resource20%library-20%web3collectives.vercel.app20%by20%@frankiefab10020%.20%Access20%a20%wealth20%of20%blockchain20%development20%materials:20%Websites,20%Youtube20%Videos,20%Online20%Courses,20%Interactive20%Games,20%Project20%Templates,20%and20%more.20%Level20%up20%your20%blockchain20%skills20%today!"
+          href="https://twitter.com/intent/tweet?text=Hey! Check%20out%20this%20amazing%20free%20web3%20resource%20library%20-%20web3collectives.vercel.app%20by%20@frankiefab!%20Access%20a%20wealth%20of%20blockchain%20development%20materials:%20Websites,%20Youtube%20Videos,%20Online%20Courses,%20Interactive%20Games,%20Project%20Templates,%20and%20more.%20Level%20up%20your%20blockchain%20skills%20today!"
           data-size="small"
           data-show-count="false"
         >
