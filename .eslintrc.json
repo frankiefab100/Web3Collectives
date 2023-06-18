@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "rules": {
+    "semi": ["error", "always"], // Enforce semicolons at the end of statements
+    "quotes": ["error", "double"], // Enforce double quotes for strings
+    "indent": ["error", 2], // Enforce 2 spaces for indentation
+    "no-console": "warn", // Warn when using console.log
+    "react/jsx-props-no-spreading": "off", // Allow spreading of props in JSX
+    "react-hooks/rules-of-hooks": "error", // Enforce rules of React Hooks
+    "react-hooks/exhaustive-deps": "warn" // Warn about missing dependencies in useEffect
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
