@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, {useState, useEffect} from "react";
+import {Link} from "react-router-dom";
 import Logo from "../../assets/images/logo-32.png";
-import { CgMenuRightAlt, CgClose } from "react-icons/cg";
+import {CgMenuRightAlt, CgClose} from "react-icons/cg";
 import "./NavBar.css";
 
-const NavBar = ({ toggleTheme }) => {
+const NavBar = ({toggleTheme}) => {
   const [showMenu, setShowMenu] = useState(false);
   const [showNav, setShowNav] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -80,7 +80,7 @@ const NavBar = ({ toggleTheme }) => {
         </div>
         <a
           id="tweet-btn"
-          href="https://twitter.com/intent/tweet?text=Hello%20Check out @web3collectives - a FREE library of over 200+ Blockchain Development Resources"
+          href="https://twitter.com/intent/tweet?text=Hey!20%Check20%out20%this20%amazing20%free20%web320%resource20%library20%-20%web3collectives.vercel.app20%by20%@frankiefab10020%.20%Access20%a20%wealth20%of20%blockchain20%development20%materials:20%Websites,20%Youtube20%Videos,20%Online20%Courses,20%Interactive20%Games,20%Documentations,20%Project20%Starter20%Templates,20%Github20%Repositories,20%Node20%Providers,20%and20%Books.20%Level20%up20%your20%blockchain20%skills20%today!20%#web320%#blockchaindevelopment20%#freeresources"
           data-size="small"
           data-show-count="false"
         >
@@ -89,7 +89,7 @@ const NavBar = ({ toggleTheme }) => {
       </ul>
 
       <span
-        style={{ transform: `translateX(${scrollProgress - 102}%)` }}
+        style={{transform: `translateX(${scrollProgress - 102}%)`}}
         className="scroll-indicator"
       ></span>
     </nav>
