@@ -63,9 +63,13 @@ Preview Link: <https://Web3Collectives.vercel.app/>
 
 ### **Technologies Used** 🛠
 
-- React (Framework)
+- React (JavaScript Library)
 - React-Router (React Library)
-- Vercel (Hosting)
+- Vite (Build and Development Tool)
+- Formspree (Form Management)
+- Vercel (Web Hosting and Analytics)
+- ConvertKit (Newsletter Subscription)
+- EmailJS (Email Integration)
 
 ### **Resources** 🎨
 
@@ -224,6 +228,6 @@ If you like this project, please give it a star ⭐ and/or consider buying me a 
   <a href="https://www.buymeacoffee.com/frankiefab100">
     <img width="120px"src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black">
   </a>
-  <a href="https://etherscan.io">
+  <a href="https://etherscan.io/address/frankiefab.eth">
     <img width="90px" alt="bmc-button" src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white">
   </a>
