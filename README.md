@@ -57,7 +57,7 @@ Read our <a href="https://github.com/frankiefab100/Web3Collectives/blob/main/CON
 
 ## **Project Overview** ✨
 
-An online library of FREE Resources on Blockchain technology, Web3 and Smart contract development.
+Web3collectives is a free Web3 resource library that helps you level up your blockchain development and technology skills.
 
 Preview Link: <https://Web3Collectives.vercel.app/>
 
@@ -73,8 +73,9 @@ Preview Link: <https://Web3Collectives.vercel.app/>
 
 ## **Why I started this project** 😇
 
-This project started after I came across a design resources website. Before then, I curated a list of [Blockchain development resources](https://github.com/frankiefab100/Blockchain-Development-Resources) in a Github repository.
-Having noticed majority might not be familiar with github especially begineers or non-developers, I decide to build this project to make **Web3 Education accessible for all FREELY**.
+The inspiration for this project emerged when I stumbled upon a design resources website. Prior to that, I had been curating a compilation of Blockchain development resources in a GitHub repository called [Blockchain Development Resources](https://github.com/frankiefab100/Blockchain-Development-Resources).
+
+Realizing that a significant portion of individuals, particularly beginners and non-developers, might not be familiar with GitHub, I embarked on building this project with the aim of making Web3 Education easily accessible to everyone, completely free of charge.
 
 ## **Categories**
 
@@ -84,7 +85,7 @@ Having noticed majority might not be familiar with github especially begineers o
 - Online Courses
 - Interactive Tutorials
 - Documentations
-- Github Repositories
+- GitHub Repositories
 - Project Starter Template
 - Node Providers
 - Blogs
@@ -130,8 +131,12 @@ In this format:
 │   ├── App.jsx
 │   ├── index.css
 │   ├── main.jsx
+├── .all-contributorsrc
+├── .eslintrc.json
 ├── .gitignore
-├── .prettierrc.json
+├── .prettierignore
+├── .prettierrc
+├── CHANGELOG.md
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -205,8 +210,8 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ## **Attribution**
 
 This project was inspired by
-- Toools.design
-- Designresourc.es  
+- [Toools.design](https://toools.design)
+- [Designresourc.es](https://designresourc.es)  
 
 ## **License** 🔐
 
@@ -214,7 +219,7 @@ This project is built under the [MIT License](./License).
 
 ## **Sponsor** ❤
 
-If you like this project, please give a star ⭐ and/or consider buying me coffee(s). Every donation is appreciated.
+If you like this project, please give it a star ⭐ and/or consider buying me a coffee(s). Every donation is appreciated.
 
   <a href="https://www.buymeacoffee.com/frankiefab100">
     <img width="120px"src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black">
