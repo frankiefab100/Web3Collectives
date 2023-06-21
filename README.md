@@ -2,7 +2,7 @@
  <img width="100px" src="https://user-images.githubusercontent.com/46662771/183313844-91c27035-6ac0-4576-afa1-ecb731494da2.png" alt="W3C logo" />
  
  <h1>Web3Collectives</h1>
- <p>A free resources library for Blockchain developers and Web3 enthusiasts</p>
+ <p>A free resource library for Blockchain developers and Web3 enthusiasts</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square">
@@ -39,8 +39,9 @@
 <img  src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
 <img  src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white">
 <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
-
 </p>
+
+<a href="https://www.producthunt.com/posts/web3collectives?utm_source=badge-featured&utm_medium=badge&utm_source=badge-web3collectives" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=web3collectives&theme=light" alt="Web3Collectives - Your Gateway to Web3 Knowledge | Product Hunt" width="180" height="50" /></a>
 </div>
   
 <p align="center">
@@ -53,7 +54,6 @@
   
 <p align="center">Feel free to submit your contributions to this project. </br>
 Read our <a href="https://github.com/frankiefab100/Web3Collectives/blob/main/CONTRIBUTING.md">Contributors Guidelines</a>. You can also <a href= "https://www.buymeacoffee.com/frankiefab100">support</a> by making donations to help it improve.</p>
- 
 
 ## **Project Overview** ✨
 
