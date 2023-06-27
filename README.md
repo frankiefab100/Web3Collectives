@@ -42,6 +42,8 @@
 </p>
 
 <a href="https://www.producthunt.com/posts/web3collectives?utm_source=badge-featured&utm_medium=badge&utm_source=badge-web3collectives" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=web3collectives&theme=light" alt="Web3Collectives - Your Gateway to Web3 Knowledge | Product Hunt" width="180" height="50" /></a>
+<a href="https://www.producthunt.com/posts/web3collectives?utm_source=badge-top-post-topic-badge&utm_medium=badge&utm_souce=badge-web3collectives" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-topic-badge.svg?post_id=400437&theme=neutral&period=weekly&topic_id=501" alt="Web3Collectives - Your&#0032;gateway&#0032;to&#0032;Web3&#0032;knowledge | Product Hunt" style="width: 180px; height: 50px;" width="180" height="50" /></a>
+
 </div>
   
 <p align="center">
