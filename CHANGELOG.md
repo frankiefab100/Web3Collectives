@@ -1,3 +1,12 @@
+## [0.3.3](https://github.com/frankiefab100/Web3Collectives/compare/v0.3.2...v0.3.3) (2023-07-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @formspree/react to v2.4.4 ([9480b5c](https://github.com/frankiefab100/Web3Collectives/commit/9480b5c9c10c0d009993e96493c5c1fe53e00b48))
+
+
+
 ## [0.3.2](https://github.com/frankiefab100/Web3Collectives/compare/v0.3.1...v0.3.2) (2023-06-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * move stale-issue-pr.yml to right directory ([a9beaef](https://github.com/frankiefab100/Web3Collectives/commit/a9beaef6ddcfcd1380aaf6158a76b48e4164a937))
-
-
-
-## [0.2.1](https://github.com/frankiefab100/Web3Collectives/compare/v0.2.0...v0.2.1) (2023-06-15)
-
-
-### Bug Fixes
-
-* move add-contributors.yml to workflow directory ([82ad18d](https://github.com/frankiefab100/Web3Collectives/commit/82ad18d04a2064b12d0a33f3f906ebff961aef60))
 
 
 
