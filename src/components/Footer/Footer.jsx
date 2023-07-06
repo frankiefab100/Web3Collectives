@@ -8,8 +8,8 @@ import {
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
-import { TbArrowUpRight } from "react-icons/tb";
-import { Link } from "react-router-dom";
+import {TbArrowUpRight} from "react-icons/tb";
+import {Link} from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -165,7 +165,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr style={{ color: "#ccc" }} />
+        <hr style={{color: "#ccc"}} />
       </div>
       <div className="footer-attribution">
         <div className="curator">
@@ -176,6 +176,19 @@ const Footer = () => {
         <div className="host">
           <div className="copyright">&copy; 2023 Web3Collectives</div>
         </div>
+
+        <div className="producthunt-badge">
+          <a
+            href="https://www.producthunt.com/posts/web3collectives?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-web3collectives"
+            target="_blank"
+          >
+            <img
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=400437&theme=light"
+              alt="Web3Collectives - Your gateway to Web3 knowledge | Product Hunt"
+            />
+          </a>
+        </div>
+
         <div className="vercel-logo">
           <img className="vercel-logo" src={Vercel} alt="vercel logo" />
         </div>
