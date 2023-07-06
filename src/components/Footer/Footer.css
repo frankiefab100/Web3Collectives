@@ -12,7 +12,6 @@
   color: var(--neutral);
   display: block;
   margin-left: 0px;
-  /* margin-right: 25px; */
 }
 
 .footer-nav .logo-name {
@@ -34,7 +33,6 @@
   border-radius: 4px;
   border: #666;
   font-size: 1.25rem;
-  /* margin: 0.2rem 0; */
   padding: 0 0.2rem;
   transition: 0.2s ease-in-out;
 }
@@ -70,7 +68,6 @@
 .footer-links li a {
   color: var(--neutral);
   opacity: 0.7;
-  /* font-weight: 400; */
   margin-right: 14px;
   font-weight: lighter;
   text-decoration: none;
@@ -89,16 +86,18 @@
 .footer-attribution {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 0.85rem;
   margin: 0px 50px;
 }
 
-.footer-attribution > div {
-  padding: 20px 0;
-}
-
 .footer-attribution .curator {
   padding-left: 0;
+}
+
+.producthunt-badge img {
+  width: 120px;
+  height: 60px;
 }
 
 .vercel-logo {
@@ -117,6 +116,14 @@
   .footer-attribution {
     font-size: 0.75rem;
     line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .footer-attribution {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: normal;
   }
 }
 
