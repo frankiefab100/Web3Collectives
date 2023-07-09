@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/frankiefab100/Web3Collectives/compare/v0.3.3...v0.4.0) (2023-07-09)
+
+
+### Features
+
+* add git hooks ([#52](https://github.com/frankiefab100/Web3Collectives/issues/52)) ([6a68aa4](https://github.com/frankiefab100/Web3Collectives/commit/6a68aa471177a1fad9121ccb1b0ae9d373a9156c))
+
+
+
 ## [0.3.3](https://github.com/frankiefab100/Web3Collectives/compare/v0.3.2...v0.3.3) (2023-07-05)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * setup Husky git hooks for code formatting ([0ce650b](https://github.com/frankiefab100/Web3Collectives/commit/0ce650bc646ec0309df6626bf3a10f6dc0be7f5e)), closes [#27](https://github.com/frankiefab100/Web3Collectives/issues/27)
-
-
-
-## [0.2.2](https://github.com/frankiefab100/Web3Collectives/compare/v0.2.1...v0.2.2) (2023-06-15)
-
-
-### Bug Fixes
-
-* move stale-issue-pr.yml to right directory ([a9beaef](https://github.com/frankiefab100/Web3Collectives/commit/a9beaef6ddcfcd1380aaf6158a76b48e4164a937))
 
 
 
