@@ -20,7 +20,7 @@
     "@vercel/analytics": "^1.0.1",
     "axios": "^1.1.2",
     "dotenv": "^16.0.3",
-    "framer-motion": "^6.5.1",
+    "framer-motion": "^10.0.0",
     "normalize.css": "^8.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
