@@ -5,8 +5,6 @@
  <p>A free resource library for Blockchain developers and Web3 enthusiasts</p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square">
-
 <a href="http://makeapullrequest.com">
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
 </a>
@@ -25,6 +23,10 @@
 <a href="https://github.com/frankiefab100/Web3Collectives/blob/main/LICENSE" target="blank">
 <img src="https://img.shields.io/github/license/frankiefab100/Web3Collectives?style=flat-square" alt="Web3Collectives licence" />
 </a>
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
 
@@ -150,6 +152,7 @@ In this format:
 ├── package-lock.json
 ├── package.json
 ├── README.md
+├── renovate.json
 └── vite.config.js
 ```
 
