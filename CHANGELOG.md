@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/frankiefab100/Web3Collectives/compare/v0.4.0...v0.5.0) (2023-07-24)
+
+
+### Features
+
+* add .editorconfig ([87e4a35](https://github.com/frankiefab100/Web3Collectives/commit/87e4a35f81bea17f3e84b03aff57042bda27e5c9))
+
+
+
 # [0.4.0](https://github.com/frankiefab100/Web3Collectives/compare/v0.3.3...v0.4.0) (2023-07-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove firestore config and env ([2c0c69b](https://github.com/frankiefab100/Web3Collectives/commit/2c0c69baa5311eb85f90906df805c3fa9eecb55a)), closes [#28](https://github.com/frankiefab100/Web3Collectives/issues/28)
-
-
-
-# [0.3.0](https://github.com/frankiefab100/Web3Collectives/compare/v0.2.2...v0.3.0) (2023-06-18)
-
-
-### Features
-
-* setup Husky git hooks for code formatting ([0ce650b](https://github.com/frankiefab100/Web3Collectives/commit/0ce650bc646ec0309df6626bf3a10f6dc0be7f5e)), closes [#27](https://github.com/frankiefab100/Web3Collectives/issues/27)
 
 
 
