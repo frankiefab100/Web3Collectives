@@ -310,4 +310,23 @@ export const devTools = [
       "Rust",
     ],
   },
+  {
+    id: 22,
+    coverImage:
+      "https://global.discourse-cdn.com/standard17/uploads/libp2p/original/1X/aacb49457c3aace79a1038dd02996b402260215d.png",
+    title: "libp2p",
+    description:
+      "Libp2p is a open source peer-to-peer (P2P) networking framework that enables the development of P2P applications.",
+    url: "https://libp2p.io/",
+    tag: ["Beginner","Intermediate", "Advanced"],
+    keywords: [
+      "libp2p",
+      "Solidity",
+      "Ethereum",
+      "Smart Contracts",
+      "DApps",
+      "Web3",
+      "Javascript",
+    ],
+  },
 ];
